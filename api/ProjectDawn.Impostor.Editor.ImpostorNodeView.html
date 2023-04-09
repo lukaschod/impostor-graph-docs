@@ -1,0 +1,1079 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ImpostorNodeView
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ImpostorNodeView
+   ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ProjectDawn.Impostor.Editor.ImpostorNodeView">
+  
+  
+  <h1 id="ProjectDawn_Impostor_Editor_ImpostorNodeView" data-uid="ProjectDawn.Impostor.Editor.ImpostorNodeView" class="text-break">Class ImpostorNodeView
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.UIElements.CallbackEventHandler</span></div>
+    <div class="level2"><span class="xref">UnityEngine.UIElements.Focusable</span></div>
+    <div class="level3"><span class="xref">UnityEngine.UIElements.VisualElement</span></div>
+    <div class="level4"><span class="xref">UnityEditor.Experimental.GraphView.GraphElement</span></div>
+    <div class="level5"><span class="xref">UnityEditor.Experimental.GraphView.Node</span></div>
+    <div class="level6"><a class="xref" href="GraphProcessor.BaseNodeView.html">BaseNodeView</a></div>
+    <div class="level7"><span class="xref">ImpostorNodeView</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">UnityEngine.UIElements.IEventHandler</span></div>
+    <div><span class="xref">UnityEngine.UIElements.ITransform</span></div>
+    <div><span class="xref">UnityEngine.UIElements.Experimental.ITransitionAnimations</span></div>
+    <div><span class="xref">UnityEngine.UIElements.IExperimentalFeatures</span></div>
+    <div><span class="xref">UnityEngine.UIElements.IVisualElementScheduler</span></div>
+    <div><span class="xref">UnityEngine.UIElements.IResolvedStyle</span></div>
+    <div><span class="xref">UnityEditor.Experimental.GraphView.ISelectable</span></div>
+    <div><span class="xref">UnityEditor.Experimental.GraphView.ICollectibleElement</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_nodeTarget">BaseNodeView.nodeTarget</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_inputPortViews">BaseNodeView.inputPortViews</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_outputPortViews">BaseNodeView.outputPortViews</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_owner">BaseNodeView.owner</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_portsPerFieldName">BaseNodeView.portsPerFieldName</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_controlsContainer">BaseNodeView.controlsContainer</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_debugContainer">BaseNodeView.debugContainer</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_rightTitleContainer">BaseNodeView.rightTitleContainer</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_topPortContainer">BaseNodeView.topPortContainer</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_bottomPortContainer">BaseNodeView.bottomPortContainer</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_onPortConnected">BaseNodeView.onPortConnected</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_onPortDisconnected">BaseNodeView.onPortDisconnected</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_hasSettings">BaseNodeView.hasSettings</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_initializing">BaseNodeView.initializing</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_Initialize_GraphProcessor_BaseGraphView_GraphProcessor_BaseNode_">BaseNodeView.Initialize(BaseGraphView, BaseNode)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_OpenSettings">BaseNodeView.OpenSettings()</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_CloseSettings">BaseNodeView.CloseSettings()</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_GetPortViewsFromFieldName_System_String_">BaseNodeView.GetPortViewsFromFieldName(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_GetFirstPortViewFromFieldName_System_String_">BaseNodeView.GetFirstPortViewFromFieldName(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_GetPortViewFromFieldName_System_String_System_String_">BaseNodeView.GetPortViewFromFieldName(String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_AddPort_System_Reflection_FieldInfo_UnityEditor_Experimental_GraphView_Direction_GraphProcessor_BaseEdgeConnectorListener_GraphProcessor_PortData_">BaseNodeView.AddPort(FieldInfo, Direction, BaseEdgeConnectorListener, PortData)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_CreatePortView_UnityEditor_Experimental_GraphView_Direction_System_Reflection_FieldInfo_GraphProcessor_PortData_GraphProcessor_BaseEdgeConnectorListener_">BaseNodeView.CreatePortView(Direction, FieldInfo, PortData, BaseEdgeConnectorListener)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_InsertPort_GraphProcessor_PortView_System_Int32_">BaseNodeView.InsertPort(PortView, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_RemovePort_GraphProcessor_PortView_">BaseNodeView.RemovePort(PortView)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_GetNodeRect_UnityEditor_Experimental_GraphView_Node_System_Single_System_Single_">BaseNodeView.GetNodeRect(Node, Single, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_AlignToLeft">BaseNodeView.AlignToLeft()</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_AlignToCenter">BaseNodeView.AlignToCenter()</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_AlignToRight">BaseNodeView.AlignToRight()</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_AlignToTop">BaseNodeView.AlignToTop()</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_AlignToMiddle">BaseNodeView.AlignToMiddle()</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_AlignToBottom">BaseNodeView.AlignToBottom()</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_OpenNodeViewScript">BaseNodeView.OpenNodeViewScript()</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_OpenNodeScript">BaseNodeView.OpenNodeScript()</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_ToggleDebug">BaseNodeView.ToggleDebug()</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_UpdateDebugView">BaseNodeView.UpdateDebugView()</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_AddMessageView_System_String_UnityEngine_Texture_UnityEngine_Color_">BaseNodeView.AddMessageView(String, Texture, Color)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_AddMessageView_System_String_GraphProcessor_NodeMessageType_">BaseNodeView.AddMessageView(String, NodeMessageType)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_RemoveMessageViewContains_System_String_">BaseNodeView.RemoveMessageViewContains(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_RemoveMessageView_System_String_">BaseNodeView.RemoveMessageView(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_Highlight">BaseNodeView.Highlight()</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_UnHighlight">BaseNodeView.UnHighlight()</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_Enable_System_Boolean_">BaseNodeView.Enable(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_Enable">BaseNodeView.Enable()</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_Disable">BaseNodeView.Disable()</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_AddInputContainer">BaseNodeView.AddInputContainer()</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_DrawDefaultInspector_System_Boolean_">BaseNodeView.DrawDefaultInspector(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_SetNodeColor_UnityEngine_Color_">BaseNodeView.SetNodeColor(Color)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_AddControlField_System_String_System_String_System_Boolean_System_Action_">BaseNodeView.AddControlField(String, String, Boolean, Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_FindSerializedProperty_System_String_">BaseNodeView.FindSerializedProperty(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_AddControlField_System_Reflection_FieldInfo_System_String_System_Boolean_System_Action_">BaseNodeView.AddControlField(FieldInfo, String, Boolean, Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_AddSettingField_System_Reflection_FieldInfo_">BaseNodeView.AddSettingField(FieldInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_OnRemoved">BaseNodeView.OnRemoved()</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_SetPosition_UnityEngine_Rect_">BaseNodeView.SetPosition(Rect)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_expanded">BaseNodeView.expanded</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_ChangeLockStatus">BaseNodeView.ChangeLockStatus()</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_BuildContextualMenu_UnityEngine_UIElements_ContextualMenuPopulateEvent_">BaseNodeView.BuildContextualMenu(ContextualMenuPopulateEvent)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_BuildAlignMenu_UnityEngine_UIElements_ContextualMenuPopulateEvent_">BaseNodeView.BuildAlignMenu(ContextualMenuPopulateEvent)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_RefreshPorts">BaseNodeView.RefreshPorts()</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_ForceUpdatePorts">BaseNodeView.ForceUpdatePorts()</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_CreateSettingsView">BaseNodeView.CreateSettingsView()</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_NotifyNodeChanged">BaseNodeView.NotifyNodeChanged()</a>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.Node.m_CollapseButton</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.Node.m_ButtonContainer</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.Node.RefreshExpandedState()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.Node.GetPosition()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.Node.OnPortRemoved(UnityEditor.Experimental.GraphView.Port)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.Node.InstantiatePort(UnityEditor.Experimental.GraphView.Orientation, UnityEditor.Experimental.GraphView.Direction, UnityEditor.Experimental.GraphView.Port.Capacity, System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.Node.ToggleCollapse()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.Node.UseDefaultStyling()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.Node.CollectElements(System.Collections.Generic.HashSet&lt;UnityEditor.Experimental.GraphView.GraphElement&gt;, System.Func&lt;UnityEditor.Experimental.GraphView.GraphElement, System.Boolean&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.Node.mainContainer</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.Node.titleContainer</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.Node.inputContainer</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.Node.outputContainer</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.Node.titleButtonContainer</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.Node.topContainer</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.Node.extensionContainer</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.Node.title</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphElement.ResetLayer()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphElement.OnCustomStyleResolved(UnityEngine.UIElements.ICustomStyle)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphElement.IsSelectable()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphElement.IsMovable()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphElement.IsResizable()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphElement.IsDroppable()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphElement.IsAscendable()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphElement.IsRenamable()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphElement.IsCopiable()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphElement.IsSnappable()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphElement.IsGroupable()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphElement.IsStackable()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphElement.GetGlobalCenter()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphElement.UpdatePresenterPosition()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphElement.OnSelected()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphElement.OnUnselected()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphElement.HitTest(UnityEngine.Vector2)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphElement.Select(UnityEngine.UIElements.VisualElement, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphElement.Unselect(UnityEngine.UIElements.VisualElement)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphElement.IsSelected(UnityEngine.UIElements.VisualElement)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphElement.elementTypeColor</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphElement.layer</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphElement.showInMiniMap</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphElement.capabilities</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphElement.selected</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.disabledUssClassName</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.ExecuteDefaultAction(UnityEngine.UIElements.EventBase)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.Focus()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.SendEvent(UnityEngine.UIElements.EventBase)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.SetEnabledFromHierarchy(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.SetEnabled(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.MarkDirtyRepaint()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.ContainsPoint(UnityEngine.Vector2)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.Overlaps(UnityEngine.Rect)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.DoMeasure(System.Single, UnityEngine.UIElements.VisualElement.MeasureMode, System.Single, UnityEngine.UIElements.VisualElement.MeasureMode)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.GetClasses()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.ClearClassList()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.AddToClassList(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.RemoveFromClassList(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.ToggleInClassList(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.EnableInClassList(System.String, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.ClassListContains(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.FindAncestorUserData()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.Experimental.ITransitionAnimations.Start(System.Single, System.Single, System.Int32, System.Action&lt;UnityEngine.UIElements.VisualElement, System.Single&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.Experimental.ITransitionAnimations.Start(UnityEngine.Rect, UnityEngine.Rect, System.Int32, System.Action&lt;UnityEngine.UIElements.VisualElement, UnityEngine.Rect&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.Experimental.ITransitionAnimations.Start(UnityEngine.Color, UnityEngine.Color, System.Int32, System.Action&lt;UnityEngine.UIElements.VisualElement, UnityEngine.Color&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.Experimental.ITransitionAnimations.Start(UnityEngine.Vector3, UnityEngine.Vector3, System.Int32, System.Action&lt;UnityEngine.UIElements.VisualElement, UnityEngine.Vector3&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.Experimental.ITransitionAnimations.Start(UnityEngine.Vector2, UnityEngine.Vector2, System.Int32, System.Action&lt;UnityEngine.UIElements.VisualElement, UnityEngine.Vector2&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.Experimental.ITransitionAnimations.Start(UnityEngine.Quaternion, UnityEngine.Quaternion, System.Int32, System.Action&lt;UnityEngine.UIElements.VisualElement, UnityEngine.Quaternion&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.Experimental.ITransitionAnimations.Start(UnityEngine.UIElements.Experimental.StyleValues, UnityEngine.UIElements.Experimental.StyleValues, System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.Experimental.ITransitionAnimations.Start(System.Func&lt;UnityEngine.UIElements.VisualElement, System.Single&gt;, System.Single, System.Int32, System.Action&lt;UnityEngine.UIElements.VisualElement, System.Single&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.Experimental.ITransitionAnimations.Start(System.Func&lt;UnityEngine.UIElements.VisualElement, UnityEngine.Rect&gt;, UnityEngine.Rect, System.Int32, System.Action&lt;UnityEngine.UIElements.VisualElement, UnityEngine.Rect&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.Experimental.ITransitionAnimations.Start(System.Func&lt;UnityEngine.UIElements.VisualElement, UnityEngine.Color&gt;, UnityEngine.Color, System.Int32, System.Action&lt;UnityEngine.UIElements.VisualElement, UnityEngine.Color&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.Experimental.ITransitionAnimations.Start(System.Func&lt;UnityEngine.UIElements.VisualElement, UnityEngine.Vector3&gt;, UnityEngine.Vector3, System.Int32, System.Action&lt;UnityEngine.UIElements.VisualElement, UnityEngine.Vector3&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.Experimental.ITransitionAnimations.Start(System.Func&lt;UnityEngine.UIElements.VisualElement, UnityEngine.Vector2&gt;, UnityEngine.Vector2, System.Int32, System.Action&lt;UnityEngine.UIElements.VisualElement, UnityEngine.Vector2&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.Experimental.ITransitionAnimations.Start(System.Func&lt;UnityEngine.UIElements.VisualElement, UnityEngine.Quaternion&gt;, UnityEngine.Quaternion, System.Int32, System.Action&lt;UnityEngine.UIElements.VisualElement, UnityEngine.Quaternion&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.Experimental.ITransitionAnimations.Start(UnityEngine.UIElements.Experimental.StyleValues, System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.Experimental.ITransitionAnimations.Layout(UnityEngine.Rect, System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.Experimental.ITransitionAnimations.TopLeft(UnityEngine.Vector2, System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.Experimental.ITransitionAnimations.Size(UnityEngine.Vector2, System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.Experimental.ITransitionAnimations.Scale(System.Single, System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.Experimental.ITransitionAnimations.Position(UnityEngine.Vector3, System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.Experimental.ITransitionAnimations.Rotation(UnityEngine.Quaternion, System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.Add(UnityEngine.UIElements.VisualElement)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.Insert(System.Int32, UnityEngine.UIElements.VisualElement)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.Remove(UnityEngine.UIElements.VisualElement)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.RemoveAt(System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.Clear()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.ElementAt(System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.IndexOf(UnityEngine.UIElements.VisualElement)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.Children()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.Sort(System.Comparison&lt;UnityEngine.UIElements.VisualElement&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.BringToFront()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.SendToBack()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.PlaceBehind(UnityEngine.UIElements.VisualElement)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.PlaceInFront(UnityEngine.UIElements.VisualElement)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.RemoveFromHierarchy()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.GetFirstOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.GetFirstAncestorOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.Contains(UnityEngine.UIElements.VisualElement)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.FindCommonAncestor(UnityEngine.UIElements.VisualElement)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IVisualElementScheduler.Execute(System.Action&lt;UnityEngine.UIElements.TimerState&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IVisualElementScheduler.Execute(System.Action)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.viewDataKey</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.userData</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.canGrabFocus</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.focusController</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.usageHints</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.transform</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.ITransform.position</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.ITransform.rotation</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.ITransform.scale</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.ITransform.matrix</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.layout</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.contentRect</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.paddingRect</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.worldBound</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.localBound</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.worldTransform</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.pickingMode</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.name</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.enabledInHierarchy</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.enabledSelf</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.visible</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.generateVisualContent</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.experimental</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IExperimentalFeatures.animation</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.hierarchy</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.cacheAsBitmap</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.parent</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.panel</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.contentContainer</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.visualTreeAssetSource</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.Item[System.Int32]</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.childCount</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.schedule</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.style</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.customStyle</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.styleSheets</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.tooltip</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.resolvedStyle</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.alignContent</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.alignItems</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.alignSelf</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.backgroundColor</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.backgroundImage</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.borderBottomColor</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.borderBottomLeftRadius</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.borderBottomRightRadius</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.borderBottomWidth</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.borderLeftColor</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.borderLeftWidth</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.borderRightColor</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.borderRightWidth</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.borderTopColor</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.borderTopLeftRadius</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.borderTopRightRadius</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.borderTopWidth</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.bottom</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.color</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.display</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.flexBasis</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.flexDirection</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.flexGrow</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.flexShrink</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.flexWrap</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.fontSize</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.height</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.justifyContent</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.left</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.letterSpacing</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.marginBottom</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.marginLeft</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.marginRight</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.marginTop</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.maxHeight</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.maxWidth</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.minHeight</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.minWidth</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.opacity</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.paddingBottom</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.paddingLeft</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.paddingRight</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.paddingTop</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.position</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.right</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.rotate</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.scale</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.textOverflow</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.top</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.transformOrigin</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.transitionDelay</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.transitionDuration</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.transitionProperty</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.transitionTimingFunction</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.translate</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.unityBackgroundImageTintColor</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.unityBackgroundScaleMode</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.unityFont</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.unityFontDefinition</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.unityFontStyleAndWeight</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.unityParagraphSpacing</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.unitySliceBottom</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.unitySliceLeft</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.unitySliceRight</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.unitySliceTop</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.unityTextAlign</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.unityTextOutlineColor</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.unityTextOutlineWidth</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.unityTextOverflowPosition</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.visibility</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.whiteSpace</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.width</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.wordSpacing</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.Focusable.Blur()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.Focusable.focusable</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.Focusable.tabIndex</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.Focusable.delegatesFocus</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.CallbackEventHandler.RegisterCallback&lt;TEventType&gt;(UnityEngine.UIElements.EventCallback&lt;TEventType&gt;, UnityEngine.UIElements.TrickleDown)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.CallbackEventHandler.RegisterCallback&lt;TEventType, TUserArgsType&gt;(UnityEngine.UIElements.EventCallback&lt;TEventType, TUserArgsType&gt;, TUserArgsType, UnityEngine.UIElements.TrickleDown)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.CallbackEventHandler.UnregisterCallback&lt;TEventType&gt;(UnityEngine.UIElements.EventCallback&lt;TEventType&gt;, UnityEngine.UIElements.TrickleDown)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.CallbackEventHandler.UnregisterCallback&lt;TEventType, TUserArgsType&gt;(UnityEngine.UIElements.EventCallback&lt;TEventType, TUserArgsType&gt;, UnityEngine.UIElements.TrickleDown)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.CallbackEventHandler.HandleEvent(UnityEngine.UIElements.EventBase)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.CallbackEventHandler.HasTrickleDownHandlers()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.CallbackEventHandler.HasBubbleUpHandlers()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.CallbackEventHandler.ExecuteDefaultActionAtTarget(UnityEngine.UIElements.EventBase)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ProjectDawn.Impostor.Editor.html">ProjectDawn.Impostor.Editor</a></h6>
+  <h6><strong>Assembly</strong>: ProjectDawn.Impostor.Editor.dll</h6>
+  <h5 id="ProjectDawn_Impostor_Editor_ImpostorNodeView_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[NodeCustomEditor(typeof(ImpostorNode))]
+public class ImpostorNodeView : BaseNodeView, IEventHandler, IStylePropertyAnimations, ITransform, ITransitionAnimations, IExperimentalFeatures, IVisualElementScheduler, IResolvedStyle, ISelectable, ICollectibleElement</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=ProjectDawn_Impostor_Editor_ImpostorNodeView_OnCreated.md&amp;value=---%0Auid%3A%20ProjectDawn.Impostor.Editor.ImpostorNodeView.OnCreated%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/ProjectDawn.Impostor.Editor/Graph/ImpostorNodeView.cs/#L10">View Source</a>
+  </span>
+  <a id="ProjectDawn_Impostor_Editor_ImpostorNodeView_OnCreated_" data-uid="ProjectDawn.Impostor.Editor.ImpostorNodeView.OnCreated*"></a>
+  <h4 id="ProjectDawn_Impostor_Editor_ImpostorNodeView_OnCreated" data-uid="ProjectDawn.Impostor.Editor.ImpostorNodeView.OnCreated">OnCreated()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnCreated()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="GraphProcessor.BaseNodeView.html#GraphProcessor_BaseNodeView_OnCreated">BaseNodeView.OnCreated()</a></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">UnityEngine.UIElements.IEventHandler</span>
+  </div>
+  <div>
+      <span class="xref">UnityEngine.UIElements.ITransform</span>
+  </div>
+  <div>
+      <span class="xref">UnityEngine.UIElements.Experimental.ITransitionAnimations</span>
+  </div>
+  <div>
+      <span class="xref">UnityEngine.UIElements.IExperimentalFeatures</span>
+  </div>
+  <div>
+      <span class="xref">UnityEngine.UIElements.IVisualElementScheduler</span>
+  </div>
+  <div>
+      <span class="xref">UnityEngine.UIElements.IResolvedStyle</span>
+  </div>
+  <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.ISelectable</span>
+  </div>
+  <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.ICollectibleElement</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=ProjectDawn_Impostor_Editor_ImpostorNodeView.md&amp;value=---%0Auid%3A%20ProjectDawn.Impostor.Editor.ImpostorNodeView%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/ProjectDawn.Impostor.Editor/Graph/ImpostorNodeView.cs/#L7" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © ProjectDawn.<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

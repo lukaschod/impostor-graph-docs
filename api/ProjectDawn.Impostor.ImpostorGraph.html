@@ -1,0 +1,520 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ImpostorGraph
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ImpostorGraph
+   ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ProjectDawn.Impostor.ImpostorGraph">
+  
+  
+  <h1 id="ProjectDawn_Impostor_ImpostorGraph" data-uid="ProjectDawn.Impostor.ImpostorGraph" class="text-break">Class ImpostorGraph
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.ScriptableObject</span></div>
+    <div class="level3"><a class="xref" href="GraphProcessor.BaseGraph.html">BaseGraph</a></div>
+    <div class="level4"><span class="xref">ImpostorGraph</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">UnityEngine.ISerializationCallbackReceiver</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_loopComputeOrder">BaseGraph.loopComputeOrder</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_invalidComputeOrder">BaseGraph.invalidComputeOrder</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_serializedNodes">BaseGraph.serializedNodes</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_nodes">BaseGraph.nodes</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_nodesPerGUID">BaseGraph.nodesPerGUID</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_edges">BaseGraph.edges</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_edgesPerGUID">BaseGraph.edgesPerGUID</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_groups">BaseGraph.groups</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_stackNodes">BaseGraph.stackNodes</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_pinnedElements">BaseGraph.pinnedElements</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_exposedParameters">BaseGraph.exposedParameters</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_stickyNotes">BaseGraph.stickyNotes</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_position">BaseGraph.position</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_scale">BaseGraph.scale</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_onExposedParameterListChanged">BaseGraph.onExposedParameterListChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_onExposedParameterModified">BaseGraph.onExposedParameterModified</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_onExposedParameterValueChanged">BaseGraph.onExposedParameterValueChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_onSceneLinked">BaseGraph.onSceneLinked</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_onEnabled">BaseGraph.onEnabled</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_onGraphChanges">BaseGraph.onGraphChanges</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_isEnabled">BaseGraph.isEnabled</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_graphOutputs">BaseGraph.graphOutputs</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_OnDisable">BaseGraph.OnDisable()</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_OnAssetDeleted">BaseGraph.OnAssetDeleted()</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_AddNode_GraphProcessor_BaseNode_">BaseGraph.AddNode(BaseNode)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_RemoveNode_GraphProcessor_BaseNode_">BaseGraph.RemoveNode(BaseNode)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_Connect_GraphProcessor_NodePort_GraphProcessor_NodePort_System_Boolean_">BaseGraph.Connect(NodePort, NodePort, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_Disconnect_GraphProcessor_BaseNode_System_String_GraphProcessor_BaseNode_System_String_">BaseGraph.Disconnect(BaseNode, String, BaseNode, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_Disconnect_GraphProcessor_SerializableEdge_">BaseGraph.Disconnect(SerializableEdge)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_Disconnect_System_String_">BaseGraph.Disconnect(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_AddGroup_GraphProcessor_Group_">BaseGraph.AddGroup(Group)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_RemoveGroup_GraphProcessor_Group_">BaseGraph.RemoveGroup(Group)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_AddStackNode_GraphProcessor_BaseStackNode_">BaseGraph.AddStackNode(BaseStackNode)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_RemoveStackNode_GraphProcessor_BaseStackNode_">BaseGraph.RemoveStackNode(BaseStackNode)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_AddStickyNote_GraphProcessor_StickyNote_">BaseGraph.AddStickyNote(StickyNote)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_RemoveStickyNote_GraphProcessor_StickyNote_">BaseGraph.RemoveStickyNote(StickyNote)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_NotifyNodeChanged_GraphProcessor_BaseNode_">BaseGraph.NotifyNodeChanged(BaseNode)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_OpenPinned_System_Type_">BaseGraph.OpenPinned(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_ClosePinned_System_Type_">BaseGraph.ClosePinned(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_OnBeforeSerialize">BaseGraph.OnBeforeSerialize()</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_Deserialize">BaseGraph.Deserialize()</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_MigrateGraphIfNeeded">BaseGraph.MigrateGraphIfNeeded()</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_OnAfterDeserialize">BaseGraph.OnAfterDeserialize()</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_UpdateComputeOrder_GraphProcessor_ComputeOrderType_">BaseGraph.UpdateComputeOrder(ComputeOrderType)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_AddExposedParameter_System_String_System_Type_System_Object_">BaseGraph.AddExposedParameter(String, Type, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_AddExposedParameter_GraphProcessor_ExposedParameter_">BaseGraph.AddExposedParameter(ExposedParameter)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_RemoveExposedParameter_GraphProcessor_ExposedParameter_">BaseGraph.RemoveExposedParameter(ExposedParameter)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_RemoveExposedParameter_System_String_">BaseGraph.RemoveExposedParameter(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_UpdateExposedParameter_System_String_System_Object_">BaseGraph.UpdateExposedParameter(String, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_UpdateExposedParameterName_GraphProcessor_ExposedParameter_System_String_">BaseGraph.UpdateExposedParameterName(ExposedParameter, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_NotifyExposedParameterChanged_GraphProcessor_ExposedParameter_">BaseGraph.NotifyExposedParameterChanged(ExposedParameter)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_NotifyExposedParameterValueChanged_GraphProcessor_ExposedParameter_">BaseGraph.NotifyExposedParameterValueChanged(ExposedParameter)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_GetExposedParameter_System_String_">BaseGraph.GetExposedParameter(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_GetExposedParameterFromGUID_System_String_">BaseGraph.GetExposedParameterFromGUID(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_SetParameterValue_System_String_System_Object_">BaseGraph.SetParameterValue(String, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_GetParameterValue_System_String_">BaseGraph.GetParameterValue(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_GetParameterValue__1_System_String_">BaseGraph.GetParameterValue&lt;T&gt;(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_LinkToScene_UnityEngine_SceneManagement_Scene_">BaseGraph.LinkToScene(Scene)</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_IsLinkedToScene">BaseGraph.IsLinkedToScene()</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_GetLinkedScene">BaseGraph.GetLinkedScene()</a>
+    </div>
+    <div>
+      <a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_TypesAreConnectable_System_Type_System_Type_">BaseGraph.TypesAreConnectable(Type, Type)</a>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.ScriptableObject.SetDirty()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.ScriptableObject.CreateInstance(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.ScriptableObject.CreateInstance(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.ScriptableObject.CreateInstance&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetInstanceID()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsByType(System.Type, UnityEngine.FindObjectsSortMode)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsByType(System.Type, UnityEngine.FindObjectsInactive, UnityEngine.FindObjectsSortMode)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DontDestroyOnLoad(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindSceneObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeIncludingAssets(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsByType&lt;T&gt;(UnityEngine.FindObjectsSortMode)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsByType&lt;T&gt;(UnityEngine.FindObjectsInactive, UnityEngine.FindObjectsSortMode)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindFirstObjectByType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindAnyObjectByType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindFirstObjectByType&lt;T&gt;(UnityEngine.FindObjectsInactive)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindAnyObjectByType&lt;T&gt;(UnityEngine.FindObjectsInactive)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeAll(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindFirstObjectByType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindAnyObjectByType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindFirstObjectByType(System.Type, UnityEngine.FindObjectsInactive)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindAnyObjectByType(System.Type, UnityEngine.FindObjectsInactive)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.name</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.hideFlags</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ProjectDawn.Impostor.html">ProjectDawn.Impostor</a></h6>
+  <h6><strong>Assembly</strong>: ProjectDawn.Impostor.dll</h6>
+  <h5 id="ProjectDawn_Impostor_ImpostorGraph_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[CreateAssetMenu(fileName = &quot;New Impostor Graph&quot;, menuName = &quot;Impostor Graph&quot;, order = 150)]
+public class ImpostorGraph : BaseGraph, ISerializationCallbackReceiver</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=ProjectDawn_Impostor_ImpostorGraph_OnEnable.md&amp;value=---%0Auid%3A%20ProjectDawn.Impostor.ImpostorGraph.OnEnable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/ProjectDawn.Impostor/Graph/ImpostorGraph.cs/#L9">View Source</a>
+  </span>
+  <a id="ProjectDawn_Impostor_ImpostorGraph_OnEnable_" data-uid="ProjectDawn.Impostor.ImpostorGraph.OnEnable*"></a>
+  <h4 id="ProjectDawn_Impostor_ImpostorGraph_OnEnable" data-uid="ProjectDawn.Impostor.ImpostorGraph.OnEnable">OnEnable()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnEnable()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="GraphProcessor.BaseGraph.html#GraphProcessor_BaseGraph_OnEnable">BaseGraph.OnEnable()</a></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">UnityEngine.ISerializationCallbackReceiver</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=ProjectDawn_Impostor_ImpostorGraph.md&amp;value=---%0Auid%3A%20ProjectDawn.Impostor.ImpostorGraph%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/ProjectDawn.Impostor/Graph/ImpostorGraph.cs/#L6" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © ProjectDawn.<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,3300 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class BaseGraphView
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class BaseGraphView
+   ">
+    <meta name="generator" content="docfx 2.56.6.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="GraphProcessor.BaseGraphView">
+  
+  
+  <h1 id="GraphProcessor_BaseGraphView" data-uid="GraphProcessor.BaseGraphView" class="text-break">Class BaseGraphView
+  </h1>
+  <div class="markdown level0 summary"><p>Base class to write a custom view for a node</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.UIElements.CallbackEventHandler</span></div>
+    <div class="level2"><span class="xref">UnityEngine.UIElements.Focusable</span></div>
+    <div class="level3"><span class="xref">UnityEngine.UIElements.VisualElement</span></div>
+    <div class="level4"><span class="xref">UnityEditor.Experimental.GraphView.GraphView</span></div>
+    <div class="level5"><span class="xref">BaseGraphView</span></div>
+      <div class="level6"><a class="xref" href="ProjectDawn.Impostor.Editor.ImpostorGraphView.html">ImpostorGraphView</a></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">UnityEngine.UIElements.IEventHandler</span></div>
+    <div><span class="xref">UnityEngine.UIElements.ITransform</span></div>
+    <div><span class="xref">UnityEngine.UIElements.Experimental.ITransitionAnimations</span></div>
+    <div><span class="xref">UnityEngine.UIElements.IExperimentalFeatures</span></div>
+    <div><span class="xref">UnityEngine.UIElements.IVisualElementScheduler</span></div>
+    <div><span class="xref">UnityEngine.UIElements.IResolvedStyle</span></div>
+    <div><span class="xref">UnityEditor.Experimental.GraphView.ISelection</span></div>
+    <div><span class="xref">System.IDisposable</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.ports</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.UpdateViewTransform(UnityEngine.Vector3, UnityEngine.Vector3)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.GetPortCenterOverride(UnityEditor.Experimental.GraphView.Port, UnityEngine.Vector2)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.AddLayer(System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.GetElementByGuid(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.GetNodeByGuid(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.GetPortByGuid(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.GetEdgeByGuid(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.SetupZoom(System.Single, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.SetupZoom(System.Single, System.Single, System.Single, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.ValidateTransform()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.AddToSelection(UnityEditor.Experimental.GraphView.ISelectable)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.RemoveFromSelection(UnityEditor.Experimental.GraphView.ISelectable)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.ClearSelection()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.ExecuteDefaultActionAtTarget(UnityEngine.UIElements.EventBase)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.ExecuteDefaultAction(UnityEngine.UIElements.EventBase)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.CollectElements(System.Collections.Generic.IEnumerable&lt;UnityEditor.Experimental.GraphView.GraphElement&gt;, System.Collections.Generic.HashSet&lt;UnityEditor.Experimental.GraphView.GraphElement&gt;, System.Func&lt;UnityEditor.Experimental.GraphView.GraphElement, System.Boolean&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.CollectCopyableGraphElements(System.Collections.Generic.IEnumerable&lt;UnityEditor.Experimental.GraphView.GraphElement&gt;, System.Collections.Generic.HashSet&lt;UnityEditor.Experimental.GraphView.GraphElement&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.CopySelectionCallback()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.CutSelectionCallback()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.PasteCallback()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.DuplicateSelectionCallback()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.DeleteSelectionCallback(UnityEditor.Experimental.GraphView.GraphView.AskUser)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.SerializeGraphElements(System.Collections.Generic.IEnumerable&lt;UnityEditor.Experimental.GraphView.GraphElement&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.CanPasteSerializedData(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.UnserializeAndPasteOperation(System.String, System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.DeleteSelectionOperation(System.String, UnityEditor.Experimental.GraphView.GraphView.AskUser)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.AddElement(UnityEditor.Experimental.GraphView.GraphElement)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.RemoveElement(UnityEditor.Experimental.GraphView.GraphElement)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.DeleteSelection()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.DeleteElements(System.Collections.Generic.IEnumerable&lt;UnityEditor.Experimental.GraphView.GraphElement&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.FrameAll()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.FrameSelection()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.FrameOrigin()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.FramePrev()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.FrameNext()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.FramePrev(System.Func&lt;UnityEditor.Experimental.GraphView.GraphElement, System.Boolean&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.FrameNext(System.Func&lt;UnityEditor.Experimental.GraphView.GraphElement, System.Boolean&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.CalculateRectToFitAll(UnityEngine.UIElements.VisualElement)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.CalculateFrameTransform(UnityEngine.Rect, UnityEngine.Rect, System.Int32, UnityEngine.Vector3, UnityEngine.Vector3)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.GetBlackboard()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.ReleaseBlackboard(UnityEditor.Experimental.GraphView.Blackboard)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.CreatePlacematContainer()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.nodeCreationRequest</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.graphViewChanged</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.groupTitleChanged</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.elementsAddedToGroup</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.elementsRemovedFromGroup</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.elementsInsertedToStackNode</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.elementsRemovedFromStackNode</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.elementResized</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.viewTransformChanged</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.supportsWindowedBlackboard</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.contentViewContainer</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.viewport</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.viewTransform</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.isReframable</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.contentContainer</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.placematContainer</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.graphElements</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.nodes</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.edges</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.minScale</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.maxScale</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.scaleStep</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.referenceScale</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.scale</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.zoomerMaxElementCountWithPixelCacheRegen</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.selection</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.canPaste</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.canDuplicateSelection</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.canDeleteSelection</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.serializeGraphElements</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.canPasteSerializedData</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.unserializeAndPaste</span>
+    </div>
+    <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.GraphView.deleteSelection</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.disabledUssClassName</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.Focus()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.SendEvent(UnityEngine.UIElements.EventBase)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.SetEnabledFromHierarchy(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.SetEnabled(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.MarkDirtyRepaint()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.ContainsPoint(UnityEngine.Vector2)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.Overlaps(UnityEngine.Rect)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.DoMeasure(System.Single, UnityEngine.UIElements.VisualElement.MeasureMode, System.Single, UnityEngine.UIElements.VisualElement.MeasureMode)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.GetClasses()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.ClearClassList()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.AddToClassList(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.RemoveFromClassList(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.ToggleInClassList(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.EnableInClassList(System.String, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.ClassListContains(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.FindAncestorUserData()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.Experimental.ITransitionAnimations.Start(System.Single, System.Single, System.Int32, System.Action&lt;UnityEngine.UIElements.VisualElement, System.Single&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.Experimental.ITransitionAnimations.Start(UnityEngine.Rect, UnityEngine.Rect, System.Int32, System.Action&lt;UnityEngine.UIElements.VisualElement, UnityEngine.Rect&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.Experimental.ITransitionAnimations.Start(UnityEngine.Color, UnityEngine.Color, System.Int32, System.Action&lt;UnityEngine.UIElements.VisualElement, UnityEngine.Color&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.Experimental.ITransitionAnimations.Start(UnityEngine.Vector3, UnityEngine.Vector3, System.Int32, System.Action&lt;UnityEngine.UIElements.VisualElement, UnityEngine.Vector3&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.Experimental.ITransitionAnimations.Start(UnityEngine.Vector2, UnityEngine.Vector2, System.Int32, System.Action&lt;UnityEngine.UIElements.VisualElement, UnityEngine.Vector2&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.Experimental.ITransitionAnimations.Start(UnityEngine.Quaternion, UnityEngine.Quaternion, System.Int32, System.Action&lt;UnityEngine.UIElements.VisualElement, UnityEngine.Quaternion&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.Experimental.ITransitionAnimations.Start(UnityEngine.UIElements.Experimental.StyleValues, UnityEngine.UIElements.Experimental.StyleValues, System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.Experimental.ITransitionAnimations.Start(System.Func&lt;UnityEngine.UIElements.VisualElement, System.Single&gt;, System.Single, System.Int32, System.Action&lt;UnityEngine.UIElements.VisualElement, System.Single&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.Experimental.ITransitionAnimations.Start(System.Func&lt;UnityEngine.UIElements.VisualElement, UnityEngine.Rect&gt;, UnityEngine.Rect, System.Int32, System.Action&lt;UnityEngine.UIElements.VisualElement, UnityEngine.Rect&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.Experimental.ITransitionAnimations.Start(System.Func&lt;UnityEngine.UIElements.VisualElement, UnityEngine.Color&gt;, UnityEngine.Color, System.Int32, System.Action&lt;UnityEngine.UIElements.VisualElement, UnityEngine.Color&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.Experimental.ITransitionAnimations.Start(System.Func&lt;UnityEngine.UIElements.VisualElement, UnityEngine.Vector3&gt;, UnityEngine.Vector3, System.Int32, System.Action&lt;UnityEngine.UIElements.VisualElement, UnityEngine.Vector3&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.Experimental.ITransitionAnimations.Start(System.Func&lt;UnityEngine.UIElements.VisualElement, UnityEngine.Vector2&gt;, UnityEngine.Vector2, System.Int32, System.Action&lt;UnityEngine.UIElements.VisualElement, UnityEngine.Vector2&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.Experimental.ITransitionAnimations.Start(System.Func&lt;UnityEngine.UIElements.VisualElement, UnityEngine.Quaternion&gt;, UnityEngine.Quaternion, System.Int32, System.Action&lt;UnityEngine.UIElements.VisualElement, UnityEngine.Quaternion&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.Experimental.ITransitionAnimations.Start(UnityEngine.UIElements.Experimental.StyleValues, System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.Experimental.ITransitionAnimations.Layout(UnityEngine.Rect, System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.Experimental.ITransitionAnimations.TopLeft(UnityEngine.Vector2, System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.Experimental.ITransitionAnimations.Size(UnityEngine.Vector2, System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.Experimental.ITransitionAnimations.Scale(System.Single, System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.Experimental.ITransitionAnimations.Position(UnityEngine.Vector3, System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.Experimental.ITransitionAnimations.Rotation(UnityEngine.Quaternion, System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.Add(UnityEngine.UIElements.VisualElement)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.Insert(System.Int32, UnityEngine.UIElements.VisualElement)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.Remove(UnityEngine.UIElements.VisualElement)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.RemoveAt(System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.Clear()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.ElementAt(System.Int32)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.IndexOf(UnityEngine.UIElements.VisualElement)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.Children()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.Sort(System.Comparison&lt;UnityEngine.UIElements.VisualElement&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.BringToFront()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.SendToBack()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.PlaceBehind(UnityEngine.UIElements.VisualElement)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.PlaceInFront(UnityEngine.UIElements.VisualElement)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.RemoveFromHierarchy()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.GetFirstOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.GetFirstAncestorOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.Contains(UnityEngine.UIElements.VisualElement)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.FindCommonAncestor(UnityEngine.UIElements.VisualElement)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IVisualElementScheduler.Execute(System.Action&lt;UnityEngine.UIElements.TimerState&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IVisualElementScheduler.Execute(System.Action)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.viewDataKey</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.userData</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.canGrabFocus</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.focusController</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.usageHints</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.transform</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.ITransform.position</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.ITransform.rotation</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.ITransform.scale</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.ITransform.matrix</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.layout</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.contentRect</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.paddingRect</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.worldBound</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.localBound</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.worldTransform</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.pickingMode</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.name</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.enabledInHierarchy</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.enabledSelf</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.visible</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.generateVisualContent</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.experimental</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IExperimentalFeatures.animation</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.hierarchy</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.cacheAsBitmap</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.parent</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.panel</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.visualTreeAssetSource</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.Item[System.Int32]</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.childCount</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.schedule</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.style</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.customStyle</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.styleSheets</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.tooltip</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.resolvedStyle</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.alignContent</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.alignItems</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.alignSelf</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.backgroundColor</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.backgroundImage</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.borderBottomColor</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.borderBottomLeftRadius</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.borderBottomRightRadius</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.borderBottomWidth</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.borderLeftColor</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.borderLeftWidth</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.borderRightColor</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.borderRightWidth</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.borderTopColor</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.borderTopLeftRadius</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.borderTopRightRadius</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.borderTopWidth</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.bottom</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.color</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.display</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.flexBasis</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.flexDirection</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.flexGrow</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.flexShrink</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.flexWrap</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.fontSize</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.height</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.justifyContent</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.left</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.letterSpacing</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.marginBottom</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.marginLeft</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.marginRight</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.marginTop</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.maxHeight</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.maxWidth</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.minHeight</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.minWidth</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.opacity</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.paddingBottom</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.paddingLeft</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.paddingRight</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.paddingTop</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.position</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.right</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.rotate</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.scale</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.textOverflow</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.top</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.transformOrigin</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.transitionDelay</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.transitionDuration</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.transitionProperty</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.transitionTimingFunction</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.translate</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.unityBackgroundImageTintColor</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.unityBackgroundScaleMode</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.unityFont</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.unityFontDefinition</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.unityFontStyleAndWeight</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.unityParagraphSpacing</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.unitySliceBottom</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.unitySliceLeft</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.unitySliceRight</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.unitySliceTop</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.unityTextAlign</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.unityTextOutlineColor</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.unityTextOutlineWidth</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.unityTextOverflowPosition</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.visibility</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.whiteSpace</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.width</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.VisualElement.UnityEngine.UIElements.IResolvedStyle.wordSpacing</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.Focusable.Blur()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.Focusable.focusable</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.Focusable.tabIndex</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.Focusable.delegatesFocus</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.CallbackEventHandler.RegisterCallback&lt;TEventType&gt;(UnityEngine.UIElements.EventCallback&lt;TEventType&gt;, UnityEngine.UIElements.TrickleDown)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.CallbackEventHandler.RegisterCallback&lt;TEventType, TUserArgsType&gt;(UnityEngine.UIElements.EventCallback&lt;TEventType, TUserArgsType&gt;, TUserArgsType, UnityEngine.UIElements.TrickleDown)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.CallbackEventHandler.UnregisterCallback&lt;TEventType&gt;(UnityEngine.UIElements.EventCallback&lt;TEventType&gt;, UnityEngine.UIElements.TrickleDown)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.CallbackEventHandler.UnregisterCallback&lt;TEventType, TUserArgsType&gt;(UnityEngine.UIElements.EventCallback&lt;TEventType, TUserArgsType&gt;, UnityEngine.UIElements.TrickleDown)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.CallbackEventHandler.HandleEvent(UnityEngine.UIElements.EventBase)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.CallbackEventHandler.HasTrickleDownHandlers()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.UIElements.CallbackEventHandler.HasBubbleUpHandlers()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="GraphProcessor.html">GraphProcessor</a></h6>
+  <h6><strong>Assembly</strong>: com.alelievr.NodeGraphProcessor.Editor.dll</h6>
+  <h5 id="GraphProcessor_BaseGraphView_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class BaseGraphView : GraphView, IEventHandler, IStylePropertyAnimations, ITransform, ITransitionAnimations, IExperimentalFeatures, IVisualElementScheduler, IResolvedStyle, ISelection, IDisposable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView__ctor_UnityEditor_EditorWindow_.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.%23ctor(UnityEditor.EditorWindow)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L138">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView__ctor_" data-uid="GraphProcessor.BaseGraphView.#ctor*"></a>
+  <h4 id="GraphProcessor_BaseGraphView__ctor_UnityEditor_EditorWindow_" data-uid="GraphProcessor.BaseGraphView.#ctor(UnityEditor.EditorWindow)">BaseGraphView(EditorWindow)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BaseGraphView(EditorWindow window)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.EditorWindow</span></td>
+        <td><span class="parametername">window</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_connectorListener.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.connectorListener%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L34">View Source</a>
+  </span>
+  <h4 id="GraphProcessor_BaseGraphView_connectorListener" data-uid="GraphProcessor.BaseGraphView.connectorListener">connectorListener</h4>
+  <div class="markdown level1 summary"><p>Connector listener that will create the edges between ports</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BaseEdgeConnectorListener connectorListener</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GraphProcessor.BaseEdgeConnectorListener.html">BaseEdgeConnectorListener</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_edgeViews.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.edgeViews%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L56">View Source</a>
+  </span>
+  <h4 id="GraphProcessor_BaseGraphView_edgeViews" data-uid="GraphProcessor.BaseGraphView.edgeViews">edgeViews</h4>
+  <div class="markdown level1 summary"><p>List of all edge views in the graph</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;EdgeView&gt; edgeViews</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="GraphProcessor.EdgeView.html">EdgeView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_graph.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.graph%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L29">View Source</a>
+  </span>
+  <h4 id="GraphProcessor_BaseGraphView_graph" data-uid="GraphProcessor.BaseGraphView.graph">graph</h4>
+  <div class="markdown level1 summary"><p>Graph that owns of the node</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BaseGraph graph</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GraphProcessor.BaseGraph.html">BaseGraph</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_groupViews.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.groupViews%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L63">View Source</a>
+  </span>
+  <h4 id="GraphProcessor_BaseGraphView_groupViews" data-uid="GraphProcessor.BaseGraphView.groupViews">groupViews</h4>
+  <div class="markdown level1 summary"><p>List of all group views in the graph</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;GroupView&gt; groupViews</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="GraphProcessor.GroupView.html">GroupView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_nodeViews.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.nodeViews%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L41">View Source</a>
+  </span>
+  <h4 id="GraphProcessor_BaseGraphView_nodeViews" data-uid="GraphProcessor.BaseGraphView.nodeViews">nodeViews</h4>
+  <div class="markdown level1 summary"><p>List of all node views in the graph</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;BaseNodeView&gt; nodeViews</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="GraphProcessor.BaseNodeView.html">BaseNodeView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_nodeViewsPerNode.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.nodeViewsPerNode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L49">View Source</a>
+  </span>
+  <h4 id="GraphProcessor_BaseGraphView_nodeViewsPerNode" data-uid="GraphProcessor.BaseGraphView.nodeViewsPerNode">nodeViewsPerNode</h4>
+  <div class="markdown level1 summary"><p>Dictionary of the node views accessed view the node instance, faster than a Find in the node view list</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;BaseNode, BaseNodeView&gt; nodeViewsPerNode</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<a class="xref" href="GraphProcessor.BaseNode.html">BaseNode</a>, <a class="xref" href="GraphProcessor.BaseNodeView.html">BaseNodeView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_stackNodeViews.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.stackNodeViews%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L79">View Source</a>
+  </span>
+  <h4 id="GraphProcessor_BaseGraphView_stackNodeViews" data-uid="GraphProcessor.BaseGraphView.stackNodeViews">stackNodeViews</h4>
+  <div class="markdown level1 summary"><p>List of all stack node views in the graph</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;BaseStackNodeView&gt; stackNodeViews</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="GraphProcessor.BaseStackNodeView.html">BaseStackNodeView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_canCopySelection.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.canCopySelection%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L176">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_canCopySelection_" data-uid="GraphProcessor.BaseGraphView.canCopySelection*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_canCopySelection" data-uid="GraphProcessor.BaseGraphView.canCopySelection">canCopySelection</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override bool canCopySelection { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">UnityEditor.Experimental.GraphView.GraphView.canCopySelection</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_canCutSelection.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.canCutSelection%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L181">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_canCutSelection_" data-uid="GraphProcessor.BaseGraphView.canCutSelection*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_canCutSelection" data-uid="GraphProcessor.BaseGraphView.canCutSelection">canCutSelection</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override bool canCutSelection { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">UnityEditor.Experimental.GraphView.GraphView.canCutSelection</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_exposedParameterFactory.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.exposedParameterFactory%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L132">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_exposedParameterFactory_" data-uid="GraphProcessor.BaseGraphView.exposedParameterFactory*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_exposedParameterFactory" data-uid="GraphProcessor.BaseGraphView.exposedParameterFactory">exposedParameterFactory</h4>
+  <div class="markdown level1 summary"><p>Workaround object for creating exposed parameter property fields.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ExposedParameterFieldFactory exposedParameterFactory { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GraphProcessor.ExposedParameterFieldFactory.html">ExposedParameterFieldFactory</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_nodeInspector.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.nodeInspector%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L117">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_nodeInspector_" data-uid="GraphProcessor.BaseGraphView.nodeInspector*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_nodeInspector" data-uid="GraphProcessor.BaseGraphView.nodeInspector">nodeInspector</h4>
+  <div class="markdown level1 summary"><p>Object to handle nodes that shows their UI in the inspector.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[SerializeField]
+protected NodeInspectorObject nodeInspector { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GraphProcessor.NodeInspectorObject.html">NodeInspectorObject</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_serializedGraph.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.serializedGraph%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L134">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_serializedGraph_" data-uid="GraphProcessor.BaseGraphView.serializedGraph*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_serializedGraph" data-uid="GraphProcessor.BaseGraphView.serializedGraph">serializedGraph</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SerializedObject serializedGraph { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.SerializedObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_AddGroup_GraphProcessor_Group_.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.AddGroup(GraphProcessor.Group)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L1006">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_AddGroup_" data-uid="GraphProcessor.BaseGraphView.AddGroup*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_AddGroup_GraphProcessor_Group_" data-uid="GraphProcessor.BaseGraphView.AddGroup(GraphProcessor.Group)">AddGroup(Group)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GroupView AddGroup(Group block)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GraphProcessor.Group.html">Group</a></td>
+        <td><span class="parametername">block</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GraphProcessor.GroupView.html">GroupView</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_AddGroupView_GraphProcessor_Group_.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.AddGroupView(GraphProcessor.Group)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L1013">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_AddGroupView_" data-uid="GraphProcessor.BaseGraphView.AddGroupView*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_AddGroupView_GraphProcessor_Group_" data-uid="GraphProcessor.BaseGraphView.AddGroupView(GraphProcessor.Group)">AddGroupView(Group)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GroupView AddGroupView(Group block)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GraphProcessor.Group.html">Group</a></td>
+        <td><span class="parametername">block</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GraphProcessor.GroupView.html">GroupView</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_AddNode_GraphProcessor_BaseNode_.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.AddNode(GraphProcessor.BaseNode)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L933">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_AddNode_" data-uid="GraphProcessor.BaseGraphView.AddNode*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_AddNode_GraphProcessor_BaseNode_" data-uid="GraphProcessor.BaseGraphView.AddNode(GraphProcessor.BaseNode)">AddNode(BaseNode)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BaseNodeView AddNode(BaseNode node)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GraphProcessor.BaseNode.html">BaseNode</a></td>
+        <td><span class="parametername">node</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GraphProcessor.BaseNodeView.html">BaseNodeView</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_AddNodeView_GraphProcessor_BaseNode_.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.AddNodeView(GraphProcessor.BaseNode)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L950">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_AddNodeView_" data-uid="GraphProcessor.BaseGraphView.AddNodeView*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_AddNodeView_GraphProcessor_BaseNode_" data-uid="GraphProcessor.BaseGraphView.AddNodeView(GraphProcessor.BaseNode)">AddNodeView(BaseNode)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BaseNodeView AddNodeView(BaseNode node)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GraphProcessor.BaseNode.html">BaseNode</a></td>
+        <td><span class="parametername">node</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GraphProcessor.BaseNodeView.html">BaseNodeView</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_AddRelayNode_GraphProcessor_PortView_GraphProcessor_PortView_UnityEngine_Vector2_.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.AddRelayNode(GraphProcessor.PortView%2CGraphProcessor.PortView%2CUnityEngine.Vector2)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L1376">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_AddRelayNode_" data-uid="GraphProcessor.BaseGraphView.AddRelayNode*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_AddRelayNode_GraphProcessor_PortView_GraphProcessor_PortView_UnityEngine_Vector2_" data-uid="GraphProcessor.BaseGraphView.AddRelayNode(GraphProcessor.PortView,GraphProcessor.PortView,UnityEngine.Vector2)">AddRelayNode(PortView, PortView, Vector2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RelayNodeView AddRelayNode(PortView inputPort, PortView outputPort, Vector2 position)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GraphProcessor.PortView.html">PortView</a></td>
+        <td><span class="parametername">inputPort</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GraphProcessor.PortView.html">PortView</a></td>
+        <td><span class="parametername">outputPort</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">RelayNodeView</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_AddSelectionsToGroup_GraphProcessor_GroupView_.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.AddSelectionsToGroup(GraphProcessor.GroupView)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L1083">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_AddSelectionsToGroup_" data-uid="GraphProcessor.BaseGraphView.AddSelectionsToGroup*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_AddSelectionsToGroup_GraphProcessor_GroupView_" data-uid="GraphProcessor.BaseGraphView.AddSelectionsToGroup(GraphProcessor.GroupView)">AddSelectionsToGroup(GroupView)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddSelectionsToGroup(GroupView view)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GraphProcessor.GroupView.html">GroupView</a></td>
+        <td><span class="parametername">view</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_AddStackNode_GraphProcessor_BaseStackNode_.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.AddStackNode(GraphProcessor.BaseStackNode)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L1025">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_AddStackNode_" data-uid="GraphProcessor.BaseGraphView.AddStackNode*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_AddStackNode_GraphProcessor_BaseStackNode_" data-uid="GraphProcessor.BaseGraphView.AddStackNode(GraphProcessor.BaseStackNode)">AddStackNode(BaseStackNode)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BaseStackNodeView AddStackNode(BaseStackNode stackNode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GraphProcessor.BaseStackNode.html">BaseStackNode</a></td>
+        <td><span class="parametername">stackNode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GraphProcessor.BaseStackNodeView.html">BaseStackNodeView</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_AddStackNodeView_GraphProcessor_BaseStackNode_.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.AddStackNodeView(GraphProcessor.BaseStackNode)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L1031">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_AddStackNodeView_" data-uid="GraphProcessor.BaseGraphView.AddStackNodeView*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_AddStackNodeView_GraphProcessor_BaseStackNode_" data-uid="GraphProcessor.BaseGraphView.AddStackNodeView(GraphProcessor.BaseStackNode)">AddStackNodeView(BaseStackNode)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BaseStackNodeView AddStackNodeView(BaseStackNode stackNode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GraphProcessor.BaseStackNode.html">BaseStackNode</a></td>
+        <td><span class="parametername">stackNode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GraphProcessor.BaseStackNodeView.html">BaseStackNodeView</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_BuildContextualMenu_UnityEngine_UIElements_ContextualMenuPopulateEvent_.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.BuildContextualMenu(UnityEngine.UIElements.ContextualMenuPopulateEvent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L460">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_BuildContextualMenu_" data-uid="GraphProcessor.BaseGraphView.BuildContextualMenu*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_BuildContextualMenu_UnityEngine_UIElements_ContextualMenuPopulateEvent_" data-uid="GraphProcessor.BaseGraphView.BuildContextualMenu(UnityEngine.UIElements.ContextualMenuPopulateEvent)">BuildContextualMenu(ContextualMenuPopulateEvent)</h4>
+  <div class="markdown level1 summary"><p>Build the contextual menu shown when right clicking inside the graph view</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void BuildContextualMenu(ContextualMenuPopulateEvent evt)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.UIElements.ContextualMenuPopulateEvent</span></td>
+        <td><span class="parametername">evt</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">UnityEditor.Experimental.GraphView.GraphView.BuildContextualMenu(UnityEngine.UIElements.ContextualMenuPopulateEvent)</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_BuildGroupContextualMenu_UnityEngine_UIElements_ContextualMenuPopulateEvent_System_Int32_.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.BuildGroupContextualMenu(UnityEngine.UIElements.ContextualMenuPopulateEvent%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L475">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_BuildGroupContextualMenu_" data-uid="GraphProcessor.BaseGraphView.BuildGroupContextualMenu*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_BuildGroupContextualMenu_UnityEngine_UIElements_ContextualMenuPopulateEvent_System_Int32_" data-uid="GraphProcessor.BaseGraphView.BuildGroupContextualMenu(UnityEngine.UIElements.ContextualMenuPopulateEvent,System.Int32)">BuildGroupContextualMenu(ContextualMenuPopulateEvent, Int32)</h4>
+  <div class="markdown level1 summary"><p>Add the New Group entry to the context menu</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void BuildGroupContextualMenu(ContextualMenuPopulateEvent evt, int menuPosition = -1)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.UIElements.ContextualMenuPopulateEvent</span></td>
+        <td><span class="parametername">evt</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">menuPosition</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_BuildHelpContextualMenu_UnityEngine_UIElements_ContextualMenuPopulateEvent_.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.BuildHelpContextualMenu(UnityEngine.UIElements.ContextualMenuPopulateEvent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L531">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_BuildHelpContextualMenu_" data-uid="GraphProcessor.BaseGraphView.BuildHelpContextualMenu*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_BuildHelpContextualMenu_UnityEngine_UIElements_ContextualMenuPopulateEvent_" data-uid="GraphProcessor.BaseGraphView.BuildHelpContextualMenu(UnityEngine.UIElements.ContextualMenuPopulateEvent)">BuildHelpContextualMenu(ContextualMenuPopulateEvent)</h4>
+  <div class="markdown level1 summary"><p>Add the Help entry to the context menu</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void BuildHelpContextualMenu(ContextualMenuPopulateEvent evt)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.UIElements.ContextualMenuPopulateEvent</span></td>
+        <td><span class="parametername">evt</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_BuildSaveAssetContextualMenu_UnityEngine_UIElements_ContextualMenuPopulateEvent_.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.BuildSaveAssetContextualMenu(UnityEngine.UIElements.ContextualMenuPopulateEvent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L519">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_BuildSaveAssetContextualMenu_" data-uid="GraphProcessor.BaseGraphView.BuildSaveAssetContextualMenu*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_BuildSaveAssetContextualMenu_UnityEngine_UIElements_ContextualMenuPopulateEvent_" data-uid="GraphProcessor.BaseGraphView.BuildSaveAssetContextualMenu(UnityEngine.UIElements.ContextualMenuPopulateEvent)">BuildSaveAssetContextualMenu(ContextualMenuPopulateEvent)</h4>
+  <div class="markdown level1 summary"><p>Add the Save Asset entry to the context menu</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void BuildSaveAssetContextualMenu(ContextualMenuPopulateEvent evt)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.UIElements.ContextualMenuPopulateEvent</span></td>
+        <td><span class="parametername">evt</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_BuildSelectAssetContextualMenu_UnityEngine_UIElements_ContextualMenuPopulateEvent_.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.BuildSelectAssetContextualMenu(UnityEngine.UIElements.ContextualMenuPopulateEvent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L510">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_BuildSelectAssetContextualMenu_" data-uid="GraphProcessor.BaseGraphView.BuildSelectAssetContextualMenu*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_BuildSelectAssetContextualMenu_UnityEngine_UIElements_ContextualMenuPopulateEvent_" data-uid="GraphProcessor.BaseGraphView.BuildSelectAssetContextualMenu(UnityEngine.UIElements.ContextualMenuPopulateEvent)">BuildSelectAssetContextualMenu(ContextualMenuPopulateEvent)</h4>
+  <div class="markdown level1 summary"><p>Add the Select Asset entry to the context menu</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void BuildSelectAssetContextualMenu(ContextualMenuPopulateEvent evt)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.UIElements.ContextualMenuPopulateEvent</span></td>
+        <td><span class="parametername">evt</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_BuildStickyNoteContextualMenu_UnityEngine_UIElements_ContextualMenuPopulateEvent_System_Int32_.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.BuildStickyNoteContextualMenu(UnityEngine.UIElements.ContextualMenuPopulateEvent%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L487">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_BuildStickyNoteContextualMenu_" data-uid="GraphProcessor.BaseGraphView.BuildStickyNoteContextualMenu*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_BuildStickyNoteContextualMenu_UnityEngine_UIElements_ContextualMenuPopulateEvent_System_Int32_" data-uid="GraphProcessor.BaseGraphView.BuildStickyNoteContextualMenu(UnityEngine.UIElements.ContextualMenuPopulateEvent,System.Int32)">BuildStickyNoteContextualMenu(ContextualMenuPopulateEvent, Int32)</h4>
+  <div class="markdown level1 summary"><p>-Add the New Sticky Note entry to the context menu</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void BuildStickyNoteContextualMenu(ContextualMenuPopulateEvent evt, int menuPosition = -1)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.UIElements.ContextualMenuPopulateEvent</span></td>
+        <td><span class="parametername">evt</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">menuPosition</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_BuildViewContextualMenu_UnityEngine_UIElements_ContextualMenuPopulateEvent_.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.BuildViewContextualMenu(UnityEngine.UIElements.ContextualMenuPopulateEvent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L501">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_BuildViewContextualMenu_" data-uid="GraphProcessor.BaseGraphView.BuildViewContextualMenu*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_BuildViewContextualMenu_UnityEngine_UIElements_ContextualMenuPopulateEvent_" data-uid="GraphProcessor.BaseGraphView.BuildViewContextualMenu(UnityEngine.UIElements.ContextualMenuPopulateEvent)">BuildViewContextualMenu(ContextualMenuPopulateEvent)</h4>
+  <div class="markdown level1 summary"><p>Add the View entry to the context menu</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void BuildViewContextualMenu(ContextualMenuPopulateEvent evt)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.UIElements.ContextualMenuPopulateEvent</span></td>
+        <td><span class="parametername">evt</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_CanConnectEdge_GraphProcessor_EdgeView_System_Boolean_.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.CanConnectEdge(GraphProcessor.EdgeView%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L1104">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_CanConnectEdge_" data-uid="GraphProcessor.BaseGraphView.CanConnectEdge*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_CanConnectEdge_GraphProcessor_EdgeView_System_Boolean_" data-uid="GraphProcessor.BaseGraphView.CanConnectEdge(GraphProcessor.EdgeView,System.Boolean)">CanConnectEdge(EdgeView, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CanConnectEdge(EdgeView e, bool autoDisconnectInputs = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GraphProcessor.EdgeView.html">EdgeView</a></td>
+        <td><span class="parametername">e</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">autoDisconnectInputs</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_ClearGraphElements.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.ClearGraphElements%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L801">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_ClearGraphElements_" data-uid="GraphProcessor.BaseGraphView.ClearGraphElements*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_ClearGraphElements" data-uid="GraphProcessor.BaseGraphView.ClearGraphElements">ClearGraphElements()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClearGraphElements()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_ClosePinned_System_Type_GraphProcessor_PinnedElementView_.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.ClosePinned(System.Type%2CGraphProcessor.PinnedElementView)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L1330">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_ClosePinned_" data-uid="GraphProcessor.BaseGraphView.ClosePinned*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_ClosePinned_System_Type_GraphProcessor_PinnedElementView_" data-uid="GraphProcessor.BaseGraphView.ClosePinned(System.Type,GraphProcessor.PinnedElementView)">ClosePinned(Type, PinnedElementView)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClosePinned(Type type, PinnedElementView elem)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GraphProcessor.PinnedElementView.html">PinnedElementView</a></td>
+        <td><span class="parametername">elem</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_ClosePinned__1_GraphProcessor_PinnedElementView_.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.ClosePinned%60%601(GraphProcessor.PinnedElementView)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L1325">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_ClosePinned_" data-uid="GraphProcessor.BaseGraphView.ClosePinned*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_ClosePinned__1_GraphProcessor_PinnedElementView_" data-uid="GraphProcessor.BaseGraphView.ClosePinned``1(GraphProcessor.PinnedElementView)">ClosePinned&lt;T&gt;(PinnedElementView)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ClosePinned&lt;T&gt;(PinnedElementView view)
+    where T : PinnedElementView</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GraphProcessor.PinnedElementView.html">PinnedElementView</a></td>
+        <td><span class="parametername">view</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_Connect_GraphProcessor_EdgeView_System_Boolean_.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.Connect(GraphProcessor.EdgeView%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L1199">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_Connect_" data-uid="GraphProcessor.BaseGraphView.Connect*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_Connect_GraphProcessor_EdgeView_System_Boolean_" data-uid="GraphProcessor.BaseGraphView.Connect(GraphProcessor.EdgeView,System.Boolean)">Connect(EdgeView, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Connect(EdgeView e, bool autoDisconnectInputs = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GraphProcessor.EdgeView.html">EdgeView</a></td>
+        <td><span class="parametername">e</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">autoDisconnectInputs</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_Connect_GraphProcessor_PortView_GraphProcessor_PortView_System_Boolean_.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.Connect(GraphProcessor.PortView%2CGraphProcessor.PortView%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L1179">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_Connect_" data-uid="GraphProcessor.BaseGraphView.Connect*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_Connect_GraphProcessor_PortView_GraphProcessor_PortView_System_Boolean_" data-uid="GraphProcessor.BaseGraphView.Connect(GraphProcessor.PortView,GraphProcessor.PortView,System.Boolean)">Connect(PortView, PortView, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Connect(PortView inputPortView, PortView outputPortView, bool autoDisconnectInputs = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GraphProcessor.PortView.html">PortView</a></td>
+        <td><span class="parametername">inputPortView</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GraphProcessor.PortView.html">PortView</a></td>
+        <td><span class="parametername">outputPortView</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">autoDisconnectInputs</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_ConnectView_GraphProcessor_EdgeView_System_Boolean_.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.ConnectView(GraphProcessor.EdgeView%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L1123">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_ConnectView_" data-uid="GraphProcessor.BaseGraphView.ConnectView*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_ConnectView_GraphProcessor_EdgeView_System_Boolean_" data-uid="GraphProcessor.BaseGraphView.ConnectView(GraphProcessor.EdgeView,System.Boolean)">ConnectView(EdgeView, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ConnectView(EdgeView e, bool autoDisconnectInputs = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GraphProcessor.EdgeView.html">EdgeView</a></td>
+        <td><span class="parametername">e</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">autoDisconnectInputs</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_CreateEdgeConnectorListener.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.CreateEdgeConnectorListener%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L822">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_CreateEdgeConnectorListener_" data-uid="GraphProcessor.BaseGraphView.CreateEdgeConnectorListener*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_CreateEdgeConnectorListener" data-uid="GraphProcessor.BaseGraphView.CreateEdgeConnectorListener">CreateEdgeConnectorListener()</h4>
+  <div class="markdown level1 summary"><p>Allow you to create your own edge connector listener</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual BaseEdgeConnectorListener CreateEdgeConnectorListener()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GraphProcessor.BaseEdgeConnectorListener.html">BaseEdgeConnectorListener</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_CreateEdgeView.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.CreateEdgeView%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L323">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_CreateEdgeView_" data-uid="GraphProcessor.BaseGraphView.CreateEdgeView*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_CreateEdgeView" data-uid="GraphProcessor.BaseGraphView.CreateEdgeView">CreateEdgeView()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual EdgeView CreateEdgeView()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GraphProcessor.EdgeView.html">EdgeView</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_CreateNodeInspectorObject.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.CreateNodeInspectorObject%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L165">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_CreateNodeInspectorObject_" data-uid="GraphProcessor.BaseGraphView.CreateNodeInspectorObject*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_CreateNodeInspectorObject" data-uid="GraphProcessor.BaseGraphView.CreateNodeInspectorObject">CreateNodeInspectorObject()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual NodeInspectorObject CreateNodeInspectorObject()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GraphProcessor.NodeInspectorObject.html">NodeInspectorObject</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_DelayedDeleteSelection.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.DelayedDeleteSelection%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L1363">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_DelayedDeleteSelection_" data-uid="GraphProcessor.BaseGraphView.DelayedDeleteSelection*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_DelayedDeleteSelection" data-uid="GraphProcessor.BaseGraphView.DelayedDeleteSelection">DelayedDeleteSelection()</h4>
+  <div class="markdown level1 summary"><p>Deletes the selected content, can be called form an IMGUI container</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DelayedDeleteSelection()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_Disconnect_GraphProcessor_EdgeView_System_Boolean_.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.Disconnect(GraphProcessor.EdgeView%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L1243">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_Disconnect_" data-uid="GraphProcessor.BaseGraphView.Disconnect*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_Disconnect_GraphProcessor_EdgeView_System_Boolean_" data-uid="GraphProcessor.BaseGraphView.Disconnect(GraphProcessor.EdgeView,System.Boolean)">Disconnect(EdgeView, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Disconnect(EdgeView e, bool refreshPorts = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GraphProcessor.EdgeView.html">EdgeView</a></td>
+        <td><span class="parametername">e</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">refreshPorts</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_DisconnectView_GraphProcessor_EdgeView_System_Boolean_.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.DisconnectView(GraphProcessor.EdgeView%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L1220">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_DisconnectView_" data-uid="GraphProcessor.BaseGraphView.DisconnectView*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_DisconnectView_GraphProcessor_EdgeView_System_Boolean_" data-uid="GraphProcessor.BaseGraphView.DisconnectView(GraphProcessor.EdgeView,System.Boolean)">DisconnectView(EdgeView, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DisconnectView(EdgeView e, bool refreshPorts = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GraphProcessor.EdgeView.html">EdgeView</a></td>
+        <td><span class="parametername">e</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">refreshPorts</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_Dispose.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L1402">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_Dispose_" data-uid="GraphProcessor.BaseGraphView.Dispose*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_Dispose" data-uid="GraphProcessor.BaseGraphView.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"><p>Call this function when you want to remove this view</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_FilterCreateNodeMenuEntries.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.FilterCreateNodeMenuEntries%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L1367">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_FilterCreateNodeMenuEntries_" data-uid="GraphProcessor.BaseGraphView.FilterCreateNodeMenuEntries*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_FilterCreateNodeMenuEntries" data-uid="GraphProcessor.BaseGraphView.FilterCreateNodeMenuEntries">FilterCreateNodeMenuEntries()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual IEnumerable&lt;(string path, Type type)&gt; FilterCreateNodeMenuEntries()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Type</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_GetCompatiblePorts_UnityEditor_Experimental_GraphView_Port_UnityEditor_Experimental_GraphView_NodeAdapter_.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.GetCompatiblePorts(UnityEditor.Experimental.GraphView.Port%2CUnityEditor.Experimental.GraphView.NodeAdapter)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L429">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_GetCompatiblePorts_" data-uid="GraphProcessor.BaseGraphView.GetCompatiblePorts*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_GetCompatiblePorts_UnityEditor_Experimental_GraphView_Port_UnityEditor_Experimental_GraphView_NodeAdapter_" data-uid="GraphProcessor.BaseGraphView.GetCompatiblePorts(UnityEditor.Experimental.GraphView.Port,UnityEditor.Experimental.GraphView.NodeAdapter)">GetCompatiblePorts(Port, NodeAdapter)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override List&lt;Port&gt; GetCompatiblePorts(Port startPort, NodeAdapter nodeAdapter)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEditor.Experimental.GraphView.Port</span></td>
+        <td><span class="parametername">startPort</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEditor.Experimental.GraphView.NodeAdapter</span></td>
+        <td><span class="parametername">nodeAdapter</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">UnityEditor.Experimental.GraphView.Port</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">UnityEditor.Experimental.GraphView.GraphView.GetCompatiblePorts(UnityEditor.Experimental.GraphView.Port, UnityEditor.Experimental.GraphView.NodeAdapter)</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_GetPinnedElementStatus_System_Type_.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.GetPinnedElementStatus(System.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L1342">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_GetPinnedElementStatus_" data-uid="GraphProcessor.BaseGraphView.GetPinnedElementStatus*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_GetPinnedElementStatus_System_Type_" data-uid="GraphProcessor.BaseGraphView.GetPinnedElementStatus(System.Type)">GetPinnedElementStatus(Type)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DropdownMenuAction.Status GetPinnedElementStatus(Type type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.UIElements.DropdownMenuAction.Status</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_GetPinnedElementStatus__1.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.GetPinnedElementStatus%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L1337">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_GetPinnedElementStatus_" data-uid="GraphProcessor.BaseGraphView.GetPinnedElementStatus*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_GetPinnedElementStatus__1" data-uid="GraphProcessor.BaseGraphView.GetPinnedElementStatus``1">GetPinnedElementStatus&lt;T&gt;()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DropdownMenuAction.Status GetPinnedElementStatus&lt;T&gt;()
+    where T : PinnedElementView</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.UIElements.DropdownMenuAction.Status</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_Initialize_GraphProcessor_BaseGraph_.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.Initialize(GraphProcessor.BaseGraph)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L735">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_Initialize_" data-uid="GraphProcessor.BaseGraphView.Initialize*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_Initialize_GraphProcessor_BaseGraph_" data-uid="GraphProcessor.BaseGraphView.Initialize(GraphProcessor.BaseGraph)">Initialize(BaseGraph)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Initialize(BaseGraph graph)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GraphProcessor.BaseGraph.html">BaseGraph</a></td>
+        <td><span class="parametername">graph</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_InitializeManipulators.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.InitializeManipulators%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L902">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_InitializeManipulators_" data-uid="GraphProcessor.BaseGraphView.InitializeManipulators*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_InitializeManipulators" data-uid="GraphProcessor.BaseGraphView.InitializeManipulators">InitializeManipulators()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void InitializeManipulators()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_InitializeView.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.InitializeView%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L1365">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_InitializeView_" data-uid="GraphProcessor.BaseGraphView.InitializeView*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_InitializeView" data-uid="GraphProcessor.BaseGraphView.InitializeView">InitializeView()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void InitializeView()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_KeyDownCallback_UnityEngine_UIElements_KeyDownEvent_.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.KeyDownCallback(UnityEngine.UIElements.KeyDownEvent)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L539">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_KeyDownCallback_" data-uid="GraphProcessor.BaseGraphView.KeyDownCallback*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_KeyDownCallback_UnityEngine_UIElements_KeyDownEvent_" data-uid="GraphProcessor.BaseGraphView.KeyDownCallback(UnityEngine.UIElements.KeyDownEvent)">KeyDownCallback(KeyDownEvent)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void KeyDownCallback(KeyDownEvent e)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.UIElements.KeyDownEvent</span></td>
+        <td><span class="parametername">e</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_OpenPinned_System_Type_.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.OpenPinned(System.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L1302">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_OpenPinned_" data-uid="GraphProcessor.BaseGraphView.OpenPinned*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_OpenPinned_System_Type_" data-uid="GraphProcessor.BaseGraphView.OpenPinned(System.Type)">OpenPinned(Type)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OpenPinned(Type type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_OpenPinned__1.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.OpenPinned%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L1297">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_OpenPinned_" data-uid="GraphProcessor.BaseGraphView.OpenPinned*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_OpenPinned__1" data-uid="GraphProcessor.BaseGraphView.OpenPinned``1">OpenPinned&lt;T&gt;()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OpenPinned&lt;T&gt;()
+    where T : PinnedElementView</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_RegisterCompleteObjectUndo_System_String_.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.RegisterCompleteObjectUndo(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L1268">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_RegisterCompleteObjectUndo_" data-uid="GraphProcessor.BaseGraphView.RegisterCompleteObjectUndo*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_RegisterCompleteObjectUndo_System_String_" data-uid="GraphProcessor.BaseGraphView.RegisterCompleteObjectUndo(System.String)">RegisterCompleteObjectUndo(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RegisterCompleteObjectUndo(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_Reload.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.Reload%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L909">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_Reload_" data-uid="GraphProcessor.BaseGraphView.Reload*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_Reload" data-uid="GraphProcessor.BaseGraphView.Reload">Reload()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Reload()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_RemoveEdges.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.RemoveEdges%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L1254">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_RemoveEdges_" data-uid="GraphProcessor.BaseGraphView.RemoveEdges*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_RemoveEdges" data-uid="GraphProcessor.BaseGraphView.RemoveEdges">RemoveEdges()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveEdges()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_RemoveGroups.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.RemoveGroups%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L1097">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_RemoveGroups_" data-uid="GraphProcessor.BaseGraphView.RemoveGroups*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_RemoveGroups" data-uid="GraphProcessor.BaseGraphView.RemoveGroups">RemoveGroups()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveGroups()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_RemoveNode_GraphProcessor_BaseNode_.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.RemoveNode(GraphProcessor.BaseNode)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L967">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_RemoveNode_" data-uid="GraphProcessor.BaseGraphView.RemoveNode*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_RemoveNode_GraphProcessor_BaseNode_" data-uid="GraphProcessor.BaseGraphView.RemoveNode(GraphProcessor.BaseNode)">RemoveNode(BaseNode)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveNode(BaseNode node)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GraphProcessor.BaseNode.html">BaseNode</a></td>
+        <td><span class="parametername">node</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_RemoveNodeView_GraphProcessor_BaseNodeView_.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.RemoveNodeView(GraphProcessor.BaseNodeView)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L974">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_RemoveNodeView_" data-uid="GraphProcessor.BaseGraphView.RemoveNodeView*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_RemoveNodeView_GraphProcessor_BaseNodeView_" data-uid="GraphProcessor.BaseGraphView.RemoveNodeView(GraphProcessor.BaseNodeView)">RemoveNodeView(BaseNodeView)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveNodeView(BaseNodeView nodeView)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GraphProcessor.BaseNodeView.html">BaseNodeView</a></td>
+        <td><span class="parametername">nodeView</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_RemoveStackNodeView_GraphProcessor_BaseStackNodeView_.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.RemoveStackNodeView(GraphProcessor.BaseStackNodeView)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L1044">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_RemoveStackNodeView_" data-uid="GraphProcessor.BaseGraphView.RemoveStackNodeView*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_RemoveStackNodeView_GraphProcessor_BaseStackNodeView_" data-uid="GraphProcessor.BaseGraphView.RemoveStackNodeView(GraphProcessor.BaseStackNodeView)">RemoveStackNodeView(BaseStackNodeView)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveStackNodeView(BaseStackNodeView stackNodeView)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GraphProcessor.BaseStackNodeView.html">BaseStackNodeView</a></td>
+        <td><span class="parametername">stackNodeView</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_ResetPositionAndZoom.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.ResetPositionAndZoom%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L1352">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_ResetPositionAndZoom_" data-uid="GraphProcessor.BaseGraphView.ResetPositionAndZoom*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_ResetPositionAndZoom" data-uid="GraphProcessor.BaseGraphView.ResetPositionAndZoom">ResetPositionAndZoom()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ResetPositionAndZoom()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_SaveGraphToDisk.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.SaveGraphToDisk%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L1273">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_SaveGraphToDisk_" data-uid="GraphProcessor.BaseGraphView.SaveGraphToDisk*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_SaveGraphToDisk" data-uid="GraphProcessor.BaseGraphView.SaveGraphToDisk">SaveGraphToDisk()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SaveGraphToDisk()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_SyncSerializedPropertyPathes.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.SyncSerializedPropertyPathes%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L1392">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_SyncSerializedPropertyPathes_" data-uid="GraphProcessor.BaseGraphView.SyncSerializedPropertyPathes*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_SyncSerializedPropertyPathes" data-uid="GraphProcessor.BaseGraphView.SyncSerializedPropertyPathes">SyncSerializedPropertyPathes()</h4>
+  <div class="markdown level1 summary"><p>Update all the serialized property bindings (in case a node was deleted / added, the property pathes needs to be updated)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SyncSerializedPropertyPathes()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_ToggleView_System_Type_.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.ToggleView(System.Type)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L1286">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_ToggleView_" data-uid="GraphProcessor.BaseGraphView.ToggleView*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_ToggleView_System_Type_" data-uid="GraphProcessor.BaseGraphView.ToggleView(System.Type)">ToggleView(Type)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ToggleView(Type type)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_ToggleView__1.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.ToggleView%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L1281">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_ToggleView_" data-uid="GraphProcessor.BaseGraphView.ToggleView*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_ToggleView__1" data-uid="GraphProcessor.BaseGraphView.ToggleView``1">ToggleView&lt;T&gt;()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ToggleView&lt;T&gt;()
+    where T : PinnedElementView</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_UpdateComputeOrder.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.UpdateComputeOrder%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L1261">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_UpdateComputeOrder_" data-uid="GraphProcessor.BaseGraphView.UpdateComputeOrder*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_UpdateComputeOrder" data-uid="GraphProcessor.BaseGraphView.UpdateComputeOrder">UpdateComputeOrder()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateComputeOrder()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_UpdateNodeInspectorSelection.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.UpdateNodeInspectorSelection%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L915">View Source</a>
+  </span>
+  <a id="GraphProcessor_BaseGraphView_UpdateNodeInspectorSelection_" data-uid="GraphProcessor.BaseGraphView.UpdateNodeInspectorSelection*"></a>
+  <h4 id="GraphProcessor_BaseGraphView_UpdateNodeInspectorSelection" data-uid="GraphProcessor.BaseGraphView.UpdateNodeInspectorSelection">UpdateNodeInspectorSelection()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UpdateNodeInspectorSelection()</code></pre>
+  </div>
+  <h3 id="events">Events
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_computeOrderUpdated.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.computeOrderUpdated%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L93">View Source</a>
+  </span>
+  <h4 id="GraphProcessor_BaseGraphView_computeOrderUpdated" data-uid="GraphProcessor.BaseGraphView.computeOrderUpdated">computeOrderUpdated</h4>
+  <div class="markdown level1 summary"><p>Triggered just after the compute order of the graph is updated</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event BaseGraphView.ComputeOrderUpdatedDelegate computeOrderUpdated</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GraphProcessor.BaseGraphView.ComputeOrderUpdatedDelegate.html">BaseGraphView.ComputeOrderUpdatedDelegate</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_initialized.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.initialized%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L88">View Source</a>
+  </span>
+  <h4 id="GraphProcessor_BaseGraphView_initialized" data-uid="GraphProcessor.BaseGraphView.initialized">initialized</h4>
+  <div class="markdown level1 summary"><p>Triggered just after the graph is initialized</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action initialized</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_nodeDuplicated.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.nodeDuplicated%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L112">View Source</a>
+  </span>
+  <h4 id="GraphProcessor_BaseGraphView_nodeDuplicated" data-uid="GraphProcessor.BaseGraphView.nodeDuplicated">nodeDuplicated</h4>
+  <div class="markdown level1 summary"><p>Triggered when a node is duplicated (crt-d) or copy-pasted (crtl-c/crtl-v)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event BaseGraphView.NodeDuplicatedDelegate nodeDuplicated</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GraphProcessor.BaseGraphView.NodeDuplicatedDelegate.html">BaseGraphView.NodeDuplicatedDelegate</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_onExposedParameterListChanged.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.onExposedParameterListChanged%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L101">View Source</a>
+  </span>
+  <h4 id="GraphProcessor_BaseGraphView_onExposedParameterListChanged" data-uid="GraphProcessor.BaseGraphView.onExposedParameterListChanged">onExposedParameterListChanged</h4>
+  <div class="markdown level1 summary"><p>Same event than BaseGraph.onExposedParameterListChanged
+Safe event (not triggered in case the graph is null).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action onExposedParameterListChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView_onExposedParameterModified.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView.onExposedParameterModified%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L107">View Source</a>
+  </span>
+  <h4 id="GraphProcessor_BaseGraphView_onExposedParameterModified" data-uid="GraphProcessor.BaseGraphView.onExposedParameterModified">onExposedParameterModified</h4>
+  <div class="markdown level1 summary"><p>Same event than BaseGraph.onExposedParameterModified
+Safe event (not triggered in case the graph is null).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event Action&lt;ExposedParameter&gt; onExposedParameterModified</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="GraphProcessor.ExposedParameter.html">ExposedParameter</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">UnityEngine.UIElements.IEventHandler</span>
+  </div>
+  <div>
+      <span class="xref">UnityEngine.UIElements.ITransform</span>
+  </div>
+  <div>
+      <span class="xref">UnityEngine.UIElements.Experimental.ITransitionAnimations</span>
+  </div>
+  <div>
+      <span class="xref">UnityEngine.UIElements.IExperimentalFeatures</span>
+  </div>
+  <div>
+      <span class="xref">UnityEngine.UIElements.IVisualElementScheduler</span>
+  </div>
+  <div>
+      <span class="xref">UnityEngine.UIElements.IResolvedStyle</span>
+  </div>
+  <div>
+      <span class="xref">UnityEditor.Experimental.GraphView.ISelection</span>
+  </div>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/lukaschod/Impostor/new/master/apiSpec/new?filename=GraphProcessor_BaseGraphView.md&amp;value=---%0Auid%3A%20GraphProcessor.BaseGraphView%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/lukaschod/Impostor/blob/master/com.unity.impostor/com.alelievr.NodeGraphProcessor/Editor/Views/BaseGraphView.cs/#L21" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Copyright © ProjectDawn.<br>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
