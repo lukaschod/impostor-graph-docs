@@ -5,19 +5,19 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Graph </title>
+    <title>Tight Mesh Node </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Graph ">
+    <meta name="title" content="Tight Mesh Node ">
     <meta name="generator" content="docfx 2.56.6.0">
     
-    <link rel="shortcut icon" href="../favicon.ico">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
     
-    <meta property="docfx:rel" content="../">
+    <meta property="docfx:rel" content="../../">
     
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
@@ -34,8 +34,8 @@
                 <span class="icon-bar"></span>
               </button>
               
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="">
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -77,12 +77,31 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="graph">Graph</h1>
+<h1 id="tight-mesh-node">Tight Mesh Node</h1>
 
-<p>Represents a serialized graph consisting of nodes, with functionality for executing the graph and producing impostor assets as output.</p>
-<blockquote>
-<p>Node. For more information check git repository <a href="https://github.com/alelievr/NodeGraphProcessor">NodeGraphProcessor</a> as this package uses its API.</p>
-</blockquote>
+<p>Generates a minimal billboard mesh based on impostor frames. It should produce a mesh that is as small as possible while still covering the entire impostor.</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Scene</code></td>
+<td>The scene to use for the impostor.</td>
+</tr>
+<tr>
+<td><code>Resolution</code></td>
+<td>Increasing the value will increase tight mesh vertex count, but also will eliminate more unused space.</td>
+</tr>
+<tr>
+<td><code>Mesh</code></td>
+<td>The generated mesh.</td>
+</tr>
+</tbody>
+</table>
 </article>
           </div>
           
@@ -115,8 +134,8 @@
       </footer>
     </div>
     
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
   </body>
 </html>

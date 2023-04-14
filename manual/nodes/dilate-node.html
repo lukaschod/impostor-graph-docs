@@ -5,19 +5,19 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Graph </title>
+    <title>Dilate Node </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Graph ">
+    <meta name="title" content="Dilate Node ">
     <meta name="generator" content="docfx 2.56.6.0">
     
-    <link rel="shortcut icon" href="../favicon.ico">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
     
-    <meta property="docfx:rel" content="../">
+    <meta property="docfx:rel" content="../../">
     
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
@@ -34,8 +34,8 @@
                 <span class="icon-bar"></span>
               </button>
               
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="">
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.svg" alt="">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -77,12 +77,32 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="graph">Graph</h1>
+<h1 id="dilate-node">Dilate Node</h1>
 
-<p>Represents a serialized graph consisting of nodes, with functionality for executing the graph and producing impostor assets as output.</p>
-<blockquote>
-<p>Node. For more information check git repository <a href="https://github.com/alelievr/NodeGraphProcessor">NodeGraphProcessor</a> as this package uses its API.</p>
-</blockquote>
+<p>Dilates the texture by the specified amount. This is useful for adding a border around the texture.
+For impostors, this is useful for adding a border around the texture to prevent the impostors blending with the background.</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Source</code></td>
+<td>The source texture.</td>
+</tr>
+<tr>
+<td><code>Mask</code></td>
+<td>The mask texture indicates pixels that will not be overwritten by dilate.</td>
+</tr>
+<tr>
+<td><code>Iterations</code></td>
+<td>The number of iterations to perform. Increasing number will result in longer build impostor build times.</td>
+</tr>
+</tbody>
+</table>
 </article>
           </div>
           
@@ -115,8 +135,8 @@
       </footer>
     </div>
     
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
   </body>
 </html>

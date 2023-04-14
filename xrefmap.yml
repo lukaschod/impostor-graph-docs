@@ -8904,18 +8904,6 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Impostor.CapturePoints.Radius
   nameWithType: CapturePoints.Radius
-- uid: ProjectDawn.Impostor.CreateImpostorPrefab
-  name: CreateImpostorPrefab
-  href: api/ProjectDawn.Impostor.CreateImpostorPrefab.html
-  commentId: T:ProjectDawn.Impostor.CreateImpostorPrefab
-  fullName: ProjectDawn.Impostor.CreateImpostorPrefab
-  nameWithType: CreateImpostorPrefab
-- uid: ProjectDawn.Impostor.CreateImpostorPrefab.Builder
-  name: Builder
-  href: api/ProjectDawn.Impostor.CreateImpostorPrefab.html#ProjectDawn_Impostor_CreateImpostorPrefab_Builder
-  commentId: F:ProjectDawn.Impostor.CreateImpostorPrefab.Builder
-  fullName: ProjectDawn.Impostor.CreateImpostorPrefab.Builder
-  nameWithType: CreateImpostorPrefab.Builder
 - uid: ProjectDawn.Impostor.Dilate
   name: Dilate
   href: api/ProjectDawn.Impostor.Dilate.html
@@ -9078,25 +9066,6 @@ references:
   commentId: N:ProjectDawn.Impostor.Editor
   fullName: ProjectDawn.Impostor.Editor
   nameWithType: ProjectDawn.Impostor.Editor
-- uid: ProjectDawn.Impostor.Editor.CreateImpostorPrefabEditor
-  name: CreateImpostorPrefabEditor
-  href: api/ProjectDawn.Impostor.Editor.CreateImpostorPrefabEditor.html
-  commentId: T:ProjectDawn.Impostor.Editor.CreateImpostorPrefabEditor
-  fullName: ProjectDawn.Impostor.Editor.CreateImpostorPrefabEditor
-  nameWithType: CreateImpostorPrefabEditor
-- uid: ProjectDawn.Impostor.Editor.CreateImpostorPrefabEditor.OnInspectorGUI
-  name: OnInspectorGUI()
-  href: api/ProjectDawn.Impostor.Editor.CreateImpostorPrefabEditor.html#ProjectDawn_Impostor_Editor_CreateImpostorPrefabEditor_OnInspectorGUI
-  commentId: M:ProjectDawn.Impostor.Editor.CreateImpostorPrefabEditor.OnInspectorGUI
-  fullName: ProjectDawn.Impostor.Editor.CreateImpostorPrefabEditor.OnInspectorGUI()
-  nameWithType: CreateImpostorPrefabEditor.OnInspectorGUI()
-- uid: ProjectDawn.Impostor.Editor.CreateImpostorPrefabEditor.OnInspectorGUI*
-  name: OnInspectorGUI
-  href: api/ProjectDawn.Impostor.Editor.CreateImpostorPrefabEditor.html#ProjectDawn_Impostor_Editor_CreateImpostorPrefabEditor_OnInspectorGUI_
-  commentId: Overload:ProjectDawn.Impostor.Editor.CreateImpostorPrefabEditor.OnInspectorGUI
-  isSpec: "True"
-  fullName: ProjectDawn.Impostor.Editor.CreateImpostorPrefabEditor.OnInspectorGUI
-  nameWithType: CreateImpostorPrefabEditor.OnInspectorGUI
 - uid: ProjectDawn.Impostor.Editor.ImpostorBuilderEditor
   name: ImpostorBuilderEditor
   href: api/ProjectDawn.Impostor.Editor.ImpostorBuilderEditor.html
@@ -9329,44 +9298,25 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Impostor.Editor.ImpostorGraphWindow.Open
   nameWithType: ImpostorGraphWindow.Open
-- uid: ProjectDawn.Impostor.Editor.ImpostorImporter
-  name: ImpostorImporter
-  href: api/ProjectDawn.Impostor.Editor.ImpostorImporter.html
-  commentId: T:ProjectDawn.Impostor.Editor.ImpostorImporter
-  fullName: ProjectDawn.Impostor.Editor.ImpostorImporter
-  nameWithType: ImpostorImporter
-- uid: ProjectDawn.Impostor.Editor.ImpostorImporter.OnImportAsset(UnityEditor.AssetImporters.AssetImportContext)
-  name: OnImportAsset(AssetImportContext)
-  href: api/ProjectDawn.Impostor.Editor.ImpostorImporter.html#ProjectDawn_Impostor_Editor_ImpostorImporter_OnImportAsset_UnityEditor_AssetImporters_AssetImportContext_
-  commentId: M:ProjectDawn.Impostor.Editor.ImpostorImporter.OnImportAsset(UnityEditor.AssetImporters.AssetImportContext)
-  fullName: ProjectDawn.Impostor.Editor.ImpostorImporter.OnImportAsset(UnityEditor.AssetImporters.AssetImportContext)
-  nameWithType: ImpostorImporter.OnImportAsset(AssetImportContext)
-- uid: ProjectDawn.Impostor.Editor.ImpostorImporter.OnImportAsset*
-  name: OnImportAsset
-  href: api/ProjectDawn.Impostor.Editor.ImpostorImporter.html#ProjectDawn_Impostor_Editor_ImpostorImporter_OnImportAsset_
-  commentId: Overload:ProjectDawn.Impostor.Editor.ImpostorImporter.OnImportAsset
-  isSpec: "True"
-  fullName: ProjectDawn.Impostor.Editor.ImpostorImporter.OnImportAsset
-  nameWithType: ImpostorImporter.OnImportAsset
-- uid: ProjectDawn.Impostor.Editor.ImpostorImporter.SupportsRemappedAssetType(System.Type)
-  name: SupportsRemappedAssetType(Type)
-  href: api/ProjectDawn.Impostor.Editor.ImpostorImporter.html#ProjectDawn_Impostor_Editor_ImpostorImporter_SupportsRemappedAssetType_System_Type_
-  commentId: M:ProjectDawn.Impostor.Editor.ImpostorImporter.SupportsRemappedAssetType(System.Type)
-  fullName: ProjectDawn.Impostor.Editor.ImpostorImporter.SupportsRemappedAssetType(System.Type)
-  nameWithType: ImpostorImporter.SupportsRemappedAssetType(Type)
-- uid: ProjectDawn.Impostor.Editor.ImpostorImporter.SupportsRemappedAssetType*
-  name: SupportsRemappedAssetType
-  href: api/ProjectDawn.Impostor.Editor.ImpostorImporter.html#ProjectDawn_Impostor_Editor_ImpostorImporter_SupportsRemappedAssetType_
-  commentId: Overload:ProjectDawn.Impostor.Editor.ImpostorImporter.SupportsRemappedAssetType
-  isSpec: "True"
-  fullName: ProjectDawn.Impostor.Editor.ImpostorImporter.SupportsRemappedAssetType
-  nameWithType: ImpostorImporter.SupportsRemappedAssetType
 - uid: ProjectDawn.Impostor.Editor.ImpostorNodeView
   name: ImpostorNodeView
   href: api/ProjectDawn.Impostor.Editor.ImpostorNodeView.html
   commentId: T:ProjectDawn.Impostor.Editor.ImpostorNodeView
   fullName: ProjectDawn.Impostor.Editor.ImpostorNodeView
   nameWithType: ImpostorNodeView
+- uid: ProjectDawn.Impostor.Editor.ImpostorNodeView.Enable
+  name: Enable()
+  href: api/ProjectDawn.Impostor.Editor.ImpostorNodeView.html#ProjectDawn_Impostor_Editor_ImpostorNodeView_Enable
+  commentId: M:ProjectDawn.Impostor.Editor.ImpostorNodeView.Enable
+  fullName: ProjectDawn.Impostor.Editor.ImpostorNodeView.Enable()
+  nameWithType: ImpostorNodeView.Enable()
+- uid: ProjectDawn.Impostor.Editor.ImpostorNodeView.Enable*
+  name: Enable
+  href: api/ProjectDawn.Impostor.Editor.ImpostorNodeView.html#ProjectDawn_Impostor_Editor_ImpostorNodeView_Enable_
+  commentId: Overload:ProjectDawn.Impostor.Editor.ImpostorNodeView.Enable
+  isSpec: "True"
+  fullName: ProjectDawn.Impostor.Editor.ImpostorNodeView.Enable
+  nameWithType: ImpostorNodeView.Enable
 - uid: ProjectDawn.Impostor.Editor.ImpostorNodeView.OnCreated
   name: OnCreated()
   href: api/ProjectDawn.Impostor.Editor.ImpostorNodeView.html#ProjectDawn_Impostor_Editor_ImpostorNodeView_OnCreated
@@ -9468,68 +9418,6 @@ references:
   commentId: F:ProjectDawn.Impostor.HDRenderNormalNode.Source
   fullName: ProjectDawn.Impostor.HDRenderNormalNode.Source
   nameWithType: HDRenderNormalNode.Source
-- uid: ProjectDawn.Impostor.HDRenderSurfaceNode
-  name: HDRenderSurfaceNode
-  href: api/ProjectDawn.Impostor.HDRenderSurfaceNode.html
-  commentId: T:ProjectDawn.Impostor.HDRenderSurfaceNode
-  fullName: ProjectDawn.Impostor.HDRenderSurfaceNode
-  nameWithType: HDRenderSurfaceNode
-- uid: ProjectDawn.Impostor.HDRenderSurfaceNode.BlitMaterial
-  name: BlitMaterial
-  href: api/ProjectDawn.Impostor.HDRenderSurfaceNode.html#ProjectDawn_Impostor_HDRenderSurfaceNode_BlitMaterial
-  commentId: F:ProjectDawn.Impostor.HDRenderSurfaceNode.BlitMaterial
-  fullName: ProjectDawn.Impostor.HDRenderSurfaceNode.BlitMaterial
-  nameWithType: HDRenderSurfaceNode.BlitMaterial
-- uid: ProjectDawn.Impostor.HDRenderSurfaceNode.Destination
-  name: Destination
-  href: api/ProjectDawn.Impostor.HDRenderSurfaceNode.html#ProjectDawn_Impostor_HDRenderSurfaceNode_Destination
-  commentId: F:ProjectDawn.Impostor.HDRenderSurfaceNode.Destination
-  fullName: ProjectDawn.Impostor.HDRenderSurfaceNode.Destination
-  nameWithType: HDRenderSurfaceNode.Destination
-- uid: ProjectDawn.Impostor.HDRenderSurfaceNode.Mode
-  name: Mode
-  href: api/ProjectDawn.Impostor.HDRenderSurfaceNode.html#ProjectDawn_Impostor_HDRenderSurfaceNode_Mode
-  commentId: F:ProjectDawn.Impostor.HDRenderSurfaceNode.Mode
-  fullName: ProjectDawn.Impostor.HDRenderSurfaceNode.Mode
-  nameWithType: HDRenderSurfaceNode.Mode
-- uid: ProjectDawn.Impostor.HDRenderSurfaceNode.name
-  name: name
-  href: api/ProjectDawn.Impostor.HDRenderSurfaceNode.html#ProjectDawn_Impostor_HDRenderSurfaceNode_name
-  commentId: P:ProjectDawn.Impostor.HDRenderSurfaceNode.name
-  fullName: ProjectDawn.Impostor.HDRenderSurfaceNode.name
-  nameWithType: HDRenderSurfaceNode.name
-- uid: ProjectDawn.Impostor.HDRenderSurfaceNode.name*
-  name: name
-  href: api/ProjectDawn.Impostor.HDRenderSurfaceNode.html#ProjectDawn_Impostor_HDRenderSurfaceNode_name_
-  commentId: Overload:ProjectDawn.Impostor.HDRenderSurfaceNode.name
-  isSpec: "True"
-  fullName: ProjectDawn.Impostor.HDRenderSurfaceNode.name
-  nameWithType: HDRenderSurfaceNode.name
-- uid: ProjectDawn.Impostor.HDRenderSurfaceNode.Process
-  name: Process()
-  href: api/ProjectDawn.Impostor.HDRenderSurfaceNode.html#ProjectDawn_Impostor_HDRenderSurfaceNode_Process
-  commentId: M:ProjectDawn.Impostor.HDRenderSurfaceNode.Process
-  fullName: ProjectDawn.Impostor.HDRenderSurfaceNode.Process()
-  nameWithType: HDRenderSurfaceNode.Process()
-- uid: ProjectDawn.Impostor.HDRenderSurfaceNode.Process*
-  name: Process
-  href: api/ProjectDawn.Impostor.HDRenderSurfaceNode.html#ProjectDawn_Impostor_HDRenderSurfaceNode_Process_
-  commentId: Overload:ProjectDawn.Impostor.HDRenderSurfaceNode.Process
-  isSpec: "True"
-  fullName: ProjectDawn.Impostor.HDRenderSurfaceNode.Process
-  nameWithType: HDRenderSurfaceNode.Process
-- uid: ProjectDawn.Impostor.HDRenderSurfaceNode.Scene
-  name: Scene
-  href: api/ProjectDawn.Impostor.HDRenderSurfaceNode.html#ProjectDawn_Impostor_HDRenderSurfaceNode_Scene
-  commentId: F:ProjectDawn.Impostor.HDRenderSurfaceNode.Scene
-  fullName: ProjectDawn.Impostor.HDRenderSurfaceNode.Scene
-  nameWithType: HDRenderSurfaceNode.Scene
-- uid: ProjectDawn.Impostor.HDRenderSurfaceNode.Source
-  name: Source
-  href: api/ProjectDawn.Impostor.HDRenderSurfaceNode.html#ProjectDawn_Impostor_HDRenderSurfaceNode_Source
-  commentId: F:ProjectDawn.Impostor.HDRenderSurfaceNode.Source
-  fullName: ProjectDawn.Impostor.HDRenderSurfaceNode.Source
-  nameWithType: HDRenderSurfaceNode.Source
 - uid: ProjectDawn.Impostor.HemiOctahedronCapturePointsNode
   name: HemiOctahedronCapturePointsNode
   href: api/ProjectDawn.Impostor.HemiOctahedronCapturePointsNode.html
@@ -9662,19 +9550,6 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Impostor.ImpostorBuilder.GetInteger
   nameWithType: ImpostorBuilder.GetInteger
-- uid: ProjectDawn.Impostor.ImpostorBuilder.GetMaterial(System.String)
-  name: GetMaterial(String)
-  href: api/ProjectDawn.Impostor.ImpostorBuilder.html#ProjectDawn_Impostor_ImpostorBuilder_GetMaterial_System_String_
-  commentId: M:ProjectDawn.Impostor.ImpostorBuilder.GetMaterial(System.String)
-  fullName: ProjectDawn.Impostor.ImpostorBuilder.GetMaterial(System.String)
-  nameWithType: ImpostorBuilder.GetMaterial(String)
-- uid: ProjectDawn.Impostor.ImpostorBuilder.GetMaterial*
-  name: GetMaterial
-  href: api/ProjectDawn.Impostor.ImpostorBuilder.html#ProjectDawn_Impostor_ImpostorBuilder_GetMaterial_
-  commentId: Overload:ProjectDawn.Impostor.ImpostorBuilder.GetMaterial
-  isSpec: "True"
-  fullName: ProjectDawn.Impostor.ImpostorBuilder.GetMaterial
-  nameWithType: ImpostorBuilder.GetMaterial
 - uid: ProjectDawn.Impostor.ImpostorBuilder.Graph
   name: Graph
   href: api/ProjectDawn.Impostor.ImpostorBuilder.html#ProjectDawn_Impostor_ImpostorBuilder_Graph
@@ -9727,19 +9602,6 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Impostor.ImpostorBuilder.SetInteger
   nameWithType: ImpostorBuilder.SetInteger
-- uid: ProjectDawn.Impostor.ImpostorBuilder.SetMaterial(System.String,UnityEngine.Material)
-  name: SetMaterial(String, Material)
-  href: api/ProjectDawn.Impostor.ImpostorBuilder.html#ProjectDawn_Impostor_ImpostorBuilder_SetMaterial_System_String_UnityEngine_Material_
-  commentId: M:ProjectDawn.Impostor.ImpostorBuilder.SetMaterial(System.String,UnityEngine.Material)
-  fullName: ProjectDawn.Impostor.ImpostorBuilder.SetMaterial(System.String, UnityEngine.Material)
-  nameWithType: ImpostorBuilder.SetMaterial(String, Material)
-- uid: ProjectDawn.Impostor.ImpostorBuilder.SetMaterial*
-  name: SetMaterial
-  href: api/ProjectDawn.Impostor.ImpostorBuilder.html#ProjectDawn_Impostor_ImpostorBuilder_SetMaterial_
-  commentId: Overload:ProjectDawn.Impostor.ImpostorBuilder.SetMaterial
-  isSpec: "True"
-  fullName: ProjectDawn.Impostor.ImpostorBuilder.SetMaterial
-  nameWithType: ImpostorBuilder.SetMaterial
 - uid: ProjectDawn.Impostor.ImpostorGraph
   name: ImpostorGraph
   href: api/ProjectDawn.Impostor.ImpostorGraph.html
@@ -10276,12 +10138,12 @@ references:
   commentId: T:ProjectDawn.Impostor.RenderTextureExt
   fullName: ProjectDawn.Impostor.RenderTextureExt
   nameWithType: RenderTextureExt
-- uid: ProjectDawn.Impostor.RenderTextureExt.ToTexture2D(UnityEngine.RenderTexture,UnityEngine.Experimental.Rendering.GraphicsFormat,UnityEngine.FilterMode,System.Boolean,System.Boolean)
-  name: ToTexture2D(RenderTexture, GraphicsFormat, FilterMode, Boolean, Boolean)
-  href: api/ProjectDawn.Impostor.RenderTextureExt.html#ProjectDawn_Impostor_RenderTextureExt_ToTexture2D_UnityEngine_RenderTexture_UnityEngine_Experimental_Rendering_GraphicsFormat_UnityEngine_FilterMode_System_Boolean_System_Boolean_
-  commentId: M:ProjectDawn.Impostor.RenderTextureExt.ToTexture2D(UnityEngine.RenderTexture,UnityEngine.Experimental.Rendering.GraphicsFormat,UnityEngine.FilterMode,System.Boolean,System.Boolean)
-  fullName: ProjectDawn.Impostor.RenderTextureExt.ToTexture2D(UnityEngine.RenderTexture, UnityEngine.Experimental.Rendering.GraphicsFormat, UnityEngine.FilterMode, System.Boolean, System.Boolean)
-  nameWithType: RenderTextureExt.ToTexture2D(RenderTexture, GraphicsFormat, FilterMode, Boolean, Boolean)
+- uid: ProjectDawn.Impostor.RenderTextureExt.ToTexture2D(UnityEngine.RenderTexture,UnityEngine.Experimental.Rendering.GraphicsFormat,UnityEngine.FilterMode,System.Boolean)
+  name: ToTexture2D(RenderTexture, GraphicsFormat, FilterMode, Boolean)
+  href: api/ProjectDawn.Impostor.RenderTextureExt.html#ProjectDawn_Impostor_RenderTextureExt_ToTexture2D_UnityEngine_RenderTexture_UnityEngine_Experimental_Rendering_GraphicsFormat_UnityEngine_FilterMode_System_Boolean_
+  commentId: M:ProjectDawn.Impostor.RenderTextureExt.ToTexture2D(UnityEngine.RenderTexture,UnityEngine.Experimental.Rendering.GraphicsFormat,UnityEngine.FilterMode,System.Boolean)
+  fullName: ProjectDawn.Impostor.RenderTextureExt.ToTexture2D(UnityEngine.RenderTexture, UnityEngine.Experimental.Rendering.GraphicsFormat, UnityEngine.FilterMode, System.Boolean)
+  nameWithType: RenderTextureExt.ToTexture2D(RenderTexture, GraphicsFormat, FilterMode, Boolean)
 - uid: ProjectDawn.Impostor.RenderTextureExt.ToTexture2D*
   name: ToTexture2D
   href: api/ProjectDawn.Impostor.RenderTextureExt.html#ProjectDawn_Impostor_RenderTextureExt_ToTexture2D_
@@ -11036,12 +10898,6 @@ references:
   commentId: T:ProjectDawn.Impostor.Texture2DNode
   fullName: ProjectDawn.Impostor.Texture2DNode
   nameWithType: Texture2DNode
-- uid: ProjectDawn.Impostor.Texture2DNode.Async
-  name: Async
-  href: api/ProjectDawn.Impostor.Texture2DNode.html#ProjectDawn_Impostor_Texture2DNode_Async
-  commentId: F:ProjectDawn.Impostor.Texture2DNode.Async
-  fullName: ProjectDawn.Impostor.Texture2DNode.Async
-  nameWithType: Texture2DNode.Async
 - uid: ProjectDawn.Impostor.Texture2DNode.Destination
   name: Destination
   href: api/ProjectDawn.Impostor.Texture2DNode.html#ProjectDawn_Impostor_Texture2DNode_Destination

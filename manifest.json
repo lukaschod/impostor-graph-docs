@@ -126,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GraphProcessor.BaseGraphView.html",
-          "hash": "XLLbEVPJ8RWW/LgX4bZhFQ=="
+          "hash": "7jgJJf9k5p7m2WZ81G9UhQ=="
         }
       },
       "is_incremental": false,
@@ -162,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GraphProcessor.BaseNode.html",
-          "hash": "LwCPHx9Xk5ywE7RH7ryz6A=="
+          "hash": "S85SNTw73juy3SiPUt9CgQ=="
         }
       },
       "is_incremental": false,
@@ -822,7 +822,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GraphProcessor.ICreateNodeFrom-1.html",
-          "hash": "/9XwIuSRcxVRpwYWrueNHQ=="
+          "hash": "AU4YqVuMrq9xPtt2DZ7dcg=="
         }
       },
       "is_incremental": false,
@@ -1074,7 +1074,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GraphProcessor.NodeInputPortContainer.html",
-          "hash": "lNSHB3g02K8GOHtusnwi0Q=="
+          "hash": "rLH+rXeT9BG2ICqJ41BmwQ=="
         }
       },
       "is_incremental": false,
@@ -1134,7 +1134,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GraphProcessor.NodeOutputPortContainer.html",
-          "hash": "jMpSNYynsyoKtuj8l70kuQ=="
+          "hash": "Y/mo9edQ5DhBYMOX1uvQ8Q=="
         }
       },
       "is_incremental": false,
@@ -1686,7 +1686,7 @@
       "output": {
         ".html": {
           "relative_path": "api/GraphProcessor.html",
-          "hash": "Y/VouATkNdbvNWv6Ys1L8A=="
+          "hash": "5RkYYQNHDIM5/iB+lZb9Tg=="
         }
       },
       "is_incremental": false,
@@ -1698,7 +1698,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Impostor.BlitMask.html",
-          "hash": "smLib0hbyiRebqWZjVxnKw=="
+          "hash": "8LugqPMERLbGFV/xV4uhMQ=="
         }
       },
       "is_incremental": false,
@@ -1710,7 +1710,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Impostor.BlitMaskNode.html",
-          "hash": "bVuJsYHQ0mKVE+VZTImlfQ=="
+          "hash": "PmWxd5VOg5oVX7f9y8FMaQ=="
         }
       },
       "is_incremental": false,
@@ -1742,23 +1742,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Impostor.CreateImpostorPrefab.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.CreateImpostorPrefab.html",
-          "hash": "LUOtp9kTxUTCgU1hSnr50g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/ProjectDawn.Impostor.Dilate.yml",
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Impostor.Dilate.html",
-          "hash": "Gmid9utH/qkwq8rXjbooZw=="
+          "hash": "qncPArPrPy3Vne6ePWrO9A=="
         }
       },
       "is_incremental": false,
@@ -1770,7 +1758,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Impostor.DilateNode.html",
-          "hash": "/wjfMD7qheSn1lDYJfchyA=="
+          "hash": "VbfGhfsTg7X422kMc3SRMw=="
         }
       },
       "is_incremental": false,
@@ -1782,19 +1770,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Impostor.DuplicateRenderTexture.html",
-          "hash": "sJkxKEUmIIOyiXN479P59g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Impostor.Editor.CreateImpostorPrefabEditor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.Editor.CreateImpostorPrefabEditor.html",
-          "hash": "eVd7Xc/35t/MfU8kMS8CIQ=="
+          "hash": "/SBZnrPI0FUka5PYnQuS8Q=="
         }
       },
       "is_incremental": false,
@@ -1806,7 +1782,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Impostor.Editor.ImpostorBuilderEditor.html",
-          "hash": "oMw3daijoj4RSZZAm6i05w=="
+          "hash": "7OQrJfAOSXPey7gXkvt71g=="
         }
       },
       "is_incremental": false,
@@ -1850,23 +1826,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Impostor.Editor.ImpostorImporter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.Editor.ImpostorImporter.html",
-          "hash": "DtyoRB1fRj3+fGoGR/N3PA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/ProjectDawn.Impostor.Editor.ImpostorNodeView.yml",
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Impostor.Editor.ImpostorNodeView.html",
-          "hash": "aitzUHhR/GdIw7MYePInMg=="
+          "hash": "SSMShJebElCmtRTjIS0AeQ=="
         }
       },
       "is_incremental": false,
@@ -1890,7 +1854,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Impostor.Editor.html",
-          "hash": "E581Dt2dtz8xEHuFeV+vpw=="
+          "hash": "20cETqU8JdOwZctHPz+pMQ=="
         }
       },
       "is_incremental": false,
@@ -1902,19 +1866,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Impostor.HDRenderNormalNode.html",
-          "hash": "O36R1Ju3iE6g6wLhPMseJA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Impostor.HDRenderSurfaceNode.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.HDRenderSurfaceNode.html",
-          "hash": "aEf0HOyNXRSyiQFU40Tf7A=="
+          "hash": "XJGKQ7fXC9Ci5/Ffcl3OgA=="
         }
       },
       "is_incremental": false,
@@ -1926,7 +1878,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Impostor.HemiOctahedronCapturePointsNode.html",
-          "hash": "jHNyG6erf3O4zFM7m6HR4Q=="
+          "hash": "W34bfKH4nW3aCt7vbDYddw=="
         }
       },
       "is_incremental": false,
@@ -1950,7 +1902,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Impostor.ImpostorBuilder.html",
-          "hash": "Vy5f8+CLJQ8oEPuS0u/I5Q=="
+          "hash": "vBKBEPjauJszjjKzzBQAbA=="
         }
       },
       "is_incremental": false,
@@ -1962,7 +1914,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Impostor.ImpostorGraph.html",
-          "hash": "1dVnorwIJfgv65R6Tja3PA=="
+          "hash": "t5KiznCQv5OiobsbxuHVLQ=="
         }
       },
       "is_incremental": false,
@@ -1974,7 +1926,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Impostor.ImpostorNode.html",
-          "hash": "AImJkPyZdfGdx3p7Vjt81Q=="
+          "hash": "f5u0Vif52VOcWrHYcXnQIQ=="
         }
       },
       "is_incremental": false,
@@ -1986,7 +1938,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Impostor.LitHemiOctahedralImpostor.html",
-          "hash": "dWb6F+Ub/YDRUxLHSv69tw=="
+          "hash": "yPfzM+GyuPfqZSXaANoGBg=="
         }
       },
       "is_incremental": false,
@@ -1998,7 +1950,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Impostor.OutputNode.html",
-          "hash": "WjEOkPaqSLivM+XsjCl+vw=="
+          "hash": "K8eRCBBdhkyj6tt7aVtKNQ=="
         }
       },
       "is_incremental": false,
@@ -2046,7 +1998,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Impostor.RenderAlphaNode.html",
-          "hash": "6Dl9E+r8Z7qJqDYCCgK8Qw=="
+          "hash": "WZqEaLFlNVqknwCr3R0AIg=="
         }
       },
       "is_incremental": false,
@@ -2058,7 +2010,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Impostor.RenderBaseNode.html",
-          "hash": "j0I1hlDH9fS9WvrDJyo5Tg=="
+          "hash": "I4lmJ7ZFRTlLUvLA/ay/7g=="
         }
       },
       "is_incremental": false,
@@ -2070,7 +2022,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Impostor.RenderDepthNode.html",
-          "hash": "z6TdksDlGbsqtFNScPL5kg=="
+          "hash": "UvYEj/X3s5wfccq2es6zpw=="
         }
       },
       "is_incremental": false,
@@ -2082,7 +2034,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Impostor.RenderDiffuseNode.html",
-          "hash": "nIZh8A8ZBBxruMPeAI2yqg=="
+          "hash": "OXbZv/vrKd3nnsFoLHQsmQ=="
         }
       },
       "is_incremental": false,
@@ -2106,7 +2058,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Impostor.RenderTextureExt.html",
-          "hash": "DAf9HnR/2Ai2negNLGfwGw=="
+          "hash": "Sxe0/Ulq2JfrJImrhlJlCQ=="
         }
       },
       "is_incremental": false,
@@ -2118,7 +2070,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Impostor.RenderTextureNode.html",
-          "hash": "dU4uleCJoZkhMPRgbOmSMA=="
+          "hash": "7lqsOANWPg6LdYKVj+S2Bg=="
         }
       },
       "is_incremental": false,
@@ -2190,7 +2142,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Impostor.SceneNode.html",
-          "hash": "cbQZq303h+dVF90R/F2rsg=="
+          "hash": "YZ/hOmwXqm3wTUVkyI8Vdw=="
         }
       },
       "is_incremental": false,
@@ -2250,7 +2202,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Impostor.SurfaceNode.html",
-          "hash": "t32jmF1aVagPuV2peepM1g=="
+          "hash": "Me7UOwx5AU64oiW1flx/hg=="
         }
       },
       "is_incremental": false,
@@ -2262,7 +2214,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Impostor.Texture2DNode.html",
-          "hash": "alUBKjFXzrhk2X42ESwSlg=="
+          "hash": "CxV37jfYJfO2EV6vSEIqgA=="
         }
       },
       "is_incremental": false,
@@ -2274,7 +2226,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Impostor.TightMeshNode.html",
-          "hash": "TLlFB/iW1KvDLGuVwJzQpw=="
+          "hash": "H+a95vrCreComyBvr5fl0g=="
         }
       },
       "is_incremental": false,
@@ -2286,7 +2238,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Impostor.html",
-          "hash": "uEaK3y8spBUIyLvHikIElQ=="
+          "hash": "UufWJUaqF2FHr33y3NjNkA=="
         }
       },
       "is_incremental": false,
@@ -2310,7 +2262,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "MrYaXKOSm2oALVSMKB9xcQ=="
+          "hash": "2Xmr7SV/fnUXFacN9ZqiyQ=="
         }
       },
       "is_incremental": false,
@@ -2346,7 +2298,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/builder.html",
-          "hash": "h1Xd1pj7m0yNEx6ZrKPMKg=="
+          "hash": "QQwpxPXU7S5PeQrjmla35A=="
         }
       },
       "is_incremental": false,
@@ -2358,7 +2310,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/graph.html",
-          "hash": "dO/xp5QKzrdZFleY1tTGOw=="
+          "hash": "BWiv9/m2SwqA7suLdSlYXg=="
         }
       },
       "is_incremental": false,
@@ -2376,12 +2328,127 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "manual/images/drag-and-drop.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/drag-and-drop.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/impostor-assets.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/impostor-assets.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/impostor-build.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/impostor-build.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/impostor-create.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/impostor-create.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/impostor-empty.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/impostor-empty.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "manual/index.md",
       "output": {
         ".html": {
           "relative_path": "manual/index.html",
-          "hash": "TZbmliD2bjvAsvu9umScYg=="
+          "hash": "egNwWqsHs1TV1PJWU5ehSA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/nodes/custom-node.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/nodes/custom-node.html",
+          "hash": "exiokBNB+ON2hZGM21zu6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/nodes/dilate-node.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/nodes/dilate-node.html",
+          "hash": "8NSrmGVsXxmYT8lEUo1ClQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/nodes/scene-node.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/nodes/scene-node.html",
+          "hash": "ls0Fp6RGUO7R68p9VLU4Vg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/nodes/tight-mesh-node.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/nodes/tight-mesh-node.html",
+          "hash": "Cx2lxZMXi+DruuREdjUy7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/quick-start.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/quick-start.html",
+          "hash": "1M8PS39s/VbLAkL23jE/vw=="
         }
       },
       "is_incremental": false,
@@ -2405,7 +2472,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "sb8WG8za881q9Yo4yqGLXg=="
+          "hash": "I2FLUhRs1vccuG7QPziXsw=="
         }
       },
       "is_incremental": false,
@@ -2438,13 +2505,13 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 7,
+          "total_file_count": 12,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 190,
+          "total_file_count": 186,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
