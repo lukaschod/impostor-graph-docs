@@ -1694,6 +1694,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Impostor.AllowAsyncCompilationScope.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Impostor.AllowAsyncCompilationScope.html",
+          "hash": "LhrwOPaHSCDyXafaitqjzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ProjectDawn.Impostor.BlitMask.yml",
       "output": {
         ".html": {
@@ -1742,11 +1754,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Impostor.CustomRenderMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Impostor.CustomRenderMode.html",
+          "hash": "vf+k+LMD6BX19//pbJsxjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/ProjectDawn.Impostor.Dilate.yml",
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Impostor.Dilate.html",
-          "hash": "qncPArPrPy3Vne6ePWrO9A=="
+          "hash": "KrnAK5dr7dM0WcjWtKxsig=="
         }
       },
       "is_incremental": false,
@@ -1758,7 +1782,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Impostor.DilateNode.html",
-          "hash": "VbfGhfsTg7X422kMc3SRMw=="
+          "hash": "WBpyX1WH/0qiswFtW48vFg=="
         }
       },
       "is_incremental": false,
@@ -1782,7 +1806,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Impostor.Editor.ImpostorBuilderEditor.html",
-          "hash": "7OQrJfAOSXPey7gXkvt71g=="
+          "hash": "mx4230Mf0Ns6l09/hotKZQ=="
         }
       },
       "is_incremental": false,
@@ -1818,7 +1842,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Impostor.Editor.ImpostorGraphWindow.html",
-          "hash": "rwAM7gBsEza81pazwlLXlg=="
+          "hash": "GRlkmjHWvo5gfgaY+fr/Rg=="
         }
       },
       "is_incremental": false,
@@ -1830,7 +1854,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Impostor.Editor.ImpostorNodeView.html",
-          "hash": "SSMShJebElCmtRTjIS0AeQ=="
+          "hash": "2De/ky941ZjULwEZuIJ1VQ=="
         }
       },
       "is_incremental": false,
@@ -1866,7 +1890,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Impostor.HDRenderNormalNode.html",
-          "hash": "XJGKQ7fXC9Ci5/Ffcl3OgA=="
+          "hash": "FdD2m1IQll21Qnjrh9y1yw=="
         }
       },
       "is_incremental": false,
@@ -1926,7 +1950,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Impostor.ImpostorNode.html",
-          "hash": "f5u0Vif52VOcWrHYcXnQIQ=="
+          "hash": "K8OwCyTj+KoOcyevIpy/Eg=="
         }
       },
       "is_incremental": false,
@@ -1998,7 +2022,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Impostor.RenderAlphaNode.html",
-          "hash": "WZqEaLFlNVqknwCr3R0AIg=="
+          "hash": "xI+chV5nSHgdE/X19EeIEw=="
         }
       },
       "is_incremental": false,
@@ -2010,7 +2034,19 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Impostor.RenderBaseNode.html",
-          "hash": "I4lmJ7ZFRTlLUvLA/ay/7g=="
+          "hash": "QBRkajE4yp2MystY+Bj45A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Impostor.RenderCustomNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Impostor.RenderCustomNode.html",
+          "hash": "gOKrfzf2CytV2ZcyhCj0/w=="
         }
       },
       "is_incremental": false,
@@ -2022,7 +2058,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Impostor.RenderDepthNode.html",
-          "hash": "UvYEj/X3s5wfccq2es6zpw=="
+          "hash": "88N7XGS0jt1VY99pbDOidg=="
         }
       },
       "is_incremental": false,
@@ -2034,7 +2070,19 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Impostor.RenderDiffuseNode.html",
-          "hash": "OXbZv/vrKd3nnsFoLHQsmQ=="
+          "hash": "8K8e+uLbHvq55LbuHWf2AQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Impostor.RenderMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Impostor.RenderMode.html",
+          "hash": "jpuXL9uy7WsgeiVy3fsuXA=="
         }
       },
       "is_incremental": false,
@@ -2078,11 +2126,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Impostor.Samples.Tree.CreateImpostor.yml",
+      "source_relative_path": "api/ProjectDawn.Impostor.Samples.GameKit.CameraController.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.Samples.Tree.CreateImpostor.html",
-          "hash": "CwMux0lMebhBE9gQwlGzOA=="
+          "relative_path": "api/ProjectDawn.Impostor.Samples.GameKit.CameraController.html",
+          "hash": "3g97+Ihu75AD5WAZNe7YkQ=="
         }
       },
       "is_incremental": false,
@@ -2090,11 +2138,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Impostor.Samples.Tree.Spawner.yml",
+      "source_relative_path": "api/ProjectDawn.Impostor.Samples.GameKit.ImpostorRuntime.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.Samples.Tree.Spawner.html",
-          "hash": "2E6eiFaTMuseYZg2tTq33w=="
+          "relative_path": "api/ProjectDawn.Impostor.Samples.GameKit.ImpostorRuntime.html",
+          "hash": "8Uh2507z3htqkFT5f8Q1mw=="
         }
       },
       "is_incremental": false,
@@ -2102,11 +2150,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Impostor.Samples.Tree.TextTriangles.yml",
+      "source_relative_path": "api/ProjectDawn.Impostor.Samples.GameKit.TextTriangles.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.Samples.Tree.TextTriangles.html",
-          "hash": "WBvgbQt2QZq41KULgznqsw=="
+          "relative_path": "api/ProjectDawn.Impostor.Samples.GameKit.TextTriangles.html",
+          "hash": "jMRuTp+yun2cmT9WFjnQSg=="
         }
       },
       "is_incremental": false,
@@ -2114,11 +2162,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ProjectDawn.Impostor.Samples.Tree.yml",
+      "source_relative_path": "api/ProjectDawn.Impostor.Samples.GameKit.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.Samples.Tree.html",
-          "hash": "oy6Yu8cUDAZD9nZ+na/jQw=="
+          "relative_path": "api/ProjectDawn.Impostor.Samples.GameKit.html",
+          "hash": "VKC2JetU1/Wfm1iClDbZ7g=="
         }
       },
       "is_incremental": false,
@@ -2130,7 +2178,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Impostor.Scene.html",
-          "hash": "keOOOUZM+sHCDlbbpBLeUA=="
+          "hash": "/CCYLfhlB6PgiwPeNP06Xw=="
         }
       },
       "is_incremental": false,
@@ -2190,7 +2238,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Impostor.Surface.html",
-          "hash": "rUwWxDqxuAf/yL+BWUgbVw=="
+          "hash": "9beciLrkZ0EOQzVqCd+UrA=="
         }
       },
       "is_incremental": false,
@@ -2238,7 +2286,7 @@
       "output": {
         ".html": {
           "relative_path": "api/ProjectDawn.Impostor.html",
-          "hash": "UufWJUaqF2FHr33y3NjNkA=="
+          "hash": "1efzOWG+CKG9d3jijrdHNg=="
         }
       },
       "is_incremental": false,
@@ -2262,7 +2310,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "2Xmr7SV/fnUXFacN9ZqiyQ=="
+          "hash": "W2c9Jb4PiHGq8IkeTuxyqQ=="
         }
       },
       "is_incremental": false,
@@ -2340,6 +2388,17 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "manual/images/header.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/header.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "manual/images/impostor-assets.png",
       "output": {
         "resource": {
@@ -2383,12 +2442,57 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "manual/images/urp-gamekit-rock-runtime.PNG",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/urp-gamekit-rock-runtime.PNG"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/urp-gamekit-vegetation.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/urp-gamekit-vegetation.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "manual/images/urp-gamekit.png",
+      "output": {
+        "resource": {
+          "relative_path": "manual/images/urp-gamekit.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "manual/index.md",
       "output": {
         ".html": {
           "relative_path": "manual/index.html",
-          "hash": "egNwWqsHs1TV1PJWU5ehSA=="
+          "hash": "VEdnVROel9YPukZCAMy1Jw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/limitations.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/limitations.html",
+          "hash": "aYLU8ADMibtnsZpy3Mzypg=="
         }
       },
       "is_incremental": false,
@@ -2420,11 +2524,23 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "manual/nodes/render-custom-node.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/nodes/render-custom-node.html",
+          "hash": "1jhUQWL6dx+IAsDnONKLUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "manual/nodes/scene-node.md",
       "output": {
         ".html": {
           "relative_path": "manual/nodes/scene-node.html",
-          "hash": "ls0Fp6RGUO7R68p9VLU4Vg=="
+          "hash": "ZoUQDEh4Gt8k/v+43fMLIw=="
         }
       },
       "is_incremental": false,
@@ -2460,7 +2576,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/samples.html",
-          "hash": "OkiWUt1RN8PB7+Q3io5fxw=="
+          "hash": "ObrCs1ZKSyWQrmV0pPcYrg=="
         }
       },
       "is_incremental": false,
@@ -2472,7 +2588,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "I2FLUhRs1vccuG7QPziXsw=="
+          "hash": "PqJjLB7Wqea/j2Dlxp0BLw=="
         }
       },
       "is_incremental": false,
@@ -2505,13 +2621,13 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 12,
+          "total_file_count": 14,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 186,
+          "total_file_count": 190,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

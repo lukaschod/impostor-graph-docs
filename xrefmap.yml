@@ -8749,6 +8749,38 @@ references:
   commentId: N:ProjectDawn.Impostor
   fullName: ProjectDawn.Impostor
   nameWithType: ProjectDawn.Impostor
+- uid: ProjectDawn.Impostor.AllowAsyncCompilationScope
+  name: AllowAsyncCompilationScope
+  href: api/ProjectDawn.Impostor.AllowAsyncCompilationScope.html
+  commentId: T:ProjectDawn.Impostor.AllowAsyncCompilationScope
+  fullName: ProjectDawn.Impostor.AllowAsyncCompilationScope
+  nameWithType: AllowAsyncCompilationScope
+- uid: ProjectDawn.Impostor.AllowAsyncCompilationScope.#ctor(System.Boolean)
+  name: AllowAsyncCompilationScope(Boolean)
+  href: api/ProjectDawn.Impostor.AllowAsyncCompilationScope.html#ProjectDawn_Impostor_AllowAsyncCompilationScope__ctor_System_Boolean_
+  commentId: M:ProjectDawn.Impostor.AllowAsyncCompilationScope.#ctor(System.Boolean)
+  fullName: ProjectDawn.Impostor.AllowAsyncCompilationScope.AllowAsyncCompilationScope(System.Boolean)
+  nameWithType: AllowAsyncCompilationScope.AllowAsyncCompilationScope(Boolean)
+- uid: ProjectDawn.Impostor.AllowAsyncCompilationScope.#ctor*
+  name: AllowAsyncCompilationScope
+  href: api/ProjectDawn.Impostor.AllowAsyncCompilationScope.html#ProjectDawn_Impostor_AllowAsyncCompilationScope__ctor_
+  commentId: Overload:ProjectDawn.Impostor.AllowAsyncCompilationScope.#ctor
+  isSpec: "True"
+  fullName: ProjectDawn.Impostor.AllowAsyncCompilationScope.AllowAsyncCompilationScope
+  nameWithType: AllowAsyncCompilationScope.AllowAsyncCompilationScope
+- uid: ProjectDawn.Impostor.AllowAsyncCompilationScope.Dispose
+  name: Dispose()
+  href: api/ProjectDawn.Impostor.AllowAsyncCompilationScope.html#ProjectDawn_Impostor_AllowAsyncCompilationScope_Dispose
+  commentId: M:ProjectDawn.Impostor.AllowAsyncCompilationScope.Dispose
+  fullName: ProjectDawn.Impostor.AllowAsyncCompilationScope.Dispose()
+  nameWithType: AllowAsyncCompilationScope.Dispose()
+- uid: ProjectDawn.Impostor.AllowAsyncCompilationScope.Dispose*
+  name: Dispose
+  href: api/ProjectDawn.Impostor.AllowAsyncCompilationScope.html#ProjectDawn_Impostor_AllowAsyncCompilationScope_Dispose_
+  commentId: Overload:ProjectDawn.Impostor.AllowAsyncCompilationScope.Dispose
+  isSpec: "True"
+  fullName: ProjectDawn.Impostor.AllowAsyncCompilationScope.Dispose
+  nameWithType: AllowAsyncCompilationScope.Dispose
 - uid: ProjectDawn.Impostor.BlitMask
   name: BlitMask
   href: api/ProjectDawn.Impostor.BlitMask.html
@@ -8904,18 +8936,37 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Impostor.CapturePoints.Radius
   nameWithType: CapturePoints.Radius
+- uid: ProjectDawn.Impostor.CustomRenderMode
+  name: CustomRenderMode
+  href: api/ProjectDawn.Impostor.CustomRenderMode.html
+  commentId: T:ProjectDawn.Impostor.CustomRenderMode
+  fullName: ProjectDawn.Impostor.CustomRenderMode
+  nameWithType: CustomRenderMode
+- uid: ProjectDawn.Impostor.CustomRenderMode.Render(UnityEngine.RenderTexture,ProjectDawn.Impostor.Surface,ProjectDawn.Impostor.CapturePoints,UnityEngine.Material)
+  name: Render(RenderTexture, Surface, CapturePoints, Material)
+  href: api/ProjectDawn.Impostor.CustomRenderMode.html#ProjectDawn_Impostor_CustomRenderMode_Render_UnityEngine_RenderTexture_ProjectDawn_Impostor_Surface_ProjectDawn_Impostor_CapturePoints_UnityEngine_Material_
+  commentId: M:ProjectDawn.Impostor.CustomRenderMode.Render(UnityEngine.RenderTexture,ProjectDawn.Impostor.Surface,ProjectDawn.Impostor.CapturePoints,UnityEngine.Material)
+  fullName: ProjectDawn.Impostor.CustomRenderMode.Render(UnityEngine.RenderTexture, ProjectDawn.Impostor.Surface, ProjectDawn.Impostor.CapturePoints, UnityEngine.Material)
+  nameWithType: CustomRenderMode.Render(RenderTexture, Surface, CapturePoints, Material)
+- uid: ProjectDawn.Impostor.CustomRenderMode.Render*
+  name: Render
+  href: api/ProjectDawn.Impostor.CustomRenderMode.html#ProjectDawn_Impostor_CustomRenderMode_Render_
+  commentId: Overload:ProjectDawn.Impostor.CustomRenderMode.Render
+  isSpec: "True"
+  fullName: ProjectDawn.Impostor.CustomRenderMode.Render
+  nameWithType: CustomRenderMode.Render
 - uid: ProjectDawn.Impostor.Dilate
   name: Dilate
   href: api/ProjectDawn.Impostor.Dilate.html
   commentId: T:ProjectDawn.Impostor.Dilate
   fullName: ProjectDawn.Impostor.Dilate
   nameWithType: Dilate
-- uid: ProjectDawn.Impostor.Dilate.Execute(UnityEngine.Rendering.CommandBuffer,UnityEngine.RenderTexture,UnityEngine.RenderTexture,UnityEngine.Material,UnityEngine.Material,System.Int32)
-  name: Execute(CommandBuffer, RenderTexture, RenderTexture, Material, Material, Int32)
-  href: api/ProjectDawn.Impostor.Dilate.html#ProjectDawn_Impostor_Dilate_Execute_UnityEngine_Rendering_CommandBuffer_UnityEngine_RenderTexture_UnityEngine_RenderTexture_UnityEngine_Material_UnityEngine_Material_System_Int32_
-  commentId: M:ProjectDawn.Impostor.Dilate.Execute(UnityEngine.Rendering.CommandBuffer,UnityEngine.RenderTexture,UnityEngine.RenderTexture,UnityEngine.Material,UnityEngine.Material,System.Int32)
-  fullName: ProjectDawn.Impostor.Dilate.Execute(UnityEngine.Rendering.CommandBuffer, UnityEngine.RenderTexture, UnityEngine.RenderTexture, UnityEngine.Material, UnityEngine.Material, System.Int32)
-  nameWithType: Dilate.Execute(CommandBuffer, RenderTexture, RenderTexture, Material, Material, Int32)
+- uid: ProjectDawn.Impostor.Dilate.Execute(UnityEngine.Rendering.CommandBuffer,UnityEngine.RenderTexture,UnityEngine.RenderTexture,UnityEngine.Material,UnityEngine.Material,System.Int32,System.Int32)
+  name: Execute(CommandBuffer, RenderTexture, RenderTexture, Material, Material, Int32, Int32)
+  href: api/ProjectDawn.Impostor.Dilate.html#ProjectDawn_Impostor_Dilate_Execute_UnityEngine_Rendering_CommandBuffer_UnityEngine_RenderTexture_UnityEngine_RenderTexture_UnityEngine_Material_UnityEngine_Material_System_Int32_System_Int32_
+  commentId: M:ProjectDawn.Impostor.Dilate.Execute(UnityEngine.Rendering.CommandBuffer,UnityEngine.RenderTexture,UnityEngine.RenderTexture,UnityEngine.Material,UnityEngine.Material,System.Int32,System.Int32)
+  fullName: ProjectDawn.Impostor.Dilate.Execute(UnityEngine.Rendering.CommandBuffer, UnityEngine.RenderTexture, UnityEngine.RenderTexture, UnityEngine.Material, UnityEngine.Material, System.Int32, System.Int32)
+  nameWithType: Dilate.Execute(CommandBuffer, RenderTexture, RenderTexture, Material, Material, Int32, Int32)
 - uid: ProjectDawn.Impostor.Dilate.Execute*
   name: Execute
   href: api/ProjectDawn.Impostor.Dilate.html#ProjectDawn_Impostor_Dilate_Execute_
@@ -8947,6 +8998,12 @@ references:
   commentId: F:ProjectDawn.Impostor.DilateNode.DilateMaterial
   fullName: ProjectDawn.Impostor.DilateNode.DilateMaterial
   nameWithType: DilateNode.DilateMaterial
+- uid: ProjectDawn.Impostor.DilateNode.Frames
+  name: Frames
+  href: api/ProjectDawn.Impostor.DilateNode.html#ProjectDawn_Impostor_DilateNode_Frames
+  commentId: F:ProjectDawn.Impostor.DilateNode.Frames
+  fullName: ProjectDawn.Impostor.DilateNode.Frames
+  nameWithType: DilateNode.Frames
 - uid: ProjectDawn.Impostor.DilateNode.Iterations
   name: Iterations
   href: api/ProjectDawn.Impostor.DilateNode.html#ProjectDawn_Impostor_DilateNode_Iterations
@@ -9368,12 +9425,6 @@ references:
   commentId: T:ProjectDawn.Impostor.HDRenderNormalNode
   fullName: ProjectDawn.Impostor.HDRenderNormalNode
   nameWithType: HDRenderNormalNode
-- uid: ProjectDawn.Impostor.HDRenderNormalNode.BlitMaterial
-  name: BlitMaterial
-  href: api/ProjectDawn.Impostor.HDRenderNormalNode.html#ProjectDawn_Impostor_HDRenderNormalNode_BlitMaterial
-  commentId: F:ProjectDawn.Impostor.HDRenderNormalNode.BlitMaterial
-  fullName: ProjectDawn.Impostor.HDRenderNormalNode.BlitMaterial
-  nameWithType: HDRenderNormalNode.BlitMaterial
 - uid: ProjectDawn.Impostor.HDRenderNormalNode.Destination
   name: Destination
   href: api/ProjectDawn.Impostor.HDRenderNormalNode.html#ProjectDawn_Impostor_HDRenderNormalNode_Destination
@@ -9876,12 +9927,6 @@ references:
   commentId: T:ProjectDawn.Impostor.RenderAlphaNode
   fullName: ProjectDawn.Impostor.RenderAlphaNode
   nameWithType: RenderAlphaNode
-- uid: ProjectDawn.Impostor.RenderAlphaNode.BlitMaterial
-  name: BlitMaterial
-  href: api/ProjectDawn.Impostor.RenderAlphaNode.html#ProjectDawn_Impostor_RenderAlphaNode_BlitMaterial
-  commentId: F:ProjectDawn.Impostor.RenderAlphaNode.BlitMaterial
-  fullName: ProjectDawn.Impostor.RenderAlphaNode.BlitMaterial
-  nameWithType: RenderAlphaNode.BlitMaterial
 - uid: ProjectDawn.Impostor.RenderAlphaNode.Destination
   name: Destination
   href: api/ProjectDawn.Impostor.RenderAlphaNode.html#ProjectDawn_Impostor_RenderAlphaNode_Destination
@@ -9932,12 +9977,6 @@ references:
   commentId: T:ProjectDawn.Impostor.RenderBaseNode
   fullName: ProjectDawn.Impostor.RenderBaseNode
   nameWithType: RenderBaseNode
-- uid: ProjectDawn.Impostor.RenderBaseNode.BlitMaterial
-  name: BlitMaterial
-  href: api/ProjectDawn.Impostor.RenderBaseNode.html#ProjectDawn_Impostor_RenderBaseNode_BlitMaterial
-  commentId: F:ProjectDawn.Impostor.RenderBaseNode.BlitMaterial
-  fullName: ProjectDawn.Impostor.RenderBaseNode.BlitMaterial
-  nameWithType: RenderBaseNode.BlitMaterial
 - uid: ProjectDawn.Impostor.RenderBaseNode.Destination
   name: Destination
   href: api/ProjectDawn.Impostor.RenderBaseNode.html#ProjectDawn_Impostor_RenderBaseNode_Destination
@@ -9982,18 +10021,74 @@ references:
   commentId: F:ProjectDawn.Impostor.RenderBaseNode.Source
   fullName: ProjectDawn.Impostor.RenderBaseNode.Source
   nameWithType: RenderBaseNode.Source
+- uid: ProjectDawn.Impostor.RenderCustomNode
+  name: RenderCustomNode
+  href: api/ProjectDawn.Impostor.RenderCustomNode.html
+  commentId: T:ProjectDawn.Impostor.RenderCustomNode
+  fullName: ProjectDawn.Impostor.RenderCustomNode
+  nameWithType: RenderCustomNode
+- uid: ProjectDawn.Impostor.RenderCustomNode.CapturePoints
+  name: CapturePoints
+  href: api/ProjectDawn.Impostor.RenderCustomNode.html#ProjectDawn_Impostor_RenderCustomNode_CapturePoints
+  commentId: F:ProjectDawn.Impostor.RenderCustomNode.CapturePoints
+  fullName: ProjectDawn.Impostor.RenderCustomNode.CapturePoints
+  nameWithType: RenderCustomNode.CapturePoints
+- uid: ProjectDawn.Impostor.RenderCustomNode.Destination
+  name: Destination
+  href: api/ProjectDawn.Impostor.RenderCustomNode.html#ProjectDawn_Impostor_RenderCustomNode_Destination
+  commentId: F:ProjectDawn.Impostor.RenderCustomNode.Destination
+  fullName: ProjectDawn.Impostor.RenderCustomNode.Destination
+  nameWithType: RenderCustomNode.Destination
+- uid: ProjectDawn.Impostor.RenderCustomNode.name
+  name: name
+  href: api/ProjectDawn.Impostor.RenderCustomNode.html#ProjectDawn_Impostor_RenderCustomNode_name
+  commentId: P:ProjectDawn.Impostor.RenderCustomNode.name
+  fullName: ProjectDawn.Impostor.RenderCustomNode.name
+  nameWithType: RenderCustomNode.name
+- uid: ProjectDawn.Impostor.RenderCustomNode.name*
+  name: name
+  href: api/ProjectDawn.Impostor.RenderCustomNode.html#ProjectDawn_Impostor_RenderCustomNode_name_
+  commentId: Overload:ProjectDawn.Impostor.RenderCustomNode.name
+  isSpec: "True"
+  fullName: ProjectDawn.Impostor.RenderCustomNode.name
+  nameWithType: RenderCustomNode.name
+- uid: ProjectDawn.Impostor.RenderCustomNode.OverrideMaterial
+  name: OverrideMaterial
+  href: api/ProjectDawn.Impostor.RenderCustomNode.html#ProjectDawn_Impostor_RenderCustomNode_OverrideMaterial
+  commentId: F:ProjectDawn.Impostor.RenderCustomNode.OverrideMaterial
+  fullName: ProjectDawn.Impostor.RenderCustomNode.OverrideMaterial
+  nameWithType: RenderCustomNode.OverrideMaterial
+- uid: ProjectDawn.Impostor.RenderCustomNode.Process
+  name: Process()
+  href: api/ProjectDawn.Impostor.RenderCustomNode.html#ProjectDawn_Impostor_RenderCustomNode_Process
+  commentId: M:ProjectDawn.Impostor.RenderCustomNode.Process
+  fullName: ProjectDawn.Impostor.RenderCustomNode.Process()
+  nameWithType: RenderCustomNode.Process()
+- uid: ProjectDawn.Impostor.RenderCustomNode.Process*
+  name: Process
+  href: api/ProjectDawn.Impostor.RenderCustomNode.html#ProjectDawn_Impostor_RenderCustomNode_Process_
+  commentId: Overload:ProjectDawn.Impostor.RenderCustomNode.Process
+  isSpec: "True"
+  fullName: ProjectDawn.Impostor.RenderCustomNode.Process
+  nameWithType: RenderCustomNode.Process
+- uid: ProjectDawn.Impostor.RenderCustomNode.Source
+  name: Source
+  href: api/ProjectDawn.Impostor.RenderCustomNode.html#ProjectDawn_Impostor_RenderCustomNode_Source
+  commentId: F:ProjectDawn.Impostor.RenderCustomNode.Source
+  fullName: ProjectDawn.Impostor.RenderCustomNode.Source
+  nameWithType: RenderCustomNode.Source
+- uid: ProjectDawn.Impostor.RenderCustomNode.Surface
+  name: Surface
+  href: api/ProjectDawn.Impostor.RenderCustomNode.html#ProjectDawn_Impostor_RenderCustomNode_Surface
+  commentId: F:ProjectDawn.Impostor.RenderCustomNode.Surface
+  fullName: ProjectDawn.Impostor.RenderCustomNode.Surface
+  nameWithType: RenderCustomNode.Surface
 - uid: ProjectDawn.Impostor.RenderDepthNode
   name: RenderDepthNode
   href: api/ProjectDawn.Impostor.RenderDepthNode.html
   commentId: T:ProjectDawn.Impostor.RenderDepthNode
   fullName: ProjectDawn.Impostor.RenderDepthNode
   nameWithType: RenderDepthNode
-- uid: ProjectDawn.Impostor.RenderDepthNode.BlitMaterial
-  name: BlitMaterial
-  href: api/ProjectDawn.Impostor.RenderDepthNode.html#ProjectDawn_Impostor_RenderDepthNode_BlitMaterial
-  commentId: F:ProjectDawn.Impostor.RenderDepthNode.BlitMaterial
-  fullName: ProjectDawn.Impostor.RenderDepthNode.BlitMaterial
-  nameWithType: RenderDepthNode.BlitMaterial
 - uid: ProjectDawn.Impostor.RenderDepthNode.ConvertDepthMaterial
   name: ConvertDepthMaterial
   href: api/ProjectDawn.Impostor.RenderDepthNode.html#ProjectDawn_Impostor_RenderDepthNode_ConvertDepthMaterial
@@ -10050,12 +10145,6 @@ references:
   commentId: T:ProjectDawn.Impostor.RenderDiffuseNode
   fullName: ProjectDawn.Impostor.RenderDiffuseNode
   nameWithType: RenderDiffuseNode
-- uid: ProjectDawn.Impostor.RenderDiffuseNode.BlitMaterial
-  name: BlitMaterial
-  href: api/ProjectDawn.Impostor.RenderDiffuseNode.html#ProjectDawn_Impostor_RenderDiffuseNode_BlitMaterial
-  commentId: F:ProjectDawn.Impostor.RenderDiffuseNode.BlitMaterial
-  fullName: ProjectDawn.Impostor.RenderDiffuseNode.BlitMaterial
-  nameWithType: RenderDiffuseNode.BlitMaterial
 - uid: ProjectDawn.Impostor.RenderDiffuseNode.Destination
   name: Destination
   href: api/ProjectDawn.Impostor.RenderDiffuseNode.html#ProjectDawn_Impostor_RenderDiffuseNode_Destination
@@ -10100,6 +10189,72 @@ references:
   commentId: F:ProjectDawn.Impostor.RenderDiffuseNode.Source
   fullName: ProjectDawn.Impostor.RenderDiffuseNode.Source
   nameWithType: RenderDiffuseNode.Source
+- uid: ProjectDawn.Impostor.RenderMode
+  name: RenderMode
+  href: api/ProjectDawn.Impostor.RenderMode.html
+  commentId: T:ProjectDawn.Impostor.RenderMode
+  fullName: ProjectDawn.Impostor.RenderMode
+  nameWithType: RenderMode
+- uid: ProjectDawn.Impostor.RenderMode.Alpha
+  name: Alpha
+  href: api/ProjectDawn.Impostor.RenderMode.html#ProjectDawn_Impostor_RenderMode_Alpha
+  commentId: F:ProjectDawn.Impostor.RenderMode.Alpha
+  fullName: ProjectDawn.Impostor.RenderMode.Alpha
+  nameWithType: RenderMode.Alpha
+- uid: ProjectDawn.Impostor.RenderMode.BaseColor
+  name: BaseColor
+  href: api/ProjectDawn.Impostor.RenderMode.html#ProjectDawn_Impostor_RenderMode_BaseColor
+  commentId: F:ProjectDawn.Impostor.RenderMode.BaseColor
+  fullName: ProjectDawn.Impostor.RenderMode.BaseColor
+  nameWithType: RenderMode.BaseColor
+- uid: ProjectDawn.Impostor.RenderMode.Depth
+  name: Depth
+  href: api/ProjectDawn.Impostor.RenderMode.html#ProjectDawn_Impostor_RenderMode_Depth
+  commentId: F:ProjectDawn.Impostor.RenderMode.Depth
+  fullName: ProjectDawn.Impostor.RenderMode.Depth
+  nameWithType: RenderMode.Depth
+- uid: ProjectDawn.Impostor.RenderMode.DiffuseColor
+  name: DiffuseColor
+  href: api/ProjectDawn.Impostor.RenderMode.html#ProjectDawn_Impostor_RenderMode_DiffuseColor
+  commentId: F:ProjectDawn.Impostor.RenderMode.DiffuseColor
+  fullName: ProjectDawn.Impostor.RenderMode.DiffuseColor
+  nameWithType: RenderMode.DiffuseColor
+- uid: ProjectDawn.Impostor.RenderMode.Emission
+  name: Emission
+  href: api/ProjectDawn.Impostor.RenderMode.html#ProjectDawn_Impostor_RenderMode_Emission
+  commentId: F:ProjectDawn.Impostor.RenderMode.Emission
+  fullName: ProjectDawn.Impostor.RenderMode.Emission
+  nameWithType: RenderMode.Emission
+- uid: ProjectDawn.Impostor.RenderMode.Metallic
+  name: Metallic
+  href: api/ProjectDawn.Impostor.RenderMode.html#ProjectDawn_Impostor_RenderMode_Metallic
+  commentId: F:ProjectDawn.Impostor.RenderMode.Metallic
+  fullName: ProjectDawn.Impostor.RenderMode.Metallic
+  nameWithType: RenderMode.Metallic
+- uid: ProjectDawn.Impostor.RenderMode.None
+  name: None
+  href: api/ProjectDawn.Impostor.RenderMode.html#ProjectDawn_Impostor_RenderMode_None
+  commentId: F:ProjectDawn.Impostor.RenderMode.None
+  fullName: ProjectDawn.Impostor.RenderMode.None
+  nameWithType: RenderMode.None
+- uid: ProjectDawn.Impostor.RenderMode.Normal
+  name: Normal
+  href: api/ProjectDawn.Impostor.RenderMode.html#ProjectDawn_Impostor_RenderMode_Normal
+  commentId: F:ProjectDawn.Impostor.RenderMode.Normal
+  fullName: ProjectDawn.Impostor.RenderMode.Normal
+  nameWithType: RenderMode.Normal
+- uid: ProjectDawn.Impostor.RenderMode.Occlusion
+  name: Occlusion
+  href: api/ProjectDawn.Impostor.RenderMode.html#ProjectDawn_Impostor_RenderMode_Occlusion
+  commentId: F:ProjectDawn.Impostor.RenderMode.Occlusion
+  fullName: ProjectDawn.Impostor.RenderMode.Occlusion
+  nameWithType: RenderMode.Occlusion
+- uid: ProjectDawn.Impostor.RenderMode.Smoothness
+  name: Smoothness
+  href: api/ProjectDawn.Impostor.RenderMode.html#ProjectDawn_Impostor_RenderMode_Smoothness
+  commentId: F:ProjectDawn.Impostor.RenderMode.Smoothness
+  fullName: ProjectDawn.Impostor.RenderMode.Smoothness
+  nameWithType: RenderMode.Smoothness
 - uid: ProjectDawn.Impostor.RenderPipelineAttribute
   name: RenderPipelineAttribute
   href: api/ProjectDawn.Impostor.RenderPipelineAttribute.html
@@ -10220,54 +10375,108 @@ references:
   commentId: F:ProjectDawn.Impostor.RenderTextureNode.Resolution
   fullName: ProjectDawn.Impostor.RenderTextureNode.Resolution
   nameWithType: RenderTextureNode.Resolution
-- uid: ProjectDawn.Impostor.Samples.Tree
-  name: ProjectDawn.Impostor.Samples.Tree
-  href: api/ProjectDawn.Impostor.Samples.Tree.html
-  commentId: N:ProjectDawn.Impostor.Samples.Tree
-  fullName: ProjectDawn.Impostor.Samples.Tree
-  nameWithType: ProjectDawn.Impostor.Samples.Tree
-- uid: ProjectDawn.Impostor.Samples.Tree.CreateImpostor
-  name: CreateImpostor
-  href: api/ProjectDawn.Impostor.Samples.Tree.CreateImpostor.html
-  commentId: T:ProjectDawn.Impostor.Samples.Tree.CreateImpostor
-  fullName: ProjectDawn.Impostor.Samples.Tree.CreateImpostor
-  nameWithType: CreateImpostor
-- uid: ProjectDawn.Impostor.Samples.Tree.CreateImpostor.Builder
-  name: Builder
-  href: api/ProjectDawn.Impostor.Samples.Tree.CreateImpostor.html#ProjectDawn_Impostor_Samples_Tree_CreateImpostor_Builder
-  commentId: F:ProjectDawn.Impostor.Samples.Tree.CreateImpostor.Builder
-  fullName: ProjectDawn.Impostor.Samples.Tree.CreateImpostor.Builder
-  nameWithType: CreateImpostor.Builder
-- uid: ProjectDawn.Impostor.Samples.Tree.Spawner
-  name: Spawner
-  href: api/ProjectDawn.Impostor.Samples.Tree.Spawner.html
-  commentId: T:ProjectDawn.Impostor.Samples.Tree.Spawner
-  fullName: ProjectDawn.Impostor.Samples.Tree.Spawner
-  nameWithType: Spawner
-- uid: ProjectDawn.Impostor.Samples.Tree.Spawner.Count
-  name: Count
-  href: api/ProjectDawn.Impostor.Samples.Tree.Spawner.html#ProjectDawn_Impostor_Samples_Tree_Spawner_Count
-  commentId: F:ProjectDawn.Impostor.Samples.Tree.Spawner.Count
-  fullName: ProjectDawn.Impostor.Samples.Tree.Spawner.Count
-  nameWithType: Spawner.Count
-- uid: ProjectDawn.Impostor.Samples.Tree.Spawner.Prefab
-  name: Prefab
-  href: api/ProjectDawn.Impostor.Samples.Tree.Spawner.html#ProjectDawn_Impostor_Samples_Tree_Spawner_Prefab
-  commentId: F:ProjectDawn.Impostor.Samples.Tree.Spawner.Prefab
-  fullName: ProjectDawn.Impostor.Samples.Tree.Spawner.Prefab
-  nameWithType: Spawner.Prefab
-- uid: ProjectDawn.Impostor.Samples.Tree.Spawner.Spacing
-  name: Spacing
-  href: api/ProjectDawn.Impostor.Samples.Tree.Spawner.html#ProjectDawn_Impostor_Samples_Tree_Spawner_Spacing
-  commentId: F:ProjectDawn.Impostor.Samples.Tree.Spawner.Spacing
-  fullName: ProjectDawn.Impostor.Samples.Tree.Spawner.Spacing
-  nameWithType: Spawner.Spacing
-- uid: ProjectDawn.Impostor.Samples.Tree.TextTriangles
+- uid: ProjectDawn.Impostor.Samples.GameKit
+  name: ProjectDawn.Impostor.Samples.GameKit
+  href: api/ProjectDawn.Impostor.Samples.GameKit.html
+  commentId: N:ProjectDawn.Impostor.Samples.GameKit
+  fullName: ProjectDawn.Impostor.Samples.GameKit
+  nameWithType: ProjectDawn.Impostor.Samples.GameKit
+- uid: ProjectDawn.Impostor.Samples.GameKit.CameraController
+  name: CameraController
+  href: api/ProjectDawn.Impostor.Samples.GameKit.CameraController.html
+  commentId: T:ProjectDawn.Impostor.Samples.GameKit.CameraController
+  fullName: ProjectDawn.Impostor.Samples.GameKit.CameraController
+  nameWithType: CameraController
+- uid: ProjectDawn.Impostor.Samples.GameKit.CameraController.distance
+  name: distance
+  href: api/ProjectDawn.Impostor.Samples.GameKit.CameraController.html#ProjectDawn_Impostor_Samples_GameKit_CameraController_distance
+  commentId: F:ProjectDawn.Impostor.Samples.GameKit.CameraController.distance
+  fullName: ProjectDawn.Impostor.Samples.GameKit.CameraController.distance
+  nameWithType: CameraController.distance
+- uid: ProjectDawn.Impostor.Samples.GameKit.CameraController.maxDistance
+  name: maxDistance
+  href: api/ProjectDawn.Impostor.Samples.GameKit.CameraController.html#ProjectDawn_Impostor_Samples_GameKit_CameraController_maxDistance
+  commentId: F:ProjectDawn.Impostor.Samples.GameKit.CameraController.maxDistance
+  fullName: ProjectDawn.Impostor.Samples.GameKit.CameraController.maxDistance
+  nameWithType: CameraController.maxDistance
+- uid: ProjectDawn.Impostor.Samples.GameKit.CameraController.minDistance
+  name: minDistance
+  href: api/ProjectDawn.Impostor.Samples.GameKit.CameraController.html#ProjectDawn_Impostor_Samples_GameKit_CameraController_minDistance
+  commentId: F:ProjectDawn.Impostor.Samples.GameKit.CameraController.minDistance
+  fullName: ProjectDawn.Impostor.Samples.GameKit.CameraController.minDistance
+  nameWithType: CameraController.minDistance
+- uid: ProjectDawn.Impostor.Samples.GameKit.CameraController.target
+  name: target
+  href: api/ProjectDawn.Impostor.Samples.GameKit.CameraController.html#ProjectDawn_Impostor_Samples_GameKit_CameraController_target
+  commentId: F:ProjectDawn.Impostor.Samples.GameKit.CameraController.target
+  fullName: ProjectDawn.Impostor.Samples.GameKit.CameraController.target
+  nameWithType: CameraController.target
+- uid: ProjectDawn.Impostor.Samples.GameKit.CameraController.xSpeed
+  name: xSpeed
+  href: api/ProjectDawn.Impostor.Samples.GameKit.CameraController.html#ProjectDawn_Impostor_Samples_GameKit_CameraController_xSpeed
+  commentId: F:ProjectDawn.Impostor.Samples.GameKit.CameraController.xSpeed
+  fullName: ProjectDawn.Impostor.Samples.GameKit.CameraController.xSpeed
+  nameWithType: CameraController.xSpeed
+- uid: ProjectDawn.Impostor.Samples.GameKit.CameraController.yMaxLimit
+  name: yMaxLimit
+  href: api/ProjectDawn.Impostor.Samples.GameKit.CameraController.html#ProjectDawn_Impostor_Samples_GameKit_CameraController_yMaxLimit
+  commentId: F:ProjectDawn.Impostor.Samples.GameKit.CameraController.yMaxLimit
+  fullName: ProjectDawn.Impostor.Samples.GameKit.CameraController.yMaxLimit
+  nameWithType: CameraController.yMaxLimit
+- uid: ProjectDawn.Impostor.Samples.GameKit.CameraController.yMinLimit
+  name: yMinLimit
+  href: api/ProjectDawn.Impostor.Samples.GameKit.CameraController.html#ProjectDawn_Impostor_Samples_GameKit_CameraController_yMinLimit
+  commentId: F:ProjectDawn.Impostor.Samples.GameKit.CameraController.yMinLimit
+  fullName: ProjectDawn.Impostor.Samples.GameKit.CameraController.yMinLimit
+  nameWithType: CameraController.yMinLimit
+- uid: ProjectDawn.Impostor.Samples.GameKit.CameraController.ySpeed
+  name: ySpeed
+  href: api/ProjectDawn.Impostor.Samples.GameKit.CameraController.html#ProjectDawn_Impostor_Samples_GameKit_CameraController_ySpeed
+  commentId: F:ProjectDawn.Impostor.Samples.GameKit.CameraController.ySpeed
+  fullName: ProjectDawn.Impostor.Samples.GameKit.CameraController.ySpeed
+  nameWithType: CameraController.ySpeed
+- uid: ProjectDawn.Impostor.Samples.GameKit.CameraController.zoomSpeed
+  name: zoomSpeed
+  href: api/ProjectDawn.Impostor.Samples.GameKit.CameraController.html#ProjectDawn_Impostor_Samples_GameKit_CameraController_zoomSpeed
+  commentId: F:ProjectDawn.Impostor.Samples.GameKit.CameraController.zoomSpeed
+  fullName: ProjectDawn.Impostor.Samples.GameKit.CameraController.zoomSpeed
+  nameWithType: CameraController.zoomSpeed
+- uid: ProjectDawn.Impostor.Samples.GameKit.ImpostorRuntime
+  name: ImpostorRuntime
+  href: api/ProjectDawn.Impostor.Samples.GameKit.ImpostorRuntime.html
+  commentId: T:ProjectDawn.Impostor.Samples.GameKit.ImpostorRuntime
+  fullName: ProjectDawn.Impostor.Samples.GameKit.ImpostorRuntime
+  nameWithType: ImpostorRuntime
+- uid: ProjectDawn.Impostor.Samples.GameKit.ImpostorRuntime.Graph
+  name: Graph
+  href: api/ProjectDawn.Impostor.Samples.GameKit.ImpostorRuntime.html#ProjectDawn_Impostor_Samples_GameKit_ImpostorRuntime_Graph
+  commentId: F:ProjectDawn.Impostor.Samples.GameKit.ImpostorRuntime.Graph
+  fullName: ProjectDawn.Impostor.Samples.GameKit.ImpostorRuntime.Graph
+  nameWithType: ImpostorRuntime.Graph
+- uid: ProjectDawn.Impostor.Samples.GameKit.ImpostorRuntime.Target
+  name: Target
+  href: api/ProjectDawn.Impostor.Samples.GameKit.ImpostorRuntime.html#ProjectDawn_Impostor_Samples_GameKit_ImpostorRuntime_Target
+  commentId: F:ProjectDawn.Impostor.Samples.GameKit.ImpostorRuntime.Target
+  fullName: ProjectDawn.Impostor.Samples.GameKit.ImpostorRuntime.Target
+  nameWithType: ImpostorRuntime.Target
+- uid: ProjectDawn.Impostor.Samples.GameKit.TextTriangles
   name: TextTriangles
-  href: api/ProjectDawn.Impostor.Samples.Tree.TextTriangles.html
-  commentId: T:ProjectDawn.Impostor.Samples.Tree.TextTriangles
-  fullName: ProjectDawn.Impostor.Samples.Tree.TextTriangles
+  href: api/ProjectDawn.Impostor.Samples.GameKit.TextTriangles.html
+  commentId: T:ProjectDawn.Impostor.Samples.GameKit.TextTriangles
+  fullName: ProjectDawn.Impostor.Samples.GameKit.TextTriangles
   nameWithType: TextTriangles
+- uid: ProjectDawn.Impostor.Samples.GameKit.TextTriangles.FontSize
+  name: FontSize
+  href: api/ProjectDawn.Impostor.Samples.GameKit.TextTriangles.html#ProjectDawn_Impostor_Samples_GameKit_TextTriangles_FontSize
+  commentId: F:ProjectDawn.Impostor.Samples.GameKit.TextTriangles.FontSize
+  fullName: ProjectDawn.Impostor.Samples.GameKit.TextTriangles.FontSize
+  nameWithType: TextTriangles.FontSize
+- uid: ProjectDawn.Impostor.Samples.GameKit.TextTriangles.IncludeSkyBoxAndGroundTriangles
+  name: IncludeSkyBoxAndGroundTriangles
+  href: api/ProjectDawn.Impostor.Samples.GameKit.TextTriangles.html#ProjectDawn_Impostor_Samples_GameKit_TextTriangles_IncludeSkyBoxAndGroundTriangles
+  commentId: F:ProjectDawn.Impostor.Samples.GameKit.TextTriangles.IncludeSkyBoxAndGroundTriangles
+  fullName: ProjectDawn.Impostor.Samples.GameKit.TextTriangles.IncludeSkyBoxAndGroundTriangles
+  nameWithType: TextTriangles.IncludeSkyBoxAndGroundTriangles
 - uid: ProjectDawn.Impostor.Scene
   name: Scene
   href: api/ProjectDawn.Impostor.Scene.html
@@ -10313,12 +10522,12 @@ references:
   isSpec: "True"
   fullName: ProjectDawn.Impostor.Scene.Dispose
   nameWithType: Scene.Dispose
-- uid: ProjectDawn.Impostor.Scene.Render(UnityEngine.RenderTexture,UnityEngine.Material,UnityEngine.Camera.RenderRequestMode)
-  name: Render(RenderTexture, Material, Camera.RenderRequestMode)
-  href: api/ProjectDawn.Impostor.Scene.html#ProjectDawn_Impostor_Scene_Render_UnityEngine_RenderTexture_UnityEngine_Material_UnityEngine_Camera_RenderRequestMode_
-  commentId: M:ProjectDawn.Impostor.Scene.Render(UnityEngine.RenderTexture,UnityEngine.Material,UnityEngine.Camera.RenderRequestMode)
-  fullName: ProjectDawn.Impostor.Scene.Render(UnityEngine.RenderTexture, UnityEngine.Material, UnityEngine.Camera.RenderRequestMode)
-  nameWithType: Scene.Render(RenderTexture, Material, Camera.RenderRequestMode)
+- uid: ProjectDawn.Impostor.Scene.Render(UnityEngine.RenderTexture,ProjectDawn.Impostor.RenderMode)
+  name: Render(RenderTexture, RenderMode)
+  href: api/ProjectDawn.Impostor.Scene.html#ProjectDawn_Impostor_Scene_Render_UnityEngine_RenderTexture_ProjectDawn_Impostor_RenderMode_
+  commentId: M:ProjectDawn.Impostor.Scene.Render(UnityEngine.RenderTexture,ProjectDawn.Impostor.RenderMode)
+  fullName: ProjectDawn.Impostor.Scene.Render(UnityEngine.RenderTexture, ProjectDawn.Impostor.RenderMode)
+  nameWithType: Scene.Render(RenderTexture, RenderMode)
 - uid: ProjectDawn.Impostor.Scene.Render*
   name: Render
   href: api/ProjectDawn.Impostor.Scene.html#ProjectDawn_Impostor_Scene_Render_
