@@ -1,5 +1,4 @@
 {
-  "homepages": [],
   "source_base_path": "C:/Users/Lukas/Source/AssetStore/Impostor/Impostor.URP/Temp/.docfx_project",
   "xrefmap": "xrefmap.yml",
   "files": [
@@ -9,19 +8,16 @@
         "resource": {
           "relative_path": "index.json"
         }
-      },
-      "is_incremental": false
+      }
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/GraphProcessor.AnimationCurveParameter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.AnimationCurveParameter.html",
-          "hash": "QEM/g72UEsnNa1XlEKW73w=="
+          "relative_path": "api/GraphProcessor.AnimationCurveParameter.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -29,11 +25,9 @@
       "source_relative_path": "api/GraphProcessor.AppDomainExtension.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.AppDomainExtension.html",
-          "hash": "6RsJG6r4ubaSSR0YH0hx7A=="
+          "relative_path": "api/GraphProcessor.AppDomainExtension.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -41,11 +35,9 @@
       "source_relative_path": "api/GraphProcessor.BaseEdgeConnector.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.BaseEdgeConnector.html",
-          "hash": "aAlGmPQMGnvvpXb0XhEKEg=="
+          "relative_path": "api/GraphProcessor.BaseEdgeConnector.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -53,11 +45,9 @@
       "source_relative_path": "api/GraphProcessor.BaseEdgeConnectorListener.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.BaseEdgeConnectorListener.html",
-          "hash": "q9EJxtMDyekDg0IUfAqKlA=="
+          "relative_path": "api/GraphProcessor.BaseEdgeConnectorListener.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -65,11 +55,9 @@
       "source_relative_path": "api/GraphProcessor.BaseEdgeDragHelper.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.BaseEdgeDragHelper.html",
-          "hash": "b7E+dS+kr/ebg6NRbOQFNw=="
+          "relative_path": "api/GraphProcessor.BaseEdgeDragHelper.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -77,11 +65,9 @@
       "source_relative_path": "api/GraphProcessor.BaseGraph.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.BaseGraph.html",
-          "hash": "JPW4O/jRzUvQxlNUPYVVbA=="
+          "relative_path": "api/GraphProcessor.BaseGraph.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -89,11 +75,9 @@
       "source_relative_path": "api/GraphProcessor.BaseGraphProcessor.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.BaseGraphProcessor.html",
-          "hash": "BeYJ5i+Xfv9KLmNYHFbV/A=="
+          "relative_path": "api/GraphProcessor.BaseGraphProcessor.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -101,11 +85,9 @@
       "source_relative_path": "api/GraphProcessor.BaseGraphView.ComputeOrderUpdatedDelegate.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.BaseGraphView.ComputeOrderUpdatedDelegate.html",
-          "hash": "7G4birWScsj7sLWLxNJnhA=="
+          "relative_path": "api/GraphProcessor.BaseGraphView.ComputeOrderUpdatedDelegate.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -113,11 +95,9 @@
       "source_relative_path": "api/GraphProcessor.BaseGraphView.NodeDuplicatedDelegate.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.BaseGraphView.NodeDuplicatedDelegate.html",
-          "hash": "pqFjI+2YSODBBlew059kBA=="
+          "relative_path": "api/GraphProcessor.BaseGraphView.NodeDuplicatedDelegate.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -125,11 +105,9 @@
       "source_relative_path": "api/GraphProcessor.BaseGraphView.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.BaseGraphView.html",
-          "hash": "7jgJJf9k5p7m2WZ81G9UhQ=="
+          "relative_path": "api/GraphProcessor.BaseGraphView.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -137,11 +115,9 @@
       "source_relative_path": "api/GraphProcessor.BaseGraphWindow.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.BaseGraphWindow.html",
-          "hash": "/IhpicsvVvxmw45t9UF7bg=="
+          "relative_path": "api/GraphProcessor.BaseGraphWindow.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -149,11 +125,9 @@
       "source_relative_path": "api/GraphProcessor.BaseNode.ProcessDelegate.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.BaseNode.ProcessDelegate.html",
-          "hash": "71+Svk6aTYoLxfoqzl36lw=="
+          "relative_path": "api/GraphProcessor.BaseNode.ProcessDelegate.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -161,11 +135,9 @@
       "source_relative_path": "api/GraphProcessor.BaseNode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.BaseNode.html",
-          "hash": "S85SNTw73juy3SiPUt9CgQ=="
+          "relative_path": "api/GraphProcessor.BaseNode.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -173,11 +145,9 @@
       "source_relative_path": "api/GraphProcessor.BaseNodeView.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.BaseNodeView.html",
-          "hash": "mJLMSSHz20ag4X9YyhUu1A=="
+          "relative_path": "api/GraphProcessor.BaseNodeView.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -185,11 +155,9 @@
       "source_relative_path": "api/GraphProcessor.BaseStackNode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.BaseStackNode.html",
-          "hash": "JgQv9QFrv+hpXgfMx1dGMA=="
+          "relative_path": "api/GraphProcessor.BaseStackNode.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -197,11 +165,9 @@
       "source_relative_path": "api/GraphProcessor.BaseStackNodeView.ReorderNodeAction.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.BaseStackNodeView.ReorderNodeAction.html",
-          "hash": "9ra5UE8ShFkOJmh6aqMRBg=="
+          "relative_path": "api/GraphProcessor.BaseStackNodeView.ReorderNodeAction.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -209,11 +175,9 @@
       "source_relative_path": "api/GraphProcessor.BaseStackNodeView.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.BaseStackNodeView.html",
-          "hash": "+T0XuTmFQqxpHCjKc450bw=="
+          "relative_path": "api/GraphProcessor.BaseStackNodeView.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -221,11 +185,9 @@
       "source_relative_path": "api/GraphProcessor.BoolParameter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.BoolParameter.html",
-          "hash": "nG1T+QxQPwRcuauTPVWvrQ=="
+          "relative_path": "api/GraphProcessor.BoolParameter.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -233,11 +195,9 @@
       "source_relative_path": "api/GraphProcessor.BoundsIntParameter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.BoundsIntParameter.html",
-          "hash": "CO9WvAnjXqhWpMBHk620JA=="
+          "relative_path": "api/GraphProcessor.BoundsIntParameter.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -245,11 +205,9 @@
       "source_relative_path": "api/GraphProcessor.BoundsParameter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.BoundsParameter.html",
-          "hash": "NwTOZeseLryptXJVjJW8OQ=="
+          "relative_path": "api/GraphProcessor.BoundsParameter.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -257,11 +215,9 @@
       "source_relative_path": "api/GraphProcessor.ColorParameter.ColorMode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.ColorParameter.ColorMode.html",
-          "hash": "Ge8Z4a4fZFlF4s28BEWcGQ=="
+          "relative_path": "api/GraphProcessor.ColorParameter.ColorMode.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -269,11 +225,9 @@
       "source_relative_path": "api/GraphProcessor.ColorParameter.ColorSettings.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.ColorParameter.ColorSettings.html",
-          "hash": "5MpvSoG1ruqzisSyg2CGjw=="
+          "relative_path": "api/GraphProcessor.ColorParameter.ColorSettings.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -281,11 +235,9 @@
       "source_relative_path": "api/GraphProcessor.ColorParameter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.ColorParameter.html",
-          "hash": "YqlTGBNuGb4Ig7e8ar5yJg=="
+          "relative_path": "api/GraphProcessor.ColorParameter.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -293,11 +245,9 @@
       "source_relative_path": "api/GraphProcessor.ColorParameterDrawer.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.ColorParameterDrawer.html",
-          "hash": "9BxvOj3Z/NX9g8zacshXdw=="
+          "relative_path": "api/GraphProcessor.ColorParameterDrawer.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -305,11 +255,9 @@
       "source_relative_path": "api/GraphProcessor.ComputeOrderType.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.ComputeOrderType.html",
-          "hash": "TRqa4LZbb4hTOzbGFRvnXQ=="
+          "relative_path": "api/GraphProcessor.ComputeOrderType.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -317,11 +265,9 @@
       "source_relative_path": "api/GraphProcessor.CopyPasteHelper.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.CopyPasteHelper.html",
-          "hash": "C8yXMwJI7EW0owkuVuwQCQ=="
+          "relative_path": "api/GraphProcessor.CopyPasteHelper.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -329,11 +275,9 @@
       "source_relative_path": "api/GraphProcessor.CustomPortBehaviorAttribute.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.CustomPortBehaviorAttribute.html",
-          "hash": "Uow0Pc1zcljIkRhphTNs0A=="
+          "relative_path": "api/GraphProcessor.CustomPortBehaviorAttribute.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -341,11 +285,9 @@
       "source_relative_path": "api/GraphProcessor.CustomPortBehaviorDelegate.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.CustomPortBehaviorDelegate.html",
-          "hash": "Ltowy8XYFKxbKyxuJ90L5A=="
+          "relative_path": "api/GraphProcessor.CustomPortBehaviorDelegate.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -353,11 +295,9 @@
       "source_relative_path": "api/GraphProcessor.CustomPortIO.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.CustomPortIO.html",
-          "hash": "b29FCBTHGK/jNfW2Bk7V2A=="
+          "relative_path": "api/GraphProcessor.CustomPortIO.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -365,11 +305,9 @@
       "source_relative_path": "api/GraphProcessor.CustomPortIODelegate.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.CustomPortIODelegate.html",
-          "hash": "EV/JInX0S1fQx7VEDa4Dtw=="
+          "relative_path": "api/GraphProcessor.CustomPortIODelegate.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -377,11 +315,9 @@
       "source_relative_path": "api/GraphProcessor.CustomPortInputAttribute.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.CustomPortInputAttribute.html",
-          "hash": "pe0R5pprmkVicpRDyZFvOw=="
+          "relative_path": "api/GraphProcessor.CustomPortInputAttribute.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -389,11 +325,9 @@
       "source_relative_path": "api/GraphProcessor.CustomPortOutputAttribute.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.CustomPortOutputAttribute.html",
-          "hash": "PLR1INjvY8b08kaSXGSIjw=="
+          "relative_path": "api/GraphProcessor.CustomPortOutputAttribute.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -401,11 +335,9 @@
       "source_relative_path": "api/GraphProcessor.CustomPortTypeBehavior.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.CustomPortTypeBehavior.html",
-          "hash": "kHNue4MQCvJbWQsHD5Xu0Q=="
+          "relative_path": "api/GraphProcessor.CustomPortTypeBehavior.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -413,11 +345,9 @@
       "source_relative_path": "api/GraphProcessor.CustomPortTypeBehaviorDelegate.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.CustomPortTypeBehaviorDelegate.html",
-          "hash": "lFdPrL07NgL/f/cGuTR0vg=="
+          "relative_path": "api/GraphProcessor.CustomPortTypeBehaviorDelegate.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -425,11 +355,9 @@
       "source_relative_path": "api/GraphProcessor.CustomStackNodeView.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.CustomStackNodeView.html",
-          "hash": "vBGwMJaMWbCEfknYdS2lSg=="
+          "relative_path": "api/GraphProcessor.CustomStackNodeView.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -437,11 +365,9 @@
       "source_relative_path": "api/GraphProcessor.DeleteCallback.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.DeleteCallback.html",
-          "hash": "NNBhGQ1ku1TKt2rvCKAhQA=="
+          "relative_path": "api/GraphProcessor.DeleteCallback.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -449,11 +375,9 @@
       "source_relative_path": "api/GraphProcessor.DoubleParameter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.DoubleParameter.html",
-          "hash": "QnTwXo1r96fvf2WH+/jl2Q=="
+          "relative_path": "api/GraphProcessor.DoubleParameter.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -461,11 +385,9 @@
       "source_relative_path": "api/GraphProcessor.EdgeView.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.EdgeView.html",
-          "hash": "b7kRXJR56cfOL7EwtDbiww=="
+          "relative_path": "api/GraphProcessor.EdgeView.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -473,11 +395,9 @@
       "source_relative_path": "api/GraphProcessor.ExceptionToLog.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.ExceptionToLog.html",
-          "hash": "8I+XH/2ukYEZTGe22iR1Tw=="
+          "relative_path": "api/GraphProcessor.ExceptionToLog.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -485,11 +405,9 @@
       "source_relative_path": "api/GraphProcessor.ExposedColorSettingsDrawer.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.ExposedColorSettingsDrawer.html",
-          "hash": "phfXIvTSF7e8/Gz836KmWw=="
+          "relative_path": "api/GraphProcessor.ExposedColorSettingsDrawer.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -497,11 +415,9 @@
       "source_relative_path": "api/GraphProcessor.ExposedParameter.Settings.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.ExposedParameter.Settings.html",
-          "hash": "efFjSev0TZ6fh38OVmaqkA=="
+          "relative_path": "api/GraphProcessor.ExposedParameter.Settings.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -509,11 +425,9 @@
       "source_relative_path": "api/GraphProcessor.ExposedParameter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.ExposedParameter.html",
-          "hash": "xnZa/62vUJqwGZ0Uu15N8g=="
+          "relative_path": "api/GraphProcessor.ExposedParameter.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -521,11 +435,9 @@
       "source_relative_path": "api/GraphProcessor.ExposedParameterDrawer.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.ExposedParameterDrawer.html",
-          "hash": "zCKyInQ/qMOkKRL0Shpe0g=="
+          "relative_path": "api/GraphProcessor.ExposedParameterDrawer.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -533,11 +445,9 @@
       "source_relative_path": "api/GraphProcessor.ExposedParameterFieldFactory.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.ExposedParameterFieldFactory.html",
-          "hash": "EAXmYJUDuKCOvv6UU7vc2Q=="
+          "relative_path": "api/GraphProcessor.ExposedParameterFieldFactory.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -545,11 +455,9 @@
       "source_relative_path": "api/GraphProcessor.ExposedParameterFieldView.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.ExposedParameterFieldView.html",
-          "hash": "bZx7CLp4UVXPaTNH2LLOPg=="
+          "relative_path": "api/GraphProcessor.ExposedParameterFieldView.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -557,11 +465,9 @@
       "source_relative_path": "api/GraphProcessor.ExposedParameterPropertyView.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.ExposedParameterPropertyView.html",
-          "hash": "uj5ss4piNP/7U59s/jc+jQ=="
+          "relative_path": "api/GraphProcessor.ExposedParameterPropertyView.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -569,11 +475,9 @@
       "source_relative_path": "api/GraphProcessor.ExposedParameterSettingsDrawer.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.ExposedParameterSettingsDrawer.html",
-          "hash": "iNIxWiDEmTvE9qItL+s6Kg=="
+          "relative_path": "api/GraphProcessor.ExposedParameterSettingsDrawer.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -581,11 +485,9 @@
       "source_relative_path": "api/GraphProcessor.ExposedParameterView.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.ExposedParameterView.html",
-          "hash": "N6cji4hRt79a5BnOCBK6JA=="
+          "relative_path": "api/GraphProcessor.ExposedParameterView.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -593,11 +495,9 @@
       "source_relative_path": "api/GraphProcessor.ExposedParameterWorkaround.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.ExposedParameterWorkaround.html",
-          "hash": "H2eJ5Mf6nde7vGn8ocbgeA=="
+          "relative_path": "api/GraphProcessor.ExposedParameterWorkaround.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -605,11 +505,9 @@
       "source_relative_path": "api/GraphProcessor.FieldDrawerAttribute.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.FieldDrawerAttribute.html",
-          "hash": "XQ9EpWGHrCzuBL936YndIw=="
+          "relative_path": "api/GraphProcessor.FieldDrawerAttribute.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -617,11 +515,9 @@
       "source_relative_path": "api/GraphProcessor.FieldFactory.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.FieldFactory.html",
-          "hash": "DDu61gVz+UFmhPxLXgDFzQ=="
+          "relative_path": "api/GraphProcessor.FieldFactory.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -629,11 +525,9 @@
       "source_relative_path": "api/GraphProcessor.FloatParameter.FloatMode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.FloatParameter.FloatMode.html",
-          "hash": "lJm3NvRfcYh4aQiEdoKgpA=="
+          "relative_path": "api/GraphProcessor.FloatParameter.FloatMode.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -641,11 +535,9 @@
       "source_relative_path": "api/GraphProcessor.FloatParameter.FloatSettings.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.FloatParameter.FloatSettings.html",
-          "hash": "4Dwzc+fe4bYytgWu3IGRhw=="
+          "relative_path": "api/GraphProcessor.FloatParameter.FloatSettings.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -653,11 +545,9 @@
       "source_relative_path": "api/GraphProcessor.FloatParameter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.FloatParameter.html",
-          "hash": "I6i5Av63p02fP0/kmRfYKQ=="
+          "relative_path": "api/GraphProcessor.FloatParameter.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -665,11 +555,9 @@
       "source_relative_path": "api/GraphProcessor.FloatParameterDrawer.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.FloatParameterDrawer.html",
-          "hash": "rLIgT2ymI5PhsYpnXPKulA=="
+          "relative_path": "api/GraphProcessor.FloatParameterDrawer.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -677,11 +565,9 @@
       "source_relative_path": "api/GraphProcessor.FloatSettingsDrawer.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.FloatSettingsDrawer.html",
-          "hash": "sIJKKOhUfK7vlXABKtgEDg=="
+          "relative_path": "api/GraphProcessor.FloatSettingsDrawer.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -689,11 +575,9 @@
       "source_relative_path": "api/GraphProcessor.GameObjectParameter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.GameObjectParameter.html",
-          "hash": "4DVAPx9JzF7rMtvt9T9F2g=="
+          "relative_path": "api/GraphProcessor.GameObjectParameter.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -701,11 +585,9 @@
       "source_relative_path": "api/GraphProcessor.GradientParameter.GradientColorMode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.GradientParameter.GradientColorMode.html",
-          "hash": "5MC3pEGL1K3B7y+xLpMIhA=="
+          "relative_path": "api/GraphProcessor.GradientParameter.GradientColorMode.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -713,11 +595,9 @@
       "source_relative_path": "api/GraphProcessor.GradientParameter.GradientSettings.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.GradientParameter.GradientSettings.html",
-          "hash": "PipuTyc4Q0rfp2a0fb94og=="
+          "relative_path": "api/GraphProcessor.GradientParameter.GradientSettings.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -725,11 +605,9 @@
       "source_relative_path": "api/GraphProcessor.GradientParameter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.GradientParameter.html",
-          "hash": "5uHIAfzkvyj1pU13XXTkVQ=="
+          "relative_path": "api/GraphProcessor.GradientParameter.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -737,11 +615,9 @@
       "source_relative_path": "api/GraphProcessor.GradientParameterDrawer.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.GradientParameterDrawer.html",
-          "hash": "FWY/Trd862NyzEiVOXZrlQ=="
+          "relative_path": "api/GraphProcessor.GradientParameterDrawer.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -749,11 +625,9 @@
       "source_relative_path": "api/GraphProcessor.GradientSettingsDrawer.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.GradientSettingsDrawer.html",
-          "hash": "I2Kt5NIGdC8z5ur6PE8EbA=="
+          "relative_path": "api/GraphProcessor.GradientSettingsDrawer.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -761,11 +635,9 @@
       "source_relative_path": "api/GraphProcessor.GraphChanges.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.GraphChanges.html",
-          "hash": "zzZ3q9IqPsDzzh8Z1l1P1g=="
+          "relative_path": "api/GraphProcessor.GraphChanges.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -773,11 +645,9 @@
       "source_relative_path": "api/GraphProcessor.GraphInspector.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.GraphInspector.html",
-          "hash": "kTcQx56q/8L/mxrax74TVQ=="
+          "relative_path": "api/GraphProcessor.GraphInspector.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -785,11 +655,9 @@
       "source_relative_path": "api/GraphProcessor.GraphUtils.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.GraphUtils.html",
-          "hash": "DhW25z5wCPEqwR9JlXhb9w=="
+          "relative_path": "api/GraphProcessor.GraphUtils.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -797,11 +665,9 @@
       "source_relative_path": "api/GraphProcessor.Group.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.Group.html",
-          "hash": "xEqQ73WunNRBbUMo/FX4zQ=="
+          "relative_path": "api/GraphProcessor.Group.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -809,11 +675,9 @@
       "source_relative_path": "api/GraphProcessor.GroupView.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.GroupView.html",
-          "hash": "5XtzZp8cDEw0FScAV9Nl5Q=="
+          "relative_path": "api/GraphProcessor.GroupView.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -821,11 +685,9 @@
       "source_relative_path": "api/GraphProcessor.ICreateNodeFrom-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.ICreateNodeFrom-1.html",
-          "hash": "AU4YqVuMrq9xPtt2DZ7dcg=="
+          "relative_path": "api/GraphProcessor.ICreateNodeFrom-1.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -833,11 +695,9 @@
       "source_relative_path": "api/GraphProcessor.ITypeAdapter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.ITypeAdapter.html",
-          "hash": "9G4G6fL2r3j5iMTuFQHhIA=="
+          "relative_path": "api/GraphProcessor.ITypeAdapter.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -845,11 +705,9 @@
       "source_relative_path": "api/GraphProcessor.IngredientDrawerUIE.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.IngredientDrawerUIE.html",
-          "hash": "2L4BjcA8ViuF1CWS33JUfw=="
+          "relative_path": "api/GraphProcessor.IngredientDrawerUIE.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -857,11 +715,9 @@
       "source_relative_path": "api/GraphProcessor.InputAttribute.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.InputAttribute.html",
-          "hash": "jWCo6bXrely/tz2da3poUw=="
+          "relative_path": "api/GraphProcessor.InputAttribute.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -869,11 +725,9 @@
       "source_relative_path": "api/GraphProcessor.IntParameter.IntMode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.IntParameter.IntMode.html",
-          "hash": "unt4lEAakYuNro9NV+qWpA=="
+          "relative_path": "api/GraphProcessor.IntParameter.IntMode.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -881,11 +735,9 @@
       "source_relative_path": "api/GraphProcessor.IntParameter.IntSettings.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.IntParameter.IntSettings.html",
-          "hash": "zwLjojnUFVU9gfK8yKyxHg=="
+          "relative_path": "api/GraphProcessor.IntParameter.IntSettings.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -893,11 +745,9 @@
       "source_relative_path": "api/GraphProcessor.IntParameter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.IntParameter.html",
-          "hash": "CaLFHZ7gjGujrx6kOQttgw=="
+          "relative_path": "api/GraphProcessor.IntParameter.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -905,11 +755,9 @@
       "source_relative_path": "api/GraphProcessor.IntParameterDrawer.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.IntParameterDrawer.html",
-          "hash": "9C3izYj6047COxkcL8vdWA=="
+          "relative_path": "api/GraphProcessor.IntParameterDrawer.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -917,11 +765,9 @@
       "source_relative_path": "api/GraphProcessor.IntSettingsDrawer.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.IntSettingsDrawer.html",
-          "hash": "V/wziyELIyGvE3jAtb4KDg=="
+          "relative_path": "api/GraphProcessor.IntSettingsDrawer.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -929,11 +775,9 @@
       "source_relative_path": "api/GraphProcessor.IsCompatibleWithGraph.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.IsCompatibleWithGraph.html",
-          "hash": "LFbVTtp7a4Nx4ENFjbOVUA=="
+          "relative_path": "api/GraphProcessor.IsCompatibleWithGraph.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -941,11 +785,9 @@
       "source_relative_path": "api/GraphProcessor.JobGraphProcessor.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.JobGraphProcessor.html",
-          "hash": "IbNGF00LCpf1vm54sgDZoQ=="
+          "relative_path": "api/GraphProcessor.JobGraphProcessor.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -953,11 +795,9 @@
       "source_relative_path": "api/GraphProcessor.JsonElement.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.JsonElement.html",
-          "hash": "znuyMV8tMDkXv1fLK3v1vQ=="
+          "relative_path": "api/GraphProcessor.JsonElement.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -965,11 +805,9 @@
       "source_relative_path": "api/GraphProcessor.JsonSerializer.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.JsonSerializer.html",
-          "hash": "z7d26umDDziPSUmW6u+tig=="
+          "relative_path": "api/GraphProcessor.JsonSerializer.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -977,11 +815,9 @@
       "source_relative_path": "api/GraphProcessor.LongParameter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.LongParameter.html",
-          "hash": "C/YS2jlpSCGwk7loQMCmiw=="
+          "relative_path": "api/GraphProcessor.LongParameter.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -989,11 +825,9 @@
       "source_relative_path": "api/GraphProcessor.MaterialParameter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.MaterialParameter.html",
-          "hash": "hDKA9pA7RBMoBDTrkQyKjQ=="
+          "relative_path": "api/GraphProcessor.MaterialParameter.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1001,11 +835,9 @@
       "source_relative_path": "api/GraphProcessor.MeshParameter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.MeshParameter.html",
-          "hash": "R4Mh9bxnz+mDApZIi3Kv1A=="
+          "relative_path": "api/GraphProcessor.MeshParameter.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1013,11 +845,9 @@
       "source_relative_path": "api/GraphProcessor.MiniMapView.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.MiniMapView.html",
-          "hash": "k2WPJj93GVGmEFuF7apfuw=="
+          "relative_path": "api/GraphProcessor.MiniMapView.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1025,11 +855,9 @@
       "source_relative_path": "api/GraphProcessor.NodeBadgeView.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.NodeBadgeView.html",
-          "hash": "vsT5xOunw2L2uDO73WaP9A=="
+          "relative_path": "api/GraphProcessor.NodeBadgeView.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1037,11 +865,9 @@
       "source_relative_path": "api/GraphProcessor.NodeCustomEditor.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.NodeCustomEditor.html",
-          "hash": "AuTYgPWbMuLyDsBmhwdaBg=="
+          "relative_path": "api/GraphProcessor.NodeCustomEditor.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1049,11 +875,9 @@
       "source_relative_path": "api/GraphProcessor.NodeGraphProcessorMenuItems.MenuItemPosition.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.NodeGraphProcessorMenuItems.MenuItemPosition.html",
-          "hash": "qSFr8YjOc33Sjpn1kt/1Vw=="
+          "relative_path": "api/GraphProcessor.NodeGraphProcessorMenuItems.MenuItemPosition.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1061,11 +885,9 @@
       "source_relative_path": "api/GraphProcessor.NodeGraphProcessorMenuItems.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.NodeGraphProcessorMenuItems.html",
-          "hash": "1EA3FPNigBoOdw+QUTEZmQ=="
+          "relative_path": "api/GraphProcessor.NodeGraphProcessorMenuItems.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1073,11 +895,9 @@
       "source_relative_path": "api/GraphProcessor.NodeInputPortContainer.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.NodeInputPortContainer.html",
-          "hash": "rLH+rXeT9BG2ICqJ41BmwQ=="
+          "relative_path": "api/GraphProcessor.NodeInputPortContainer.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1085,11 +905,9 @@
       "source_relative_path": "api/GraphProcessor.NodeInspectorObject.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.NodeInspectorObject.html",
-          "hash": "G2PWYbH5meAQ9xnPOyWtYw=="
+          "relative_path": "api/GraphProcessor.NodeInspectorObject.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1097,11 +915,9 @@
       "source_relative_path": "api/GraphProcessor.NodeInspectorObjectEditor.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.NodeInspectorObjectEditor.html",
-          "hash": "PapAp8finvkBdTvKviHiTA=="
+          "relative_path": "api/GraphProcessor.NodeInspectorObjectEditor.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1109,11 +925,9 @@
       "source_relative_path": "api/GraphProcessor.NodeMenuItemAttribute.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.NodeMenuItemAttribute.html",
-          "hash": "YZw4XHwG6zUZ7Js4WhUvUg=="
+          "relative_path": "api/GraphProcessor.NodeMenuItemAttribute.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1121,11 +935,9 @@
       "source_relative_path": "api/GraphProcessor.NodeMessageType.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.NodeMessageType.html",
-          "hash": "rFWHs9UT2RDcYdsYJU20ag=="
+          "relative_path": "api/GraphProcessor.NodeMessageType.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1133,11 +945,9 @@
       "source_relative_path": "api/GraphProcessor.NodeOutputPortContainer.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.NodeOutputPortContainer.html",
-          "hash": "Y/mo9edQ5DhBYMOX1uvQ8Q=="
+          "relative_path": "api/GraphProcessor.NodeOutputPortContainer.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1145,11 +955,9 @@
       "source_relative_path": "api/GraphProcessor.NodePort.PushDataDelegate.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.NodePort.PushDataDelegate.html",
-          "hash": "06sBJmDxe3y4Gy5wj3WI4w=="
+          "relative_path": "api/GraphProcessor.NodePort.PushDataDelegate.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1157,11 +965,9 @@
       "source_relative_path": "api/GraphProcessor.NodePort.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.NodePort.html",
-          "hash": "7aHA0fazxzUi9dc8WNTgHg=="
+          "relative_path": "api/GraphProcessor.NodePort.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1169,11 +975,9 @@
       "source_relative_path": "api/GraphProcessor.NodePortContainer.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.NodePortContainer.html",
-          "hash": "pwZz+hEE4QT/7lDyNT2o3g=="
+          "relative_path": "api/GraphProcessor.NodePortContainer.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1181,11 +985,9 @@
       "source_relative_path": "api/GraphProcessor.NodeProvider.NodeDescriptions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.NodeProvider.NodeDescriptions.html",
-          "hash": "O/wklXST+PykvtUuS8pzMg=="
+          "relative_path": "api/GraphProcessor.NodeProvider.NodeDescriptions.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1193,11 +995,9 @@
       "source_relative_path": "api/GraphProcessor.NodeProvider.NodeSpecificToGraph.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.NodeProvider.NodeSpecificToGraph.html",
-          "hash": "HWTDBbEAo0mdGVSyr3SsWQ=="
+          "relative_path": "api/GraphProcessor.NodeProvider.NodeSpecificToGraph.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1205,11 +1005,9 @@
       "source_relative_path": "api/GraphProcessor.NodeProvider.PortDescription.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.NodeProvider.PortDescription.html",
-          "hash": "D4R0YrANe3A1HvZ86tBcow=="
+          "relative_path": "api/GraphProcessor.NodeProvider.PortDescription.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1217,11 +1015,9 @@
       "source_relative_path": "api/GraphProcessor.NodeProvider.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.NodeProvider.html",
-          "hash": "Xd1k4n00P9jcajF0ynqjCg=="
+          "relative_path": "api/GraphProcessor.NodeProvider.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1229,11 +1025,9 @@
       "source_relative_path": "api/GraphProcessor.OutputAttribute.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.OutputAttribute.html",
-          "hash": "lVIyjtJyMLFHOxW+pP0TFw=="
+          "relative_path": "api/GraphProcessor.OutputAttribute.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1241,11 +1035,9 @@
       "source_relative_path": "api/GraphProcessor.ParameterAccessor.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.ParameterAccessor.html",
-          "hash": "hF06HcUrSK+Yua7ezOwv5A=="
+          "relative_path": "api/GraphProcessor.ParameterAccessor.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1253,11 +1045,9 @@
       "source_relative_path": "api/GraphProcessor.ParameterNode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.ParameterNode.html",
-          "hash": "BRPKGrhvxRxxOLYmGvCyxw=="
+          "relative_path": "api/GraphProcessor.ParameterNode.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1265,11 +1055,9 @@
       "source_relative_path": "api/GraphProcessor.PinnedElement.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.PinnedElement.html",
-          "hash": "sOuyQrq8XlGti6yWXVHYGw=="
+          "relative_path": "api/GraphProcessor.PinnedElement.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1277,11 +1065,9 @@
       "source_relative_path": "api/GraphProcessor.PinnedElementView.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.PinnedElementView.html",
-          "hash": "ZKhtmbiFfcw2f0E+kQpmyQ=="
+          "relative_path": "api/GraphProcessor.PinnedElementView.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1289,11 +1075,9 @@
       "source_relative_path": "api/GraphProcessor.PortData.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.PortData.html",
-          "hash": "DHfW66FHOpTKhWoXDe0YdQ=="
+          "relative_path": "api/GraphProcessor.PortData.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1301,11 +1085,9 @@
       "source_relative_path": "api/GraphProcessor.PortView.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.PortView.html",
-          "hash": "4TbVPDOmaDwIrp+atwLiHw=="
+          "relative_path": "api/GraphProcessor.PortView.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1313,11 +1095,9 @@
       "source_relative_path": "api/GraphProcessor.ProcessGraphProcessor.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.ProcessGraphProcessor.html",
-          "hash": "IWwNjQGFbQ9gK3LufaBgMA=="
+          "relative_path": "api/GraphProcessor.ProcessGraphProcessor.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1325,11 +1105,9 @@
       "source_relative_path": "api/GraphProcessor.ProcessorView.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.ProcessorView.html",
-          "hash": "uL1MbcBDrSufIGYnXPU0yA=="
+          "relative_path": "api/GraphProcessor.ProcessorView.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1337,11 +1115,9 @@
       "source_relative_path": "api/GraphProcessor.RectIntParameter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.RectIntParameter.html",
-          "hash": "SJkntOJkrbv9wHR0zLDLpg=="
+          "relative_path": "api/GraphProcessor.RectIntParameter.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1349,11 +1125,9 @@
       "source_relative_path": "api/GraphProcessor.RectParameter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.RectParameter.html",
-          "hash": "RiDlUvfElv5SW0G5izPI2w=="
+          "relative_path": "api/GraphProcessor.RectParameter.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1361,11 +1135,9 @@
       "source_relative_path": "api/GraphProcessor.RenderTextureParameter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.RenderTextureParameter.html",
-          "hash": "Nvv5Y09IRVx0grlC3y591g=="
+          "relative_path": "api/GraphProcessor.RenderTextureParameter.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1373,11 +1145,9 @@
       "source_relative_path": "api/GraphProcessor.SerializableEdge.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.SerializableEdge.html",
-          "hash": "9sR+eyshgD8kAMco+jx1tw=="
+          "relative_path": "api/GraphProcessor.SerializableEdge.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1385,11 +1155,9 @@
       "source_relative_path": "api/GraphProcessor.SerializableObject.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.SerializableObject.html",
-          "hash": "pimCiA9A1PMZiDK+pVWgBA=="
+          "relative_path": "api/GraphProcessor.SerializableObject.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1397,11 +1165,9 @@
       "source_relative_path": "api/GraphProcessor.SerializableType.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.SerializableType.html",
-          "hash": "V5WDdF9+reBMpl8LewaLgw=="
+          "relative_path": "api/GraphProcessor.SerializableType.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1409,11 +1175,9 @@
       "source_relative_path": "api/GraphProcessor.SettingAttribute.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.SettingAttribute.html",
-          "hash": "Vho445Tg0f2o2etBzbgyAA=="
+          "relative_path": "api/GraphProcessor.SettingAttribute.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1421,11 +1185,9 @@
       "source_relative_path": "api/GraphProcessor.ShowAsDrawer.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.ShowAsDrawer.html",
-          "hash": "cpuXfa3T8IGpjL+pfLl7AA=="
+          "relative_path": "api/GraphProcessor.ShowAsDrawer.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1433,11 +1195,9 @@
       "source_relative_path": "api/GraphProcessor.ShowInInspector.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.ShowInInspector.html",
-          "hash": "LVpNdJzGpi+szrSkmt9RjA=="
+          "relative_path": "api/GraphProcessor.ShowInInspector.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1445,11 +1205,9 @@
       "source_relative_path": "api/GraphProcessor.StackNodeViewProvider.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.StackNodeViewProvider.html",
-          "hash": "dc2C02HrFWxeU/o8IW96eA=="
+          "relative_path": "api/GraphProcessor.StackNodeViewProvider.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1457,11 +1215,9 @@
       "source_relative_path": "api/GraphProcessor.StickyNote.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.StickyNote.html",
-          "hash": "KQZTGePHfoflBYY1wpYrjQ=="
+          "relative_path": "api/GraphProcessor.StickyNote.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1469,11 +1225,9 @@
       "source_relative_path": "api/GraphProcessor.StringParameter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.StringParameter.html",
-          "hash": "mU5DYhz+c31tiOQi06MF1Q=="
+          "relative_path": "api/GraphProcessor.StringParameter.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1481,11 +1235,9 @@
       "source_relative_path": "api/GraphProcessor.Texture2DParameter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.Texture2DParameter.html",
-          "hash": "v1RAGVqiFuRI9ym8h5SPQA=="
+          "relative_path": "api/GraphProcessor.Texture2DParameter.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1493,11 +1245,9 @@
       "source_relative_path": "api/GraphProcessor.ToolbarView.ElementType.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.ToolbarView.ElementType.html",
-          "hash": "fPL4dydldDkO7S8C7VGyZA=="
+          "relative_path": "api/GraphProcessor.ToolbarView.ElementType.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1505,11 +1255,9 @@
       "source_relative_path": "api/GraphProcessor.ToolbarView.ToolbarButtonData.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.ToolbarView.ToolbarButtonData.html",
-          "hash": "m9NCqVfz3iZA1sCtP2YpWw=="
+          "relative_path": "api/GraphProcessor.ToolbarView.ToolbarButtonData.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1517,11 +1265,9 @@
       "source_relative_path": "api/GraphProcessor.ToolbarView.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.ToolbarView.html",
-          "hash": "VjGKxJh0j8A1032wJlbRMQ=="
+          "relative_path": "api/GraphProcessor.ToolbarView.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1529,11 +1275,9 @@
       "source_relative_path": "api/GraphProcessor.TypeAdapter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.TypeAdapter.html",
-          "hash": "uvAfspIS0DalamvO3uON1w=="
+          "relative_path": "api/GraphProcessor.TypeAdapter.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1541,11 +1285,9 @@
       "source_relative_path": "api/GraphProcessor.TypeExtension.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.TypeExtension.html",
-          "hash": "qYQXs5Bk2SfKhdaqt6PKYA=="
+          "relative_path": "api/GraphProcessor.TypeExtension.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1553,11 +1295,9 @@
       "source_relative_path": "api/GraphProcessor.Vector2IntParameter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.Vector2IntParameter.html",
-          "hash": "wW3zqHnfEMprhGLbymc4Jg=="
+          "relative_path": "api/GraphProcessor.Vector2IntParameter.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1565,11 +1305,9 @@
       "source_relative_path": "api/GraphProcessor.Vector2Parameter.Vector2Mode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.Vector2Parameter.Vector2Mode.html",
-          "hash": "zsZKraigI7I+DX9JAnFErw=="
+          "relative_path": "api/GraphProcessor.Vector2Parameter.Vector2Mode.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1577,11 +1315,9 @@
       "source_relative_path": "api/GraphProcessor.Vector2Parameter.Vector2Settings.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.Vector2Parameter.Vector2Settings.html",
-          "hash": "zrF8g2UZ8bAibnqlxwy+mQ=="
+          "relative_path": "api/GraphProcessor.Vector2Parameter.Vector2Settings.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1589,11 +1325,9 @@
       "source_relative_path": "api/GraphProcessor.Vector2Parameter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.Vector2Parameter.html",
-          "hash": "yZvYYFSYr25oPJ6Cuy12Ww=="
+          "relative_path": "api/GraphProcessor.Vector2Parameter.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1601,11 +1335,9 @@
       "source_relative_path": "api/GraphProcessor.Vector2ParameterDrawer.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.Vector2ParameterDrawer.html",
-          "hash": "ubzLWH8T69/lw666v8sxmQ=="
+          "relative_path": "api/GraphProcessor.Vector2ParameterDrawer.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1613,11 +1345,9 @@
       "source_relative_path": "api/GraphProcessor.Vector2SettingsDrawer.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.Vector2SettingsDrawer.html",
-          "hash": "+Vb47rOeJmnQAqX6y/P1kA=="
+          "relative_path": "api/GraphProcessor.Vector2SettingsDrawer.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1625,11 +1355,9 @@
       "source_relative_path": "api/GraphProcessor.Vector3IntParameter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.Vector3IntParameter.html",
-          "hash": "NJK+W9m9LFsc732tmnTQcg=="
+          "relative_path": "api/GraphProcessor.Vector3IntParameter.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1637,11 +1365,9 @@
       "source_relative_path": "api/GraphProcessor.Vector3Parameter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.Vector3Parameter.html",
-          "hash": "teLAoIG5Ew3WEzq0jHU2PQ=="
+          "relative_path": "api/GraphProcessor.Vector3Parameter.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1649,11 +1375,9 @@
       "source_relative_path": "api/GraphProcessor.Vector4Parameter.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.Vector4Parameter.html",
-          "hash": "fvvzZnvEvwGjiRZ6vX/gfA=="
+          "relative_path": "api/GraphProcessor.Vector4Parameter.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1661,11 +1385,9 @@
       "source_relative_path": "api/GraphProcessor.VerticalAttribute.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.VerticalAttribute.html",
-          "hash": "St0EhNVVdbU/msjdDin1pw=="
+          "relative_path": "api/GraphProcessor.VerticalAttribute.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1673,11 +1395,9 @@
       "source_relative_path": "api/GraphProcessor.VisibleIf.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.VisibleIf.html",
-          "hash": "n7YaFQ9wbo/V5X4pcIkLSg=="
+          "relative_path": "api/GraphProcessor.VisibleIf.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1685,11 +1405,9 @@
       "source_relative_path": "api/GraphProcessor.yml",
       "output": {
         ".html": {
-          "relative_path": "api/GraphProcessor.html",
-          "hash": "5RkYYQNHDIM5/iB+lZb9Tg=="
+          "relative_path": "api/GraphProcessor.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1697,11 +1415,19 @@
       "source_relative_path": "api/ProjectDawn.Impostor.AllowAsyncCompilationScope.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.AllowAsyncCompilationScope.html",
-          "hash": "LhrwOPaHSCDyXafaitqjzA=="
+          "relative_path": "api/ProjectDawn.Impostor.AllowAsyncCompilationScope.html"
         }
       },
-      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Impostor.BaseOctahedralImpostor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Impostor.BaseOctahedralImpostor.html"
+        }
+      },
       "version": ""
     },
     {
@@ -1709,11 +1435,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.BlitMask.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.BlitMask.html",
-          "hash": "8LugqPMERLbGFV/xV4uhMQ=="
+          "relative_path": "api/ProjectDawn.Impostor.BlitMask.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1721,11 +1445,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.BlitMaskNode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.BlitMaskNode.html",
-          "hash": "PmWxd5VOg5oVX7f9y8FMaQ=="
+          "relative_path": "api/ProjectDawn.Impostor.BlitMaskNode.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1733,11 +1455,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.CapturePoint.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.CapturePoint.html",
-          "hash": "TEj8jMthfI9Zb4v9+mzR0Q=="
+          "relative_path": "api/ProjectDawn.Impostor.CapturePoint.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1745,11 +1465,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.CapturePoints.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.CapturePoints.html",
-          "hash": "1GAEgP0jLFjtlbgeve3D0Q=="
+          "relative_path": "api/ProjectDawn.Impostor.CapturePoints.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1757,11 +1475,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.CustomRenderMode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.CustomRenderMode.html",
-          "hash": "vf+k+LMD6BX19//pbJsxjg=="
+          "relative_path": "api/ProjectDawn.Impostor.CustomRenderMode.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1769,11 +1485,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.Dilate.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.Dilate.html",
-          "hash": "KrnAK5dr7dM0WcjWtKxsig=="
+          "relative_path": "api/ProjectDawn.Impostor.Dilate.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1781,11 +1495,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.DilateNode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.DilateNode.html",
-          "hash": "WBpyX1WH/0qiswFtW48vFg=="
+          "relative_path": "api/ProjectDawn.Impostor.DilateNode.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1793,11 +1505,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.DuplicateRenderTexture.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.DuplicateRenderTexture.html",
-          "hash": "/SBZnrPI0FUka5PYnQuS8Q=="
+          "relative_path": "api/ProjectDawn.Impostor.DuplicateRenderTexture.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1805,11 +1515,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.Editor.ImpostorBuilderEditor.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.Editor.ImpostorBuilderEditor.html",
-          "hash": "mx4230Mf0Ns6l09/hotKZQ=="
+          "relative_path": "api/ProjectDawn.Impostor.Editor.ImpostorBuilderEditor.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1817,11 +1525,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.Editor.ImpostorGraphEditor.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.Editor.ImpostorGraphEditor.html",
-          "hash": "aZoaw7tbDq3S37JRUe7W0A=="
+          "relative_path": "api/ProjectDawn.Impostor.Editor.ImpostorGraphEditor.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1829,11 +1535,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.Editor.ImpostorGraphView.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.Editor.ImpostorGraphView.html",
-          "hash": "eRsnVUNIja1hZfEWRkR+QA=="
+          "relative_path": "api/ProjectDawn.Impostor.Editor.ImpostorGraphView.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1841,11 +1545,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.Editor.ImpostorGraphWindow.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.Editor.ImpostorGraphWindow.html",
-          "hash": "GRlkmjHWvo5gfgaY+fr/Rg=="
+          "relative_path": "api/ProjectDawn.Impostor.Editor.ImpostorGraphWindow.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1853,11 +1555,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.Editor.ImpostorNodeView.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.Editor.ImpostorNodeView.html",
-          "hash": "2De/ky941ZjULwEZuIJ1VQ=="
+          "relative_path": "api/ProjectDawn.Impostor.Editor.ImpostorNodeView.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1865,11 +1565,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.Editor.ImpostorToolbarView.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.Editor.ImpostorToolbarView.html",
-          "hash": "2faLcml3toM8y1yHwDDD6A=="
+          "relative_path": "api/ProjectDawn.Impostor.Editor.ImpostorToolbarView.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1877,11 +1575,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.Editor.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.Editor.html",
-          "hash": "20cETqU8JdOwZctHPz+pMQ=="
+          "relative_path": "api/ProjectDawn.Impostor.Editor.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1889,11 +1585,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.HDRenderNormalNode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.HDRenderNormalNode.html",
-          "hash": "FdD2m1IQll21Qnjrh9y1yw=="
+          "relative_path": "api/ProjectDawn.Impostor.HDRenderNormalNode.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1901,11 +1595,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.HemiOctahedronCapturePointsNode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.HemiOctahedronCapturePointsNode.html",
-          "hash": "W34bfKH4nW3aCt7vbDYddw=="
+          "relative_path": "api/ProjectDawn.Impostor.HemiOctahedronCapturePointsNode.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1913,11 +1605,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.Impostor.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.Impostor.html",
-          "hash": "A7y3oZojCVA05Mk2FLdydg=="
+          "relative_path": "api/ProjectDawn.Impostor.Impostor.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1925,11 +1615,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.ImpostorBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.ImpostorBuilder.html",
-          "hash": "vBKBEPjauJszjjKzzBQAbA=="
+          "relative_path": "api/ProjectDawn.Impostor.ImpostorBuilder.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1937,11 +1625,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.ImpostorGraph.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.ImpostorGraph.html",
-          "hash": "t5KiznCQv5OiobsbxuHVLQ=="
+          "relative_path": "api/ProjectDawn.Impostor.ImpostorGraph.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1949,11 +1635,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.ImpostorNode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.ImpostorNode.html",
-          "hash": "K8OwCyTj+KoOcyevIpy/Eg=="
+          "relative_path": "api/ProjectDawn.Impostor.ImpostorNode.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1961,11 +1645,49 @@
       "source_relative_path": "api/ProjectDawn.Impostor.LitHemiOctahedralImpostor.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.LitHemiOctahedralImpostor.html",
-          "hash": "yPfzM+GyuPfqZSXaANoGBg=="
+          "relative_path": "api/ProjectDawn.Impostor.LitHemiOctahedralImpostor.html"
         }
       },
-      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Impostor.LitMaskHemiOctahedralImpostor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Impostor.LitMaskHemiOctahedralImpostor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Impostor.LitOctahedralImpostor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Impostor.LitOctahedralImpostor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Impostor.NameFilterSurfaceNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Impostor.NameFilterSurfaceNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Impostor.OctahedronCapturePointsNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Impostor.OctahedronCapturePointsNode.html"
+        }
+      },
       "version": ""
     },
     {
@@ -1973,11 +1695,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.OutputNode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.OutputNode.html",
-          "hash": "K8eRCBBdhkyj6tt7aVtKNQ=="
+          "relative_path": "api/ProjectDawn.Impostor.OutputNode.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1985,11 +1705,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.Packing.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.Packing.html",
-          "hash": "T6JhpTPwrWKUU+71vA1R3A=="
+          "relative_path": "api/ProjectDawn.Impostor.Packing.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1997,11 +1715,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.QuadMeshNode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.QuadMeshNode.html",
-          "hash": "196YEErgZKcfhwZAbgMqyw=="
+          "relative_path": "api/ProjectDawn.Impostor.QuadMeshNode.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2009,11 +1725,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.ReloadAttribute.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.ReloadAttribute.html",
-          "hash": "DmuqO+M3Sc2GG7/kzvZddw=="
+          "relative_path": "api/ProjectDawn.Impostor.ReloadAttribute.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2021,11 +1735,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.RenderAlphaNode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.RenderAlphaNode.html",
-          "hash": "xI+chV5nSHgdE/X19EeIEw=="
+          "relative_path": "api/ProjectDawn.Impostor.RenderAlphaNode.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2033,11 +1745,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.RenderBaseNode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.RenderBaseNode.html",
-          "hash": "QBRkajE4yp2MystY+Bj45A=="
+          "relative_path": "api/ProjectDawn.Impostor.RenderBaseNode.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2045,11 +1755,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.RenderCustomNode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.RenderCustomNode.html",
-          "hash": "gOKrfzf2CytV2ZcyhCj0/w=="
+          "relative_path": "api/ProjectDawn.Impostor.RenderCustomNode.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2057,11 +1765,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.RenderDepthNode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.RenderDepthNode.html",
-          "hash": "88N7XGS0jt1VY99pbDOidg=="
+          "relative_path": "api/ProjectDawn.Impostor.RenderDepthNode.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2069,11 +1775,29 @@
       "source_relative_path": "api/ProjectDawn.Impostor.RenderDiffuseNode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.RenderDiffuseNode.html",
-          "hash": "8K8e+uLbHvq55LbuHWf2AQ=="
+          "relative_path": "api/ProjectDawn.Impostor.RenderDiffuseNode.html"
         }
       },
-      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Impostor.RenderEmissionNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Impostor.RenderEmissionNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Impostor.RenderMetallicNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Impostor.RenderMetallicNode.html"
+        }
+      },
       "version": ""
     },
     {
@@ -2081,11 +1805,19 @@
       "source_relative_path": "api/ProjectDawn.Impostor.RenderMode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.RenderMode.html",
-          "hash": "jpuXL9uy7WsgeiVy3fsuXA=="
+          "relative_path": "api/ProjectDawn.Impostor.RenderMode.html"
         }
       },
-      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Impostor.RenderOcclusionNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Impostor.RenderOcclusionNode.html"
+        }
+      },
       "version": ""
     },
     {
@@ -2093,11 +1825,19 @@
       "source_relative_path": "api/ProjectDawn.Impostor.RenderPipelineAttribute.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.RenderPipelineAttribute.html",
-          "hash": "AKODFSW+mmPh/U46WuoMSA=="
+          "relative_path": "api/ProjectDawn.Impostor.RenderPipelineAttribute.html"
         }
       },
-      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Impostor.RenderSmoothnessNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Impostor.RenderSmoothnessNode.html"
+        }
+      },
       "version": ""
     },
     {
@@ -2105,11 +1845,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.RenderTextureExt.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.RenderTextureExt.html",
-          "hash": "Sxe0/Ulq2JfrJImrhlJlCQ=="
+          "relative_path": "api/ProjectDawn.Impostor.RenderTextureExt.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2117,11 +1855,19 @@
       "source_relative_path": "api/ProjectDawn.Impostor.RenderTextureNode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.RenderTextureNode.html",
-          "hash": "7lqsOANWPg6LdYKVj+S2Bg=="
+          "relative_path": "api/ProjectDawn.Impostor.RenderTextureNode.html"
         }
       },
-      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Impostor.RendererExt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Impostor.RendererExt.html"
+        }
+      },
       "version": ""
     },
     {
@@ -2129,11 +1875,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.Samples.GameKit.CameraController.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.Samples.GameKit.CameraController.html",
-          "hash": "3g97+Ihu75AD5WAZNe7YkQ=="
+          "relative_path": "api/ProjectDawn.Impostor.Samples.GameKit.CameraController.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2141,11 +1885,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.Samples.GameKit.ImpostorRuntime.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.Samples.GameKit.ImpostorRuntime.html",
-          "hash": "8Uh2507z3htqkFT5f8Q1mw=="
+          "relative_path": "api/ProjectDawn.Impostor.Samples.GameKit.ImpostorRuntime.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2153,11 +1895,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.Samples.GameKit.TextTriangles.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.Samples.GameKit.TextTriangles.html",
-          "hash": "jMRuTp+yun2cmT9WFjnQSg=="
+          "relative_path": "api/ProjectDawn.Impostor.Samples.GameKit.TextTriangles.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2165,11 +1905,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.Samples.GameKit.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.Samples.GameKit.html",
-          "hash": "VKC2JetU1/Wfm1iClDbZ7g=="
+          "relative_path": "api/ProjectDawn.Impostor.Samples.GameKit.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2177,11 +1915,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.Scene.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.Scene.html",
-          "hash": "/CCYLfhlB6PgiwPeNP06Xw=="
+          "relative_path": "api/ProjectDawn.Impostor.Scene.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2189,11 +1925,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.SceneNode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.SceneNode.html",
-          "hash": "YZ/hOmwXqm3wTUVkyI8Vdw=="
+          "relative_path": "api/ProjectDawn.Impostor.SceneNode.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2201,11 +1935,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.SerializableDictionary-2.SerializableKeyValuePair.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.SerializableDictionary-2.SerializableKeyValuePair.html",
-          "hash": "LqqhKm4WDjXAj0sEwEX76g=="
+          "relative_path": "api/ProjectDawn.Impostor.SerializableDictionary-2.SerializableKeyValuePair.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2213,11 +1945,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.SerializableDictionary-2.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.SerializableDictionary-2.html",
-          "hash": "oRGEOFgb5JeflZHikVEdyg=="
+          "relative_path": "api/ProjectDawn.Impostor.SerializableDictionary-2.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2225,11 +1955,19 @@
       "source_relative_path": "api/ProjectDawn.Impostor.SerializableDictionary.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.SerializableDictionary.html",
-          "hash": "mriOQFYx7t37zb63MyQuoQ=="
+          "relative_path": "api/ProjectDawn.Impostor.SerializableDictionary.html"
         }
       },
-      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProjectDawn.Impostor.SetMaterialPropertyFloat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProjectDawn.Impostor.SetMaterialPropertyFloat.html"
+        }
+      },
       "version": ""
     },
     {
@@ -2237,11 +1975,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.Surface.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.Surface.html",
-          "hash": "9beciLrkZ0EOQzVqCd+UrA=="
+          "relative_path": "api/ProjectDawn.Impostor.Surface.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2249,11 +1985,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.SurfaceNode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.SurfaceNode.html",
-          "hash": "Me7UOwx5AU64oiW1flx/hg=="
+          "relative_path": "api/ProjectDawn.Impostor.SurfaceNode.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2261,11 +1995,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.Texture2DNode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.Texture2DNode.html",
-          "hash": "CxV37jfYJfO2EV6vSEIqgA=="
+          "relative_path": "api/ProjectDawn.Impostor.Texture2DNode.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2273,11 +2005,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.TightMeshNode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.TightMeshNode.html",
-          "hash": "H+a95vrCreComyBvr5fl0g=="
+          "relative_path": "api/ProjectDawn.Impostor.TightMeshNode.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2285,11 +2015,9 @@
       "source_relative_path": "api/ProjectDawn.Impostor.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ProjectDawn.Impostor.html",
-          "hash": "1efzOWG+CKG9d3jijrdHNg=="
+          "relative_path": "api/ProjectDawn.Impostor.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2297,11 +2025,9 @@
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
-          "relative_path": "api/index.html",
-          "hash": "117BJs3EwKYUrlTBON+fuA=="
+          "relative_path": "api/index.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2309,11 +2035,9 @@
       "source_relative_path": "api/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "api/toc.html",
-          "hash": "W2c9Jb4PiHGq8IkeTuxyqQ=="
+          "relative_path": "api/toc.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2321,11 +2045,9 @@
       "source_relative_path": "changelog.md",
       "output": {
         ".html": {
-          "relative_path": "changelog.html",
-          "hash": "UAC4rKSMxlf/1NaYsENOaw=="
+          "relative_path": "changelog.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2333,11 +2055,9 @@
       "source_relative_path": "index.md",
       "output": {
         ".html": {
-          "relative_path": "index.html",
-          "hash": "ZXSBtKx+9ynCW7xIyAF3sw=="
+          "relative_path": "index.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2345,11 +2065,9 @@
       "source_relative_path": "manual/builder.md",
       "output": {
         ".html": {
-          "relative_path": "manual/builder.html",
-          "hash": "QQwpxPXU7S5PeQrjmla35A=="
+          "relative_path": "manual/builder.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2357,11 +2075,9 @@
       "source_relative_path": "manual/graph.md",
       "output": {
         ".html": {
-          "relative_path": "manual/graph.html",
-          "hash": "BWiv9/m2SwqA7suLdSlYXg=="
+          "relative_path": "manual/graph.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2372,7 +2088,6 @@
           "relative_path": "manual/images/PackageManager.PNG"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2383,7 +2098,6 @@
           "relative_path": "manual/images/drag-and-drop.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2394,7 +2108,6 @@
           "relative_path": "manual/images/header.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2405,7 +2118,6 @@
           "relative_path": "manual/images/impostor-assets.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2416,7 +2128,6 @@
           "relative_path": "manual/images/impostor-build.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2427,7 +2138,6 @@
           "relative_path": "manual/images/impostor-create.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2438,7 +2148,6 @@
           "relative_path": "manual/images/impostor-empty.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2449,7 +2158,6 @@
           "relative_path": "manual/images/urp-gamekit-rock-runtime.PNG"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2460,7 +2168,6 @@
           "relative_path": "manual/images/urp-gamekit-vegetation.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2471,7 +2178,6 @@
           "relative_path": "manual/images/urp-gamekit.png"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2479,11 +2185,19 @@
       "source_relative_path": "manual/index.md",
       "output": {
         ".html": {
-          "relative_path": "manual/index.html",
-          "hash": "VEdnVROel9YPukZCAMy1Jw=="
+          "relative_path": "manual/index.html"
         }
       },
-      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/known-issues.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/known-issues.html"
+        }
+      },
       "version": ""
     },
     {
@@ -2491,11 +2205,9 @@
       "source_relative_path": "manual/limitations.md",
       "output": {
         ".html": {
-          "relative_path": "manual/limitations.html",
-          "hash": "aYLU8ADMibtnsZpy3Mzypg=="
+          "relative_path": "manual/limitations.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2503,11 +2215,9 @@
       "source_relative_path": "manual/nodes/custom-node.md",
       "output": {
         ".html": {
-          "relative_path": "manual/nodes/custom-node.html",
-          "hash": "exiokBNB+ON2hZGM21zu6g=="
+          "relative_path": "manual/nodes/custom-node.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2515,11 +2225,9 @@
       "source_relative_path": "manual/nodes/dilate-node.md",
       "output": {
         ".html": {
-          "relative_path": "manual/nodes/dilate-node.html",
-          "hash": "8NSrmGVsXxmYT8lEUo1ClQ=="
+          "relative_path": "manual/nodes/dilate-node.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2527,11 +2235,9 @@
       "source_relative_path": "manual/nodes/render-custom-node.md",
       "output": {
         ".html": {
-          "relative_path": "manual/nodes/render-custom-node.html",
-          "hash": "1jhUQWL6dx+IAsDnONKLUg=="
+          "relative_path": "manual/nodes/render-custom-node.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2539,11 +2245,9 @@
       "source_relative_path": "manual/nodes/scene-node.md",
       "output": {
         ".html": {
-          "relative_path": "manual/nodes/scene-node.html",
-          "hash": "ZoUQDEh4Gt8k/v+43fMLIw=="
+          "relative_path": "manual/nodes/scene-node.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2551,11 +2255,9 @@
       "source_relative_path": "manual/nodes/tight-mesh-node.md",
       "output": {
         ".html": {
-          "relative_path": "manual/nodes/tight-mesh-node.html",
-          "hash": "Cx2lxZMXi+DruuREdjUy7Q=="
+          "relative_path": "manual/nodes/tight-mesh-node.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2563,11 +2265,9 @@
       "source_relative_path": "manual/quick-start.md",
       "output": {
         ".html": {
-          "relative_path": "manual/quick-start.html",
-          "hash": "1M8PS39s/VbLAkL23jE/vw=="
+          "relative_path": "manual/quick-start.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2575,11 +2275,9 @@
       "source_relative_path": "manual/samples.md",
       "output": {
         ".html": {
-          "relative_path": "manual/samples.html",
-          "hash": "ObrCs1ZKSyWQrmV0pPcYrg=="
+          "relative_path": "manual/samples.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2587,11 +2285,9 @@
       "source_relative_path": "manual/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "manual/toc.html",
-          "hash": "PqJjLB7Wqea/j2Dlxp0BLw=="
+          "relative_path": "manual/toc.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -2599,65 +2295,12 @@
       "source_relative_path": "toc.yml",
       "output": {
         ".html": {
-          "relative_path": "toc.html",
-          "hash": "RA4fr8GzRS+5rZO3qZUV/A=="
+          "relative_path": "toc.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     }
   ],
-  "incremental_info": [
-    {
-      "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
-        "incrementalPhase": "build",
-        "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "NoAvailableBuildCache"
-      },
-      "processors": {
-        "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 14,
-          "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 190,
-          "skipped_file_count": 0
-        },
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        }
-      }
-    },
-    {
-      "status": {
-        "can_incremental": false,
-        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
-        "incrementalPhase": "postProcessing",
-        "total_file_count": 0,
-        "skipped_file_count": 0
-      },
-      "processors": {}
-    }
-  ],
-  "version_info": {},
   "groups": [
     {
       "xrefmap": "xrefmap.yml"
